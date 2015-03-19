@@ -1,5 +1,5 @@
 url: http://copywrongs-gang.github.io/
-baseurl: /Copywrongs2/
+baseurl: /Copywrongs2
 
 # Site settings
 title: "#fixcopyright"
@@ -15,9 +15,9 @@ color:
 # languages, for language menu
 languages:
 - name: English
-  url: 
+  url: /
 - name: Deutsch
-  url: de/
+  url: /de/
 
 # Team names, titles and social links
 people:
