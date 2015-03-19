@@ -15,9 +15,9 @@ color:
 # languages, for language menu
 languages:
 - name: English
-  url: /
+  url: 
 - name: Deutsch
-  url: /de/
+  url: de/
 
 # Team names, titles and social links
 people:

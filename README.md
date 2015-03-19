@@ -4,7 +4,7 @@ Copywrongs2
 # Local setup (ubuntu)
 
 ```
-sudo apt-get isntall ruby ruby-dev
+sudo apt-get install ruby ruby-dev
 gem install jekyll
 git clone git@github.com:Copywrongs-Gang/Copywrongs2.git copywrongs2
 cd copywrongs2
