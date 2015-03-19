@@ -1,30 +1,15 @@
-Agency Jekyll theme
-====================
+Copywrongs2
+===========
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+# Local setup (ubuntu)
 
-# How to use
-
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
+sudo apt-get isntall ruby ruby-dev
+gem install jekyll
+git clone git@github.com:Copywrongs-Gang/Copywrongs2.git copywrongs2
+cd copywrongs2
+jekyll serve --baseurl ''
 
 
-# Demo
+# Based on Agency bootstrap theme
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+[Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
