@@ -12,6 +12,13 @@ color:
   secondary: fec503  
   secondary-dark: 333
 
+# languages, for language menu
+languages:
+- name: English
+  url: /
+- name: Deutsch
+  url: /de/
+
 # Team names, titles and social links
 people:
 - name: Kay Garland

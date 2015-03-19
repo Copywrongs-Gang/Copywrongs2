@@ -1,0 +1,8 @@
+.navbar-nav>li>.dropdown-menu {
+    background-color: #1a242f;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-color: transparent;
+}
