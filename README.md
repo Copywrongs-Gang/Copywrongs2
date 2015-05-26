@@ -17,7 +17,3 @@ open localhost:4000
 - copy de/index.html file to *new_language_id*/index.html
 - translate files in _includes/*new_language_id*/
 - open _config.yml and add the new language to languages
-
-# Based on Agency bootstrap theme
-
-[Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
