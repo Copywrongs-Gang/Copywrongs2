@@ -115,7 +115,7 @@ a#next { right: -1.3em; }
 a.nav:hover { background-color: #ffe8b9 }
 
 #call h2 { font-size: 2.8em; }
-#call ol { list-style-type: none; counter-reset: ol-counter; margin: 1em 1.5em .5em; padding: 1em; background: #fff; color: 000; border-radius: 1em; position: relative;}
+#call ol { list-style-type: none; counter-reset: ol-counter; margin: 1em 1.5em .5em; padding: 1em; background: #fff; color: #000; border-radius: 1em; position: relative;}
 #call ol:before { content: ""; width: 0; height: 0; position: absolute; top: -1.9em; border: 1em solid transparent; border-bottom-color: #fff;}
 #call h3 { margin: 0; xborder-top: 3px dotted #fff; padding-top: .5em; padding-left: 1.6em; xbackground:linear-gradient(#279, #0098a2);}
 #call ol li {

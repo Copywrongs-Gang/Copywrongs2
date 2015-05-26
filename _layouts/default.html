@@ -1,15 +1,266 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+	{% include head.html %}
+	{% assign t = site.data.[page.language] %}
 
 
-    <body id="page-top" class="index">
+	<body class="state-geoblocking state-borders state-contracts">
+
+		<div id="callnow" onclick="window.scrollTo(0,99999)">
+			<h3>{{ t.callnow }}</h3>
+		</div>
+
+		<div class="cont" id="maincont">
+
+		<h1><div>{{ t.savecreform }}</h1>
+		<h2 id="countdown"><div id="days"></div> {{ t.daysuntil }}</h2>
+
+			<h3 class="now">
+				<span>{{ t.rightnow }}</span> {{ t.debatingplans }} <strong class="but"> {{ t.but }} </strong>
+				<!--center><strong>Will you help save them?</strong></center-->
+			</h3>
+			<iframe class="yt" width="760" height="428" src="https://www.youtube-nocookie.com/embed/o9FTp_htnnc" frameborder="0" allowfullscreen></iframe>
+
+			<h3 class="now">
+				<center><strong>{{ t.whichthree }}</strong></center>
+			</h3>
+
+			<div id="propcontainer" class="state-geoblocking">
+				<a class="nav" id="prev" href="#" onclick="return nav(this, -1)">➜</a>
+				<ul id="prop">
+					<li class="geoblocking" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.geoblocking.h }}</a></li>
+					<li class="borders" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.extendborders.h }}</a></li>
+					<li class="contracts" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.protectauthors.h }}</a></li>
+					<li class="quotes" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.righttoquote.h }}</a></li>
+					<li class="link" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.righttolink.h }}</a></li>
+					<li class="publicdomain" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.publicdomain.h }}</a></li>			
+					<li class="libraries" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.libraries.h }}</a></li>
+					<li class="panorama" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.publicspace.h }}</a></li>
+					<li class="education" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.education.h }}</a></li>
+					<li class="term" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.availability.h }}</a></li>
+					<li class="drm" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.digitallocks.h }}</a></li>
+					<li class="filesharing" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.filesharing.h }}</a></li>
+				</ul>
+				<a class="nav" id="next" href="#" onclick="return nav(this, 1)">➜</a>
+
+				<div class="popover" id="geoblocking">
+					<img src="img/icon-geoblocking.png" width="170" style="float: left; margin-right: 1em" />
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> "{{ t.geoblocking.cw }}"
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.geoblocking.eu }}
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="borders">
+					<img src="img/icon-borders.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.extendborders.cw }}<!--For example: In Germany you can freely post photos of public buildings online – but across the border in France the architect could sue you.-->
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.extendborders.eu }} <a href="{{ t.extendborders.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="contracts">
+					<img src="img/icon-contracts.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.protectauthors.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.protectauthors.eu }} <a href="{{ t.protectauthors.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="quotes">
+					<img src="img/icon-quotes.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.righttoquote.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.righttoquote.eu }} <a href="{{ t.righttoquote.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="link">
+					<img src="img/icon-link.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.righttolink.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.righttolink.eu }} <a href="{{ t.righttolink.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="publicdomain">
+					<img src="img/icon-publicdomain.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.publicdomain.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.publicdomain.eu }} <a href="{{ t.publicdomain.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+				<div class="popover" id="libraries">
+					<img src="img/icon-libraries.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.libraries.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.libraries.eu }} <a href="{{ t.libraries.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="panorama">
+					<img src="img/icon-panorama.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.publicspace.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.publicspace.eu }} <a href="{{ t.publicspace.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="education">
+					<img src="img/icon-education.png" width="170" />
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.education.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.education.eu }} <a href="{{ t.education.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="term">
+					<img src="img/icon-term.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.availability.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.availability.eu }} <a href="{{ t.availability.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="drm">
+					<img src="img/icon-drm.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.digitallocks.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.digitallocks.eu }} <a href="{{ t.digitallocks.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
+				<div class="popover" id="filesharing">
+					<img src="img/icon-filesharing.png" width="170"/>
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> {{ t.filesharing.cw }}
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> {{ t.filesharing.eu }} <a href="{{ t.filesharing.link }}" target="_blank">{{ t.readmore }}</a>
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+			</div>
+
+			<!--h3 class="but"><span>But</span> a <a href="#">powerful alliance</a> is <a href="#">sabotaging</a> these necessary updates.</h3-->
+			<h3 class="join">{{ t.joinfight }}</h3>
+
+			<!--p class="but">You'll suffer "this video is not available in your country" for another decade. You may be branded a criminal for your social media activity. Culture will be locked into national borders. Labels and publishers will stay in charge.</p-->
 
 
-    {{ content }}
+		</div>
+		<div id="call" class="cont">
 
-    {% include js.html %}
+			<h2>{{ t.call.h }}</h2>
 
-    </body>
+			<p>{{ t.call.text }}</p>
+
+			<center><iframe id="qdn" src="https://piphone.lqdn.fr/campaign/widget2/rapport_reda/horiz" width="620" height="180" style="overflow:hidden"></iframe><a href="#" style="display:block; font-size:.9em; opacity:.7" onclick="this.previousSibling.src = this.previousSibling.getAttribute('src'); return false">{{ t.call.showother }}</a></center>
+
+			<a id="what" href="#">{{ t.call.what }}</a>
+
+			<h3>{{ t.call.agenda }}</h3>
+			<ol id="agenda">
+				{{ t.call.agendatext }}
+				<li class="geoblocking">
+					{{ t.geoblocking.please }}
+					<div class="do">{{ t.geoblocking.do }}</div>
+					<div class="tip">{{ t.geoblocking.tip }}</div>
+				</li>
+				<li class="borders">
+					{{ t.extendborders.please }}
+					<div class="do">{{ t.extendborders.do }}</div>
+				</li>
+				<li class="contracts">
+					{{ t.protectauthors.please }}
+					<div class="do">{{ t.protectauthors.do }}</div>
+				</li>
+				<li class="quotes">
+					{{ t.righttoquote.please }}
+					<div class="do">{{ t.righttoquote.do }}</div>
+					<div class="tip">{{ t.righttoquote.tip }}</div>
+				</li>
+				<li class="link">
+					{{ t.righttolink.please }}
+					<div class="do">{{ t.righttolink.do }}</div>
+				</li>
+				<li class="publicdomain">
+					{{ t.publicdomain.please }}
+					<div class="do">{{ t.publicdomain.do }}</div>
+				</li>
+				<li class="libraries">
+					{{ t.libraries.please }}
+					<div class="do">{{ t.libraries.do }}</div>
+				</li>
+				<li class="panorama">
+					{{ t.publicspace.please }}
+					<div class="do">{{ t.publicspace.do }}</div>
+				</li>
+				<li class="education">
+					{{ t.education.please }}
+					<div class="do">{{ t.education.do }}</div>
+				</li>
+				<li class="term">
+					{{ t.availability.please }}
+					<div class="do">{{ t.availability.do }}</div>
+				</li>
+				<li class="drm">
+					{{ t.digitallocks.please }}
+					<div class="do">{{ t.digitallocks.do }}</div>
+					<div class="tip">{{ t.digitallocks.tip }}</div>
+				</li>
+				<li class="filesharing">
+					{{ t.filesharing.please }}
+					<div class="do">{{ t.filesharing.do }}</div>
+					<div class="tip">{{ t.filesharing.tip }}</div>
+				</li>
+			</ol>
+			<div class="showmore">{{ t.showmore }}</div>
+
+		</div>
+		<!--div class="cont">
+			<h3>SHARE MY AGENDA</h3>
+		          <a id="facebook" href="" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=300,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220)); return showInfo()"><img src="/sharefb.png" width="130" title="Facebook" /></a>
+
+		</div-->
+
+		</div>
+
+		{% include js.html %}
+
+	</body>
 </html>
