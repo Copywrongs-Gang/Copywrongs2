@@ -36,9 +36,8 @@ righttoquote:
     tip: "Give an example of when you've quoted something in video or audio or if you're a fan of creators who do."
 righttolink: 
     h: "<span>Defend</span> your right to link"
-    cw: "bla"
-    eu: "blabla"
-    link: "https://juliareda.eu"
+    cw: "The web is made of links. Can posting one be a crime? News publishers are calling for laws that limit how others can link to their websites."
+    eu: "Reject such laws and preserve the freedom to link."
     please: "Please take a stand against an <strong>ancilliary copyright for press publishers</strong> which would restrict linking to news articles."
     do: Reject the amendments to point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> of MEP Reda's report.
 publicdomain: 
@@ -78,19 +77,18 @@ availability:
     do: Reject the amendments to point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> of MEP Reda's report and support point <span class="am">#18</span> from the <abbr title="Industry Committee">ITRE</abbr> opinion.
 digitallocks: 
     h: "<span>Reject</span> digital locks"
-    cw: "bla"
-    eu: "blabla"
-    link: "https://juliareda.eu"
+    cw: "The law says you can make copies of media you purchased for private use – but in practice, digital locks often prevent you."
+    eu: "Ensure that technical measures can't limit your legal rights."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#drm"
     please: "Please ensure that technological protection (<strong>DRM</strong>) does not obstruct legal use of purchased content."
     do: Reject the amendments to points <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23-24</a> of MEP Reda's report.
     tip: "Give an example of when DRM stood in the way of your legal activity (eg. making copies for private use)."
 filesharing: 
     h: "<span>Legalise</span> personal file sharing"
-    cw: "bla"
-    eu: "blabla"
-    link: "https://juliareda.eu"
+    cw: "Teenagers exchanging music online are made criminals by current laws. But a shared file is often not a lost sale."
+    eu: "Recognise a right to share non-commercially."
     please: "Please do not criminalise personal, non-commercial <strong>file sharing</strong>."
-    do: Vote for amendments <span class="am">#355</span> and <span class="am">#507</span>.
+    do: Vote for amendments <span class="am">#507</span> and <span class="am">#355</span>.
     tip: "Give an example of when file sharing was benefitial to an artist, e.g. you discovered an artist you became a fan of, attending concerts or buying their products later."
 currentcopywrong: "Current copywrong:"
 euproposal: "EU proposal:"
