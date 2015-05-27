@@ -201,6 +201,13 @@ body.state-filesharing ol#agenda li.filesharing
 {
 	display: block;
 }
+
+body.state-noselection ol#agenda li.geoblocking,
+body.state-noselection ol#agenda li.borders,
+body.state-noselection ol#agenda li.contracts {
+	display: block;
+}
+
 body.state-geoblocking #geoblocking a.btn:before,
 body.state-borders #borders a.btn:before,
 body.state-contracts #contracts a.btn:before,
