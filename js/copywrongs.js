@@ -96,7 +96,7 @@ function updateShareLinks() {
     var title = encodeURIComponent('Save EU copyright reform!');
     var text = encodeURIComponent('These urgently needed copyright reform plans are in danger:');
     var longText = encodeURIComponent('1. Foo bar baz'); // TODO wanted
-    var icon = encodeURIComponent('http://antiprism.eu/logo.png');
+    var icon = encodeURIComponent('http://copywrongs.eu/img/copywrongs.png');
 
     var twitterAccount = 'senficon';
     var twitterAccountDesc = encodeURIComponent('MEP Julia Reda (European Pirate Party)');
