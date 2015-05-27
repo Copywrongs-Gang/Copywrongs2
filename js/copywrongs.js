@@ -77,7 +77,11 @@ function nav(o, dir) {
 var wanted = [''];
 function want(o) {
 	var w = o.parentNode.id;
-	if (wanted.indexOf(w) == -1) wanted.push(w);
+	if (wanted.indexOf(w) == -1) {
+	  wanted.push(w);
+	} else {
+	  wanted.splice(wanted.indexOf(w), 1);
+	}
 	document.body.className = wanted.join(' state-');
 	updateShareLinks();
 	return false;
