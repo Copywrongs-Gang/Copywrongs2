@@ -115,10 +115,10 @@ function updateShareLinks() {
     var title = encodeURIComponent(document.title);
     var text = encodeURIComponent('These urgently needed copyright reform plans are in danger:');
     var longText = '';
-	if(!wanted) wanted = ['geoblocking', 'borders', 'contracts'];
-    for (var i=0;i<wanted.length;i++) {
+	if(!wanted) wanted = ['', 'geoblocking', 'borders', 'contracts'];
+    for (var i=1;i<wanted.length;i++) {
     	longText += want2text[wanted[i]];
-    	if (i > 0 && i < wanted.length-1) longText += ' / ';
+    	if (i > 1 && i < wanted.length-1) longText += ' / ';
     }
     var longText = encodeURIComponent(longText);
     var icon = encodeURIComponent('http://copywrongs.eu/img/copywrongs.png');
