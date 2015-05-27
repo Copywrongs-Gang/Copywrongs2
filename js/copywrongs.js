@@ -91,7 +91,7 @@ function geo(d) {
 	}
 }
 
-var want2text = {
+var want2text = { // todo i18n
 	'geoblocking': 'Overcome geoblocking',
 	'borders': 'Extend your rights beyond borders',
 	'contracts': 'Protect authors from unfair contracts',
