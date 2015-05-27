@@ -38,9 +38,9 @@ righttoquote:
     tip: "Gib ein Beispiel, wenn du schon einmal Videos oder Musik zitiert hast oder ein Fan von einem/einer KünstlerIn bist, der/die das tut."
 righttolink: 
     h: "<span>Hyperlinks</span> schützen"
-    cw: "bla"
-    eu: "blabla"
-    link: "https://juliareda.eu"
+    cw: "Das Internet setzt sich aus Links zusammen, wie kann da das Posten eines Links eine Straftat sein? Verlage fordern Gesetze, die einschränken auf welche Art und Weise andere auf ihre Websites verlinken können."
+    eu: "Solche Gesetze verhindern und die Freiheit zum Verlinken schützen."
+    link: "https://savethelink.org"
     please: "Bitten stellen Sie sich gegen ein <strong>Leistungsschutzrechte für Verlage</strong>, welches das Verlinken auf Nachrichtenartikel einschränken würde."
     do: Lehnen Sie die Änderungsanträge zu Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> des Berichts von MdEP Reda ab.
 publicdomain: 
@@ -68,7 +68,7 @@ education:
     h: "<span>Nutzung</span> für Bildungszwecke erlauben"
     cw: "Schulen dürfen in vielen Ländern Bücher frei für den Unterricht nutzen – aber das Bereitstellen desselben Inhalts über das Schulintranet als PDF ist meist illegal."
     eu: "Eine europaweite umfangreiche <strong>Urheberrechtsausnahme für Bildungszwecke</strong>"
-    link: "https://juliareda.eu/copyright-evaluation-report-explained/#"
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#education"
     please: "Bitte unterstützen Sie die Urheberrechtsausnahme, die die <strong>Nutzung für Bildungszwecke</strong> von urheberrechtlich geschütztem Material auch online erlaubt."
     do: 'Lehnen Sie alle Änderungsanträge ab, die Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#education" target="_blank" class="am">#19</a> des Berichts von MdEP Reda verwässern würden – das sind alle Anträge außer <span class="am">#466-468</span>.'
 availability: 
@@ -80,17 +80,16 @@ availability:
     do: Lehne Sie alle Änderungsanträge zu Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> des Berichts von MdEP Reda ab und unterstützen Sie Punkt <span class="am">#18</span> der <abbr title="Industrieausschuss">ITRE</abbr> Stellungnahme.
 digitallocks: 
     h: "<span>Ablehnen</span> von digitalen Schlössern"
-    cw: "bla"
-    eu: "blabla"
-    link: "https://juliareda.eu"
+    cw: "Es ist gesetzlich erlaubt Privatkopien von legal erworbenem Material zu machen – aber in der Praxis verhindern digitale Schlösser wie DRM das oft."
+    eu: "Sicherstellen, dass technische Maßnahmen deine Rechte nicht einschränken."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#drm"
     please: "Bitte verhindern sie, dass technologische Schutzmaßnahmen (wie <strong>DRM</strong>) die legale Nutzung von gekauftem Material einschränken."
     do: Lehnen Sie alle Änderungsanträge zu Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23-24</a> des Berichts von MdEP Reda ab.
     tip: "Gib ein Beispiel wie dich DRM von legaler Nutzung (z.B. dem Anlegen von Privatkopien) gehindert hat."
 filesharing: 
     h: "<span>Legales</span> Filesharing für persönliche Zwecke"
-    cw: "bla"
-    eu: "blabla"
-    link: "https://juliareda.eu"
+    cw: "Teenager, die online Musik austauschen werden durch das jetzige Urheberrecht zu Kriminellen gemacht, obwohl geteilte Dateien meist kein entgangener Verkauf, sondern gratis Werbung sind."
+    eu: "Ein Recht auf nicht-kommerzielles Teilen anerkennen."
     please: "Bitte kriminalisieren sie nicht das nicht-kommerzielle <strong>Filesharing</strong> für private Zwecke."
     do: Stimmen Sie für die Änderungsanträge <span class="am">#355</span> und <span class="am">#507</span>.
     tip: "Gib ein Beispiel bei dem Filesharing positiv für eine(n) KünstlerIn war, z.B. wie du ein(e) KünstlerIn entdeckt hast, deren Fan du heute bist."
