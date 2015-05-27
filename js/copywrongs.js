@@ -95,33 +95,22 @@ function geo(d) {
 	}
 }
 
-var want2text = { // todo i18n
-	'geoblocking': 'Overcome geoblocking',
-	'borders': 'Extend your rights beyond borders',
-	'contracts': 'Protect authors from unfair contracts',
-	'quotes': 'Grant vloggers the right to quote',
-	'link': 'Defend your right to link',
-	'publicdomain': 'Safeguard the public domain',
-	'libraries': 'Enable libraries to do their job online',
-	'panorama': 'Ensure public space is for everyone',
-	'education': 'Protect educational uses',
-	'term': 'Enhance the availability of works',
-	'drm': 'Reject digital locks',
-	'filesharing': 'Legalise personal file sharing'
-};
+function stripHtml(t) {
+	return t.replace(/(<([^>]+)>)/ig,"");
+}
 
 function updateShareLinks() {
 	/*var icon;
 	var metas = document.getElementsByTagName('meta');
 	for (var i=0;i<metas.length;i++) { if (metas[i].getAttribute('property')=='og:image') icon=metas[i].getAttribute('content')) }*/
 
-    var url = encodeURIComponent(document.location.href); // incl language?
+    var url = encodeURIComponent(document.location.href);
     var title = encodeURIComponent(document.title);
-    var text = encodeURIComponent('Urgently needed copyright reform plans are in danger. I called my MEP and you should, too!'); // TODO i18n
+    var text = encodeURIComponent(t.shareText);
     var longText = '';
 	var wanted2 = (!wanted || wanted.length==1) ? ['', 'geoblocking', 'borders', 'contracts'] : wanted;
     for (var i=1;i<wanted2.length;i++) {
-    	longText += want2text[wanted2[i]];
+    	longText += t.want[wanted2[i]];
     	if (i > 0 && i < wanted2.length-1) longText += ' / ';
     }
     longText = encodeURIComponent(longText);

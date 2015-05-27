@@ -6,6 +6,26 @@
 
 	<body class="state-noselection">
 
+	    <script type="text/javascript"><!-- i18n for js strings -->
+	    var t = {
+	        shareText: '{{ t.sharetext }}',
+	        want: {
+	            'geoblocking': stripHtml('{{ t.geoblocking.h }}'),
+	            'borders': stripHtml('{{ t.extendborders.h }}'),
+	            'contracts': stripHtml('{{ t.protectauthors.h }}'),
+	            'quotes': stripHtml('{{ t.righttoquote.h }}'),
+	            'link': stripHtml('{{ t.righttolink.h }}'),
+	            'publicdomain': stripHtml('{{ t.publicdomain.h }}'),
+	            'libraries': stripHtml('{{ t.libraries.h }}'),
+	            'panorama': stripHtml('{{ t.publicspace.h }}'),
+	            'education': stripHtml('{{ t.education.h }}'),
+	            'term': stripHtml('{{ t.availability.h }}'),
+	            'drm': stripHtml('{{ t.digitallocks.h }}'),
+	            'filesharing': stripHtml('{{ t.filesharing.h }}')
+	        }
+	    };
+	    </script>
+
 		<div id="callnow" onclick="window.scrollTo(0,99999)">
 			<h3>{{ t.callnow }}</h3>
 		</div>
