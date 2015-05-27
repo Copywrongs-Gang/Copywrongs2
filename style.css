@@ -53,6 +53,8 @@ h3.join:before {
 	margin-top: -.5em;
 }
 
+abbr { border-bottom: 1px dashed #999;}
+
 .cont { margin: 0 auto; max-width:760px; xbox-shadow: rgba(0,0,0,.5) 0 0 1em; box-sizing: border-box; }
 #call.cont { background: #0098a2; color: #fff; margin-top: 3em; padding: .1em 0;}
 #call.cont p {
@@ -162,8 +164,27 @@ a.nav:hover { background-color: #ffe8b9 }
 	color: #0098a2;
 	margin: .2em 0;
 }
-#call .showmore { text-align: center; color:rgba(255,255,255,.6); font-size:.9em; margin-bottom:1em; }
-abbr { border-bottom: 1px dashed #999;}
+#call .showmore { text-align: center; color:rgba(255,255,255,.6); font-size:.8em; margin-bottom:1em; }
+
+.share {
+	width: 280px;
+	margin: 2em auto;
+}
+.share a img { border-radius: .5em; }
+.share a+a {
+	margin-left: 15px;
+}
+
+h2#tell {
+	float: left;
+	width: 30%;
+	transform: rotate(-2deg);
+	line-height: 1em;
+}
+#icalled {
+	float: right;
+	width:28%;
+}
 
 #propcontainer.state-geoblocking li.geoblocking a,
 #propcontainer.state-borders li.borders a,
