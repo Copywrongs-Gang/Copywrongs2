@@ -102,7 +102,7 @@ function updateShareLinks() {
     var twitterAccountDesc = encodeURIComponent('MEP Julia Reda (European Pirate Party)');
     var twitterUrl = 'https://twitter.com/intent/tweet?original_referer='+url+'&related='+twitterAccount+'%3A'+twitterAccountDesc+'&text='+text+' '+longText+'&url='+url;
 
-    var facebookAppID = 173403852835299; // TODO fix
+    var facebookAppID = 1420243108298307;
     var facebookUrl = 'https://www.facebook.com/dialog/feed?link='+url+'&picture='+icon+'&name='+title+'&caption='+text+'&description='+longText+'&e2e=%7B%7D&app_id='+facebookAppID+'&locale=en_US&sdk=joey&display=popup&next='+url;
 
     if (document.getElementById('twitter')) document.getElementById('twitter').href = twitterUrl;
