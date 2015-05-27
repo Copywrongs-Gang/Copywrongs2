@@ -10,19 +10,21 @@
 			<h3>{{ t.callnow }}</h3>
 		</div>
 
-		<div class="cont" id="maincont">
+		<div id="lang"><div class="cont">
+			<select id="lang" onchange="document.location.replace('/'+this.options[this.selectedIndex].value)">
+		        <!--option value="cz"{% if page.language == "cz" %} selected{% endif %}>CZ - Čeština</option-->
+		        <option value="de"{% if page.language == "de" %} selected{% endif %}>DE - Deutsch</option>
+		        <!--option value="el"{% if page.language == "el" %} selected{% endif %}>EL - Ελληνικά</option-->
+		        <option value="" {% if page.language == "en" %} selected{% endif %}>EN - English</option>
+		        <!--option value="es"{% if page.language == "es" %} selected{% endif %}>ES - Español</option>
+		        <option value="fr"{% if page.language == "fr" %} selected{% endif %}>FR - Français</option>
+		        <option value="it"{% if page.language == "it" %} selected{% endif %}>IT - Italiano</option>
+		        <option value="pl"{% if page.language == "pl" %} selected{% endif %}>PL - Polski</option>
+		        <option value="ro"{% if page.language == "ro" %} selected{% endif %}>RO - Română</option-->
+	    	</select>
+	    </div></div>
 
-		<select id="lang" onchange="document.location.replace('/'+this.options[this.selectedIndex].value)">
-	        <!--option value="cz"{% if page.language == "cz" %} selected{% endif %}>CZ - Čeština</option-->
-	        <option value="de"{% if page.language == "de" %} selected{% endif %}>DE - Deutsch</option>
-	        <!--option value="el"{% if page.language == "el" %} selected{% endif %}>EL - Ελληνικά</option-->
-	        <option value="" {% if page.language == "en" %} selected{% endif %}>EN - English</option>
-	        <!--option value="es"{% if page.language == "es" %} selected{% endif %}>ES - Español</option>
-	        <option value="fr"{% if page.language == "fr" %} selected{% endif %}>FR - Français</option>
-	        <option value="it"{% if page.language == "it" %} selected{% endif %}>IT - Italiano</option>
-	        <option value="pl"{% if page.language == "pl" %} selected{% endif %}>PL - Polski</option>
-	        <option value="ro"{% if page.language == "ro" %} selected{% endif %}>RO - Română</option-->
-	    </select>
+		<div class="cont" id="maincont">
 
 		<h1><div>{{ t.savecreform }}</h1>
 		<h2 id="countdown"><div id="days"></div> {{ t.daysuntil }}</h2>

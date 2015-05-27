@@ -1,4 +1,11 @@
-body { margin: 0; border-top: .7em solid #0098a2; background: linear-gradient(#eee, #fff 10%); margin-bottom:7em; background-attachment: fixed; font-family: Raleway, Lucida, 'Lucida Grande', sans-serif; font-weight: 500; }
+body {
+	margin: 0;
+	margin-bottom:7em;
+	background: linear-gradient(#eee, #fff 10%);
+	background-attachment: fixed;
+	font-family: Raleway, Lucida, 'Lucida Grande', sans-serif;
+	font-weight: 500;
+}
 h1, h2, h3, h4 { font-family: Raleway; font-weight: 800; }
 
 h1, h2, #call ol li:before { font-family: 'Ultra'; font-weight:100; line-height:1.1em; }
@@ -52,7 +59,8 @@ h3.join:before {
 	margin: 1em 2em; 
 }
 
-#lang { margin-top:.5em;}
+#lang { background: #0098a2; padding: .2em 0;}
+#lang select { background: none; color: #fff; }
 
 ul#prop { height: 5.5em; clear:both; list-style: none; margin: 2em 0 0 0; padding:0; overflow: hidden; background: linear-gradient(90deg, #ccc, white 4%, white 96%, #ccc); xbox-shadow: inset 0 0 1em 0 rgba(0,0,0,.2);}
 ul#prop li { display: none; margin:0; padding:0; float:left; width:25%; transition: margin-left .1s, margin-right .1s, opacity .2s; opacity: 0; cursor: pointer; border-right: 2px dotted #ccc; box-sizing: border-box; }
