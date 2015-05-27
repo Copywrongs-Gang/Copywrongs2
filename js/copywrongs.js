@@ -115,7 +115,7 @@ function updateShareLinks() {
     var title = encodeURIComponent(document.title);
     var text = encodeURIComponent('These urgently needed copyright reform plans are in danger:');
     var longText = '';
-	var wanted2 = (!wanted || wanted[0]=='') ? ['', 'geoblocking', 'borders', 'contracts'] : wanted;
+	var wanted2 = (!wanted || wanted.length==1) ? ['', 'geoblocking', 'borders', 'contracts'] : wanted;
     for (var i=1;i<wanted2.length;i++) {
     	longText += want2text[wanted2[i]];
     	if (i > 0 && i < wanted2.length-1) longText += ' / ';
