@@ -112,11 +112,11 @@ function updateShareLinks() {
     longText = encodeURIComponent(longText);
     var icon = encodeURIComponent('http://copywrongs.eu/img/copywrongs.png');
 
-    //var twitterText = text+' '+longText;
+    var twitterText = text+' '+'https://www.youtube.com/watch?v=o9FTp_htnnc'; // longText;
     //if (twitterText.length >= 140) twitterText = twitterText.substr(0,140)+'...';
     var twitterAccount = 'senficon';
     var twitterAccountDesc = encodeURIComponent('MEP Julia Reda (European Pirate Party)');
-    var twitterUrl = 'https://twitter.com/intent/tweet?original_referer='+url+'&related='+twitterAccount+'%3A'+twitterAccountDesc+'&text='+text+'&url='+url;
+    var twitterUrl = 'https://twitter.com/intent/tweet?original_referer='+url+'&related='+twitterAccount+'%3A'+twitterAccountDesc+'&text='+twitterText+'&url='+url;
 
     var facebookAppID = 1420243108298307;
     var facebookUrl = 'https://www.facebook.com/dialog/feed?link='+url+'&picture='+icon+'&name='+title+'&caption='+text+'&description='+longText+'&e2e=%7B%7D&app_id='+facebookAppID+'&locale=en_US&sdk=joey&display=popup&next='+url;
