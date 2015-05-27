@@ -52,6 +52,7 @@ h3.join:before {
 	margin: 1em 2em; 
 }
 
+#lang { margin-top:.5em;}
 
 ul#prop { height: 5.5em; clear:both; list-style: none; margin: 2em 0 0 0; padding:0; overflow: hidden; background: linear-gradient(90deg, #ccc, white 4%, white 96%, #ccc); xbox-shadow: inset 0 0 1em 0 rgba(0,0,0,.2);}
 ul#prop li { display: none; margin:0; padding:0; float:left; width:25%; transition: margin-left .1s, margin-right .1s, opacity .2s; opacity: 0; cursor: pointer; border-right: 2px dotted #ccc; box-sizing: border-box; }

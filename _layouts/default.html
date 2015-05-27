@@ -4,7 +4,6 @@
 	{% include head.html %}
 	{% assign t = site.data.[page.language] %}
 
-
 	<body class="state-noselection">
 
 		<div id="callnow" onclick="window.scrollTo(0,99999)">
@@ -12,6 +11,18 @@
 		</div>
 
 		<div class="cont" id="maincont">
+
+		<select id="lang" onchange="document.location.replace('/'+this.options[this.selectedIndex].value)">
+	        <!--option value="cz">CZ - Čeština</option-->
+	        <option value="de">DE - Deutsch</option>
+	        <!--option value="el">EL - Ελληνικά</option-->
+	        <option value="" selected="">EN - English</option>
+	        <!--option value="es">ES - Español</option>
+	        <option value="fr">FR - Français</option>
+	        <option value="it">IT - Italiano</option>
+	        <option value="pl">PL - Polski</option>
+	        <option value="ro">RO - Română</option-->
+	    </select>
 
 		<h1><div>{{ t.savecreform }}</h1>
 		<h2 id="countdown"><div id="days"></div> {{ t.daysuntil }}</h2>
