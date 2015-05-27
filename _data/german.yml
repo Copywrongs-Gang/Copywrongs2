@@ -1,107 +1,109 @@
+title: Urheberrechtsreform jetzt!
+description: blabla
 callnow: "<span>Jetzt anrufen</span>, um die Reform zu retten &ndash; es kostet dich nur zwei Minuten!"
 savecreform: "Rette die<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Urheberrechts-</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reform"
 daysuntil: "Tage bis zur Abstimmung"
-rightnow: "Right now,"
-debatingplans: "the EU is debating plans to fix problems with copyright that affect you every day."
-but: "But a powerful alliance is sabotaging these necessary updates."
-whichthree: "Which 3 of these proposals are most important to you?"
+rightnow: "Gerade jetzt"
+debatingplans: "diskutiert das europäische Parlament neue Pläne, um die Probleme des Urheberrechts zu beseitigen, die dich jeden Tag stören."
+but: "Aber eine mächtige Allianz sabotiert diese notwendigen Änderungen."
+whichthree: "Welche 3 von diesen Vorschlägen sind dir am wichtigsten?"
 geoblocking: 
-    h: "<span>Overcome</span> geoblocking"
-    cw: "This content is not available in your country."
-    eu: "A <strong>unified European copyright</strong> makes these messages the exception instead of the norm."
-    please: "Please take a stand against <strong>all kinds of geoblocking</strong>, regardless of whether the blocked content is for purchase directly or funded by ads or public funds."
-    do: 'Vote for amendments <span class="am">#322</span> and <span class="am">#412</span> and point <span class="am">#16</span> from the <abbr title="Internal Market Committee">IMCO</abbr> opinion.'
-    tip: "Give an example of when geoblocking affected you."
+    h: "<span>Geoblocks</span> abschaffen"
+    cw: "Dieses Video ist in deinem Land leider nicht verfügbar."
+    eu: "Ein <strong>einheitliches europäisches Urheberrecht</strong> macht diese Fehlermeldungen zur Ausnahme anstatt zur Norm."
+    please: "Bitte stellen Sie sich gegen <strong>jede Form von Geoblocking</strong>, unabhängig davon ob die blockierten Inhalte direkt gekauft oder durch Werbung oder öffentliche Gelder finanziert wurden."
+    do: 'Stimmen Sie für die Änderungsanträge <span class="am">#322</span> und <span class="am">#412</span> und Punkt <span class="am">#16</span> aus der <abbr title="Binnenmarktausschuss">IMCO</abbr> Stellungnahme.'
+    tip: "Gib ein Beispiel, wie dich Geoblocking persönlich betrifft."
 extendborders: 
-    h: "<span>Extend</span> your rights beyond borders"
-    cw: "What's allowed varies widely between EU countries. If you don't read up on the laws when travelling, you might become an outlaw!"
-    eu: "Make the <strong>exceptions and limitations</strong> to copyright <strong>mandatory</strong> across all EU member states."
+    h: "<span>Erweitere</span> deine Rechte über Grenzen hinweg"
+    cw: "Was erlaubt ist variiert stark zwischen den EU-Mitgliedsstaaten. Wer vor der Urlaubsreise ins Ausland keine Gesetzesbücher wälzt, bricht im Ausland oft unbewusst das Urheberrecht."
+    eu: "Die <strong>Ausnahmen und Einschränkungen</strong> vom Urheberrecht in allen EU-Mitgliedsstaaten <strong>verpflichtend</strong> machen."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#mandatory"
-    please: "Please support <strong>harmonising exceptions and limitations</strong> and making them <strong>mandatory</strong> across the EU so that my rights don't end or change at each border."
-    do: Reject the amendments to point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank">#7</a> of MEP Reda's report.
-protectauthors: 
-    h: "<span>Protect</span> authors from unfair contracts"
-    cw: "Artists don't have lawyers. Publishers and labels have armies of them. Guess who has the upper hand in contract negotiations?"
-    eu: "Protect artists from expoitative <strong>total buy-out contracts</strong> Europe-wide and allow them to <strong>take back their rights</strong> if unused."
+    please: "Bitte unterstützen Sie die <strong>Harmonisierung von Ausnahmen und Einschränkungen</strong> und die <strong>verpflichtendende Einführung</strong> überall in der EU, damit meine Rechte sich nicht an der Grenze ändern oder gar verschwinden."
+    do: 'Lehnen Sie alle Änderungsanträge zu Punkt <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank">#7</a> des Berichts von MdEP Reda ab.'
+protectauthors:
+    h: "<span>AutorInnen</span> vor unfairen Verträgen schützen"
+    cw: "KünstlerInnen haben keine, aber Verlage und Labels haben eine Armee an AnwältInnen. Rate mal, wer die Oberhand in den Vertragsverhandlungen hat?"
+    eu: 'KünstlerInnen vor ausbeutenden <strong>"Alles in einem" Verträgen</strong> europaweit schützen und ihnen erlauben, dass sie ihre <strong>Rechte zurücknehmen</strong>, wenn sie nicht genutzt werden.'
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#authors"
-    please: "Please support <strong>protecting artists from exploitation</strong> and unfair contracts."
-    do: Vote for the compromise amendment on point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> of MEP Reda's report.
+    please: "Bitte unterstützen Sie <strong>KünstlerInnen vor Ausbeutung</strong> und unfairen Verträgen zu schützen."
+    do: Stimmen Sie für die Kompromissvorschläge zu Punkt <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> des Berichts von MdEP Reda.
 righttoquote: 
-    h: "<span>Grant</span> vloggers the right to quote"
-    cw: "Quoting some words is usually legal, but this hasn't been extended to videos or sound recordings – making YouTubers & podcasters outlaws."
-    eu: "Exceptions like the one for quotation must apply to all forms of cultural expression in a <strong>technology-neutral</strong> manner."
+    h: "<span>Vloggern</span> das Recht zum Zitieren geben"
+    cw: "Die Worte von anderen zu zitieren ist meistens erlaubt, aber dieses Recht gilt nicht für Videos und Tonaufnahmen – ohne diesem Recht sind YouTube & Podcasts undenkbar."
+    eu: "Ausnahmen wie die für Zitate müssen für alle kulturellen Ausdrucksformen <strong>technologie-neutral</strong> gelten."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual"
-    please: "Please support <strong>extending quotation rights to audiovisual media</strong>."
-    do: Reject the amendments to point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual" target="_blank" class="am">#14</a> of MEP Reda's report.
-    tip: "Give an example of when you've quoted something in video or audio or if you're a fan of creators who do."
+    please: "Bitte unterstützen Sie das <strong>Ausweiten von Zitatrechten für audiovisuelle Medien</strong>."
+    do: Lehnen Sie alle Änderungsanträge zu Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual" target="_blank" class="am">#14</a> des Berichts von MdEP Reda ab.
+    tip: "Gib ein Beispiel, wenn du schon einmal Videos oder Musik zitiert hast oder ein Fan von einem/einer KünstlerIn bist, der/die das tut."
 righttolink: 
-    h: "<span>Defend</span> your right to link"
+    h: "<span>Hyperlinks</span> schützen"
     cw: "bla"
     eu: "blabla"
     link: "https://juliareda.eu"
-    please: "Please take a stand against an <strong>ancilliary copyright for press publishers</strong> which would restrict linking to news articles."
-    do: Reject the amendments to point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> of MEP Reda's report.
+    please: "Bitten stellen Sie sich gegen ein <strong>Leistungsschutzrechte für Verlage</strong>, welches das Verlinken auf Nachrichtenartikel einschränken würde."
+    do: Lehnen Sie die Änderungsanträge zu Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> des Berichts von MdEP Reda ab.
 publicdomain: 
-    h: "<span>Safeguard</span> the public domain"
-    cw: "Old artwork whose copyright has expired belongs to everyone. Yet some people claim digitising it grants new copyright."
-    eu: "Digitisation of works that are commonly owned shouldn't grant new protection."
+    h: "<span>Schutz</span> der Gemeinfreiheit"
+    cw: "Alte Werke, deren Urheberrecht ausgelaufen ist gehören der Öffentlichkeit. Aber einige Menschen behaupten, dass die Digitalisierung dieser Werke einen neuen Urheberrechtsanspruch rechtfertigt."
+    eu: "Digitalisierung von gemeinfreien Werken soll keinen neuen Urheberrechtsschutz ergeben."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain"
-    please: "Please <strong>safeguard the public domain</strong> by clarifying that making a digital copy of something that's free of copyright doesn't grant new copyright."
-    do: Reject amendments that would water down point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> in MEP Reda's report – support amendment <span class="am">#264</span> which clarifies it.
+    please: "Bitte <strong>schützen sie die Gemeinfreiheit</strong>, indem Sie klarstellen, dass das Schaffen einer digitalen Kopie eines gemeinfreien Werkes keinen neuen Urheberrechtsschutz ergibt."
+    do: 'Lehnen Sie alle Abänderungsanträge ab, die den Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> im Bericht von MdEP Reda verwässern würden – unterstützen Sie Antrag <span class="am">#264</span>, der Klarheit schafft.'
 libraries: 
-    h: "<span>Enable</span> libraries to do their job online"
-    cw: "Libraries pay authors in return for the right to lend physical copies of books. But this right doesn't exist on the internet."
-    eu: "Allow <strong>e-lending</strong> so that libraries can continue fulfilling their important social function."
+    h: "<span>Büchereien</span> ihre Aufgabe auch online ermöglichen"
+    cw: "Bibliotheken und Büchereien zahlen AutorInnen, damit sie im Gegenzug physische Kopien der Bücher verleihen können. Dieses Recht existiert nicht im Internet."
+    eu: "<strong>E-lending</strong> soll erlaubt werden, damit Bibliotheken ihre wichtige gesellschaftliche Funktion auch online erfüllen können."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#elending"
-    please: "Please allow libraries to <strong>e-lend books</strong>."
-    do: Vote for the compromise amendment on point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#elending">#20</a> of MEP Reda's report and for point <span class="am">#16</span> from the <abbr title="Industry Committee">ITRE</abbr> opinion.
+    please: "Bitte erlauben Sie es Bibliotheken auch <strong>online Bücher zu verleihen</strong>."
+    do: Stimmen Sie für den Kompromissvorschlag zu Punkt <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#elending">#20</a> des Berichts von MdEP Reda und für Punkt <span class="am">#16</span> der <abbr title="Industrieausschuss">ITRE</abbr> Stellungnahme.
 publicspace: 
-    h: "<span>Ensure</span> public space is for everyone"
-    cw: "In Germany you can freely post photos of public buildings online – but across the border in France the architect could sue you!"
-    eu: "Ensure <strong>freedom of panorama</strong> across Europe: Publishing pictures of what's permanently in the public must be legal."
+    h: "<span>Sichern,</span> dass öffentlicher Raum für alle da ist"
+    cw: "In Deutschland kannst du Fotos von öffentlichen Gebäuden frei verwenden und online teilen – in Frankreich könnte der Architekt dich dafür verklagen!"
+    eu: "Die <strong>Panoramafreiheit</strong> soll in ganz Europa gesichert werden: Das Veröffentlichen von Fotos von allem, was sich permanent in der Öffentlichkeit befinden, muss legal sein."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#panorama"
-    please: "Please ensure <strong>freedom of panorama</strong> in Europe, so that sharing photos of public buildings is legal – no matter whether for commercial or non-commercial purposes."
-    do: Vote for the compromise amendment on point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> of MEP Reda's report.
+    please: "Bitte sichern Sie die <strong>Panoramafreiheit</strong> in Europa, damit das Teilen von Fotos von öffentlichen Gebäuden legal ist – unabhängig davon, ob das Foto für kommerzielle oder nicht-kommerzielle Zwecke verwendet wird."
+    do: Bitte stimmen Sie für den Kompromissvorschlag zu Punkt <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> des Berichts von MdEP Reda.
 education: 
-    h: "<span>Protect</span> educational uses"
-    cw: "Schools may often freely use physical books to teach from – but putting the same content on the school intranet as a PDF can be illegal."
-    eu: "A Europe-wide comphrehensive copyright <strong>exception for educational use</strong>"
+    h: "<span>Nutzung</span> für Bildungszwecke erlauben"
+    cw: "Schulen dürfen in vielen Ländern Bücher frei für den Unterricht nutzen – aber das Bereitstellen desselben Inhalts über das Schulintranet als PDF ist meist illegal."
+    eu: "Eine europaweite umfangreiche <strong>Urheberrechtsausnahme für Bildungszwecke</strong>"
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#"
-    please: "Please support a copyright exception that allows <strong>educational use</strong> of copyrighted materials, also in the digital world."
-    do: Reject amendments that would water down point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#education" target="_blank" class="am">#19</a> in MEP Reda's report – that is, all except amendments <span class="am">#466-468</span>.
+    please: "Bitte unterstützen Sie die Urheberrechtsausnahme, die die <strong>Nutzung für Bildungszwecke</strong> von urheberrechtlich geschütztem Material auch online erlaubt."
+    do: 'Lehnen Sie alle Änderungsanträge ab, die Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#education" target="_blank" class="am">#19</a> des Berichts von MdEP Reda verwässern würden – das sind alle Anträge außer <span class="am">#466-468</span>.'
 availability: 
-    h: "<span>Enhance</span> the availability of works"
-    cw: "Copyright lasts 70 years after the author's death. The vast majority of works are not profitable that long – they simply become unavailable."
-    eu: "Reduce the copyright term to the international standard of life + <strong>50 years</strong>."
+    h: "<span>Erweitern</span> der Verfügbarkeit von Werken"
+    cw: "Das Urheberrecht gilt derzeit bis 70 Jahre nach dem Tod des/der AutorIn. Die große Mehrheit an Werken ist aber nicht so lange profitabel – dann sind sie oft einfach nicht mehr verfügbar."
+    eu: "Reduzieren der Schutzfrist auf den internationalen Standard von Lebenszeit + <strong>50 Jahre</strong>."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#term"
-    please: "Please support a harmonisation of <strong>copyright terms</strong> at the Berne Convention standard of life + <strong>50</strong> years."
-    do: Reject the amendments to point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> of MEP Reda's report and support point <span class="am">#18</span> from the <abbr title="Industry Committee">ITRE</abbr> opinion.
+    please: "Bitte unterstützen Sie die Harmonisierung der <strong>Schutzfrist</strong> auf den Standard der Berner Konvention von Lebenszeit + <strong>50</strong> Jahre."
+    do: Lehne Sie alle Änderungsanträge zu Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> des Berichts von MdEP Reda ab und unterstützen Sie Punkt <span class="am">#18</span> der <abbr title="Industrieausschuss">ITRE</abbr> Stellungnahme.
 digitallocks: 
-    h: "<span>Reject</span> digital locks"
+    h: "<span>Ablehnen</span> von digitalen Schlössern"
     cw: "bla"
     eu: "blabla"
     link: "https://juliareda.eu"
-    please: "Please ensure that technological protection (<strong>DRM</strong>) does not obstruct legal use of purchased content."
-    do: Reject the amendments to points <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23-24</a> of MEP Reda's report.
-    tip: "Give an example of when DRM stood in the way of your legal activity (eg. making copies for private use)."
+    please: "Bitte verhindern sie, dass technologische Schutzmaßnahmen (wie <strong>DRM</strong>) die legale Nutzung von gekauftem Material einschränken."
+    do: Lehnen Sie alle Änderungsanträge zu Punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23-24</a> des Berichts von MdEP Reda ab.
+    tip: "Gib ein Beispiel wie dich DRM von legaler Nutzung (z.B. dem Anlegen von Privatkopien) gehindert hat."
 filesharing: 
-    h: "<span>Legalise</span> personal file sharing"
+    h: "<span>Legales</span> Filesharing für persönliche Zwecke"
     cw: "bla"
     eu: "blabla"
     link: "https://juliareda.eu"
-    please: "Please do not criminalise personal, non-commercial <strong>file sharing</strong>."
-    do: Vote for amendments <span class="am">#355</span> and <span class="am">#507</span>.
-    tip: "Give an example of when file sharing was benefitial to an artist, e.g. you discovered an artist you became a fan of, attending concerts or buying their products later."
-currentcopywrong: "Current copywrong:"
-euproposal: "EU proposal:"
-iwant: "I want this!"
-readmore: "Read more"
-joinfight: If <span>you</span> don't join the fight now, these "copywrongs" <u>won't be fixed</u>.
+    please: "Bitte kriminalisieren sie nicht das nicht-kommerzielle <strong>Filesharing</strong> für private Zwecke."
+    do: Stimmen Sie für die Änderungsanträge <span class="am">#355</span> und <span class="am">#507</span>.
+    tip: "Gib ein Beispiel bei dem Filesharing positiv für eine(n) KünstlerIn war, z.B. wie du ein(e) KünstlerIn entdeckt hast, deren Fan du heute bist."
+currentcopywrong: "Derzeitiges Copywrong:"
+euproposal: "EU-Vorschlag:"
+iwant: "Ich will das!"
+readmore: "Mehr"
+joinfight: Wenn <span>du</span> nicht jetzt dafür kämpfst, werden diese "Copywrongs" <u>nicht beseitigt</u>.
 call:
-    h: "Call now to fix copyright"
-    text: "The job of Members of the European Parliament is to <strong>represent you</strong>. We hate cold-calling people as much as you do &ndash; but if you don't take <strong>2 minutes</strong> to tell them what you care about, <strong>only lobbyists will be heard</strong>. You can do it, and <u>every call really makes a difference!</u>"
-    showother: "Show me another MEP"
-    what: "What will the call be like?"
-    agenda: "Your personal agenda:"
-    agendatext: "Regarding the <strong>copyright report</strong> that you will vote on in the Legal Affairs Committee on June 16th..."
-showmore: 'To show more points here, scroll up and click "I want this"'
+    h: "Jetzt anrufen, um das Urheberrecht zu retten"
+    text: "Die Aufgabe der EU-ParlamentarierInnen ist es, <strong>dich zu vertreten</strong>. Auch uns ist es unangenehm Fremde anzurufen &ndash; aber wenn du dir nicht diese <strong>2 Minuten</strong> nimmst, um ihnen zu erzählen, was dir wichtig ist, <strong>werden es nur die LobbyistInnen sein, die gehört werden</strong>. Du kannst das und <u>jeder Anruf macht einen Unterschied!</u>"
+    showother: "Zeig mir einen anderen MdEP"
+    what: "Wie wird der Anruf ablaufen?"
+    agenda: "Deine persönlichen Gesprächspunkte:"
+    agendatext: "Bezüglich des <strong>Urheberrechtsberichts</strong>, der am 16. Juni im Rechtsausschuss abgestimmt wird..."
+showmore: 'Um mehr Punkte anzuzeigen, scrolle nach oben und klicke auf "Ich will das!"'
