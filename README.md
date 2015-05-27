@@ -20,4 +20,4 @@ open http://localhost:4000
 - send us a pull request or an email with your changes
 
 # questions?
-team@copywrongs.eu
+team SQUIGGLYMARK copywrongs.eu
