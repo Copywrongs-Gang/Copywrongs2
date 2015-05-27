@@ -168,7 +168,7 @@ a.nav:hover { background-color: #ffe8b9 }
 
 .share {
 	width: 280px;
-	margin: 2em auto;
+	margin: 3em auto 5em;
 }
 .share a img { border-radius: .5em; }
 .share a+a {
@@ -184,6 +184,12 @@ h2#tell {
 #icalled {
 	float: right;
 	width:28%;
+}
+
+#credits {
+	color: #999;
+	font-size:.7em;
+	text-align: center;
 }
 
 #propcontainer.state-geoblocking li.geoblocking a,
