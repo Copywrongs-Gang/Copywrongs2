@@ -1,12 +1,45 @@
+@font-face {
+    font-family: 'Ultra';
+    src: url('/font/Ultra-webfont.eot');
+    src: url('/font/Ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/Ultra-webfont.woff') format('woff'),
+         url('/font/Ultra-webfont.ttf') format('truetype'),
+         url('/font/Ultra-webfont.svg#ultraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RalewayBold';
+    src: url('/font/raleway-extrabold-webfont.eot');
+    src: url('/font/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('/font/raleway-extrabold-webfont.woff') format('woff'),
+         url('/font/raleway-extrabold-webfont.ttf') format('truetype'),
+         url('/font/raleway-extrabold-webfont.svg#ralewayextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RalewayMedium';
+    src: url('/font/raleway-medium-webfont.eot');
+    src: url('/font/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/raleway-medium-webfont.woff2') format('woff2'),
+         url('/font/raleway-medium-webfont.woff') format('woff'),
+         url('/font/raleway-medium-webfont.ttf') format('truetype'),
+         url('/font/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	margin: 0;
 	margin-bottom:7em;
 	background: linear-gradient(#eee, #fff 10%);
 	background-attachment: fixed;
-	font-family: Raleway, Lucida, 'Lucida Grande', sans-serif;
-	font-weight: 500;
+	font-family: RalewayMedium, Lucida, 'Lucida Grande', sans-serif;
+	font-weight: normal;
 }
-h1, h2, h3, h4 { font-family: Raleway; font-weight: 800; }
+h1, h2, h3, h4 { font-family: RalewayBold; font-weight: normal; }
 
 h1, h2, #call ol li:before { font-family: 'Ultra'; font-weight:100; line-height:1.1em; }
 h3 span, ul#prop li a span { color: #0098a2; font-family: 'Ultra'; font-weight:100; font-size: 1.3em;}
@@ -26,9 +59,9 @@ h2#countdown {
 	right: 10%;
 	margin: 0 auto;
 	text-align: center;
-	font-family: Raleway, Lucida, 'Lucida Grande', sans-serif;
+	font-family: RalewayBold, Lucida, 'Lucida Grande', sans-serif;
 	font-size: 1em;
-	font-weight: bold;
+	font-weight: normal;
 	color: #e53414;
 	opacity: 0;
 	transition: opacity .3s;
@@ -40,7 +73,7 @@ h2#countdown div {
 	font-weight: normal;
 }
 h3 { font-size: 1.4em; }
-h3.now { font-weight: 400; margin: 2em 0; line-height: 1.35em;}
+h3.now { font-family:'RalewayMedium'; font-weight: 400; margin: 2em 0; line-height: 1.35em;}
 h3.join { text-align: center; margin: 2.5em 0 3em 0; }
 h3.join:before {
 	content: "☟";
@@ -102,7 +135,8 @@ p { line-height: 1.4em;}
 h3 u, #call u { background: #ffe8b9; text-decoration: none; padding: 0 .2em;}
 #call u { color: #000;}
 
-strong.but { color: #e53414; }
+strong.but { font-family: RalewayBold; font-weight: normal; color: #e53414; }
+#call ol li strong { font-family: RalewayBold; font-weight: normal; }
 h3.but { background: #e53414; color: #fff; border-radius:2em; padding: .15em; margin-top: 2em;}
 h3.but span { display: inline-block; background: #fff; color: #e53414; width:2.5em; height:2.5em; border-radius:2em; line-height:0; padding-top:1.25em; padding-left:.2em; box-sizing:border-box; margin-right: .2em; }
 p.but { color: #e53414; margin-bottom: 2em;}
