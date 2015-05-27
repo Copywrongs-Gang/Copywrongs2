@@ -95,10 +95,6 @@ function geo(d) {
 	}
 }
 
-function stripHtml(t) {
-	return t.replace(/(<([^>]+)>)/ig,"");
-}
-
 function updateShareLinks() {
 	/*var icon;
 	var metas = document.getElementsByTagName('meta');

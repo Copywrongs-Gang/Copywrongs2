@@ -7,7 +7,11 @@
 	<body class="state-noselection">
 
 	    <script type="text/javascript"><!-- i18n for js strings -->
-	    var t = {
+		function stripHtml(t) { 
+			return t.replace(/(<([^>]+)>)/ig,"");
+		}
+
+	    window.t = {
 	        shareText: '{{ t.sharetext }}',
 	        want: {
 	            'geoblocking': stripHtml('{{ t.geoblocking.h }}'),
