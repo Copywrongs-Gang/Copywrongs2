@@ -124,7 +124,7 @@ function updateShareLinks() {
     var icon = encodeURIComponent('http://copywrongs.eu/img/copywrongs.png');
 
     var twitterText = text+' '+longText;
-    if (twitterText.length >= 117) twitterText = twitterText.substr(0,114)+'...';
+    if (twitterText.length >= 140) twitterText = twitterText.substr(0,140)+'...';
     var twitterAccount = 'senficon';
     var twitterAccountDesc = encodeURIComponent('MEP Julia Reda (European Pirate Party)');
     var twitterUrl = 'https://twitter.com/intent/tweet?original_referer='+url+'&related='+twitterAccount+'%3A'+twitterAccountDesc+'&text='+twitterText+'&url='+url;
