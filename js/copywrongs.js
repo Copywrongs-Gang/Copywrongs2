@@ -113,7 +113,7 @@ function updateShareLinks() {
 
     var url = encodeURIComponent(document.location.href); // incl language?
     var title = encodeURIComponent(document.title);
-    var text = encodeURIComponent('These urgently needed copyright reform plans are in danger:');
+    var text = encodeURIComponent('Urgently needed copyright reform plans are in danger:'); // TODO i18n
     var longText = '';
 	var wanted2 = (!wanted || wanted.length==1) ? ['', 'geoblocking', 'borders', 'contracts'] : wanted;
     for (var i=1;i<wanted2.length;i++) {
@@ -123,9 +123,11 @@ function updateShareLinks() {
     longText = encodeURIComponent(longText);
     var icon = encodeURIComponent('http://copywrongs.eu/img/copywrongs.png');
 
+    var twitterText = text+' '+longText;
+    if (twitterText.length >= 117) twitterText = twitterText.substr(0,114)+'...';
     var twitterAccount = 'senficon';
     var twitterAccountDesc = encodeURIComponent('MEP Julia Reda (European Pirate Party)');
-    var twitterUrl = 'https://twitter.com/intent/tweet?original_referer='+url+'&related='+twitterAccount+'%3A'+twitterAccountDesc+'&text='+text+' '+longText+'&url='+url;
+    var twitterUrl = 'https://twitter.com/intent/tweet?original_referer='+url+'&related='+twitterAccount+'%3A'+twitterAccountDesc+'&text='+twitterText+'&url='+url;
 
     var facebookAppID = 1420243108298307;
     var facebookUrl = 'https://www.facebook.com/dialog/feed?link='+url+'&picture='+icon+'&name='+title+'&caption='+text+'&description='+longText+'&e2e=%7B%7D&app_id='+facebookAppID+'&locale=en_US&sdk=joey&display=popup&next='+url;
