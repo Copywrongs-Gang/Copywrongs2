@@ -11,6 +11,7 @@
 		</div>
 
 		<div id="lang"><div class="cont">
+			{{page.language}}
 			<select id="lang" onchange="document.location.replace('/'+this.options[this.selectedIndex].value)">
 		        <!--option value="cz"{% if page.language == "cz" %} selected{% endif %}>CZ - Čeština</option-->
 		        <option value="de"{% if page.language == "de" %} selected{% endif %}>DE - Deutsch</option>
