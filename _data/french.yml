@@ -79,13 +79,13 @@ availability:
     please: "Je vous demande de soutenir une harmonisation de la <strong>durée de protection accordée par le droit d'auteur</strong> au standard défini par la convention de Berne : vie + <strong>50 ans</strong>."
     do: Rejetez les amendements au point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> du rapport de la députée Julia Reda et supportez le point <span class="am">#18</span> de l'avis de l'<abbr title="Comission industrie, recherche et énergie">ITRE</abbr>.
 digitallocks: 
-    h: "<span>Reject</span> digital locks"
-    cw: "The law says you can make copies of media you purchased for private use – but in practice, digital locks often prevent you."
-    eu: "Ensure that technical measures can't limit your legal rights."
+    h: "<span>Rejeter</span> les verrous digitaux"
+    cw: "La loi dit qu'il est possible de faire des copies d'œuvres achetées lorsque l'usage est privé – mais en pratique, les verrous digitaux vous l'en empêchent souvent."
+    eu: "S'assurer que vos droits ne peuvent pas être limités par des mesures techniques."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#drm"
-    please: "Please ensure that technological protection (<strong>DRM</strong>) does not obstruct legal use of purchased content."
-    do: Vote for point <span class="am">#26</span> from the <abbr title="Internal Market Committee">IMCO</abbr> opinion and point <span class="am">#29</span> from the <abbr title="Industry Committee">ITRE</abbr> opinion. Support the compromise on point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> of MEP Reda's report and reject all amendments to point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a>.
-    tip: "Give an example of when DRM stood in the way of your legal activity (eg. making copies for private use)."
+    please: "Je vous demande de vous assurer que les mesures techniques de protection (<strong>MTP</strong>/<strong>DRM</strong>) ne vous empêchent pas de faire un usage légal de ce que vous avez acheté."
+    do: Votez pour le point <span class="am">#26</span> de l'avis de l'<abbr title="Commission marché intérieur et protection des consommateurs">IMCO</abbr> et le point <span class="am">#29</span> de l'avis de l'<abbr title="Commission industrie, recherche et énergie">ITRE</abbr>. Je vous demande de soutenir le compromis au point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> du rapport de la députée Julia Reda et de rejeter tous les amendements au point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a> de ce même rapport.
+    tip: "Donnez un exemple d'une situation où un DRM vous a empêché d'effectuer une action que la loi vous autorise à faire (par exemple effectuer une copie pour un usage privé)."
 filesharing: 
     h: "<span>Legalise</span> personal file sharing"
     cw: "Teenagers exchanging music online are made criminals by current laws. But frequently, a shared file is not a lost sale, but free advertising."
