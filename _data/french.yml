@@ -12,7 +12,7 @@ geoblocking:
     cw: "Cette vidéo n'est pas disponible dans votre pays."
     eu: "<strong>Interdiction</strong> des contrats qui imposent un blocage basé sur la position géographique des utilisateurs aux services d'hébergement de vidéos : il s'agit d'une forme de discrimination des utilisateurs."
     please: "Je vous demande de prendre position contre <strong>tout type de blocage basé sur la position géographique</strong>, indépendamment du fait que le contenu bloqué soit vendu directement ou financé au moyen de publicités ou de fonds publics."
-    do: Votez pour l'amendement <abbr class="am" title="Calls for an end to geoblocking">#412</abbr> et <abbr class="am" title="States that geoblocking should not prevent cultural minorities from accessing content">#322</abbr> et le point <span class="am">#16</span> de l'avis de l'<abbr title="Marché intérieur et protection des consommateurs (Internal Market Committee)">IMCO</abbr>.
+    do: Votez pour l'amendement <abbr class="am" title="Calls for an end to geoblocking">#412</abbr> et <abbr class="am" title="States that geoblocking should not prevent cultural minorities from accessing content">#322</abbr> et le point <span class="am">#16</span> de l'avis de l'<abbr title="Commission marché intérieur et protection des consommateurs">IMCO</abbr>.
     tip: "Donnez un exemple de situation où le blocage par géolocalisation vous affecte."
 extendborders: 
     h: "<span>Étendre</span> vos droits au-delà des frontières"
@@ -51,12 +51,12 @@ publicdomain:
     please: "Je vous demande de <strong>protéger le domaine public</strong> en clarifiant le fait que la digitalisation d'une œuvre libre de droits ne permet pas d'en obtenir de nouveaux."
     do: Rejetez les amendements qui diluent le point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> du rapport de la députée Julia Reda – prenez position en faveur de l'amendement <span class="am">#264</span> qui le clarifie.
 libraries: 
-    h: "<span>Enable</span> libraries to do their job online"
-    cw: "Libraries pay authors in return for the right to lend physical copies of books. But this right doesn't exist on the internet."
-    eu: "Allow <strong>e-lending</strong> so that libraries can continue fulfilling their important social function."
+    h: "<span>Permettre</span> aux librairies de faire leur travail en ligne"
+    cw: "Les librairies paient les auteurs en compensation du droit de prêter des copies physiques de leurs livres. Mais ce droit n'existe sur Internet."
+    eu: "Permettez le <strong>prêt électronique</strong> afin que les librairies puissent remplir leur mission sociale."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#elending"
-    please: "Please allow libraries to <strong>e-lend books</strong>."
-    do: Vote for  amendments <abbr class="am" title="Calls for expanding mandatory exceptions to cover libraries">#348</abbr>, <abbr class="am" title="Calls for strengthening exceptions in the public interest">#350</abbr> and for points <span class="am">#16</span> and <span class="am">#22</span> from the <abbr title="Industry Committee">ITRE</abbr> opinion.
+    please: "Je vous demande de prendre position en faveur de l'autorisation du <strong>prêt de livres électroniques</strong> pour les librairies."
+    do: Votez pour les amendements <abbr class="am" title="Calls for expanding mandatory exceptions to cover libraries">#348</abbr>, <abbr class="am" title="Calls for strengthening exceptions in the public interest">#350</abbr> et pour les points <span class="am">#16</span> et <span class="am">#22</span> de l'avis de l'<abbr title="Commission intustrie, recherche et énergie">ITRE</abbr>.
 publicspace: 
     h: "<span>Ensure</span> public space is for everyone"
     cw: "In Germany you can freely post photos of public buildings online – but across the border in France the architect could sue you!"
