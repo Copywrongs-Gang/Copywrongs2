@@ -10,10 +10,14 @@ git clone git@github.com:Copywrongs-Gang/Copywrongs2.git copywrongs2
 cd copywrongs2
 jekyll serve --baseurl ''
 ```
-open localhost:4000
+open http://localhost:4000
 
 # how to add translations
-- copy _includes/de folder to _includes/*new_language_id*
-- copy de/index.html file to *new_language_id*/index.html
-- translate files in _includes/*new_language_id*/
-- open _config.yml and add the new language to languages
+- duplicate data/english.yml as data/*new_language_name*.yml 
+- in that new file, translate all the texts after the ":" signs, preserving HTML code
+- duplicate en/index.html as *new_language_code*/index.html and enter the new_language_name in the file instead of "english"
+- add the language to the switcher in _layouts/default.html (or tell us to do so)
+- send us a pull request or an email with your changes
+
+# questions?
+team SQUIGGLYMARK copywrongs.eu
