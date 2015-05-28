@@ -92,21 +92,21 @@ filesharing:
     eu: "Reconnaître un droit au partage non-marchand."
     please: "Je vous demande d'arrêter la criminalisation du <strong>partage</strong> privé, à but non lucratif."
     do: Votez pour les amendements <abbr class="am" title="Calls for exploring the legalization of non commercial private sharing">#507</abbr> et <abbr class="am" title="Urges increased legal certainty for P2P sharing">#355</abbr>.
-    tip: "Donner un exemple de situation où le partage a été bénéfique à un artiste, par exemple vous avez découvert un artiste êtes devenu fan, ce qui vous a amené à assister à un concert ou acheter des produits dérivés."
-currentcopywrong: "Current copywrong:"
-euproposal: "EU proposal:"
-iwant: "I want this!"
-readmore: "Read more"
-joinfight: If <span>you</span> don't join the fight now, these "copywrongs" <u>won't be fixed</u>.
+    tip: "Donnez un exemple de situation où le partage a été bénéfique à un artiste, par exemple vous avez découvert un artiste êtes devenu fan, ce qui vous a amené à assister à un concert ou acheter des produits dérivés."
+currentcopywrong: "Copywrong actuel :"  # TODO: Comment traduire 'copywrong' ? Est-ce qu'il faut traduire ?
+euproposal: "Proposition de l'EU:"      # TODO: Est-ce que c'est 'de' ou 'pour' ?
+iwant: "C'est ce que je veux !"         # Maybe a bit too long... if modified, change also 'showmore'
+readmore: "Plus d'informations"
+joinfight: Si <span>tu</span> ne rejoins la lutte maintenant, ces "copywrongs" <u>ne seront pas corrigés</u>.
 call:
-    h: "Call now to fix copyright"
-    text: "The job of Members of the European Parliament is to <strong>represent you</strong>. We hate cold-calling people as much as you do &ndash; but if you don't take <strong>2 minutes</strong> to tell them what you care about, <strong>only lobbyists will be heard</strong>. You can do it, and <u>every call really makes a difference!</u>"
-    showother: "Show me another MEP"
-    what: "What will the call be like?"
-    agenda: "Your personal agenda:"
-    agendatext: "Regarding the <strong>copyright report</strong> that you will vote on in the Legal Affairs Committee on June 16th..."
-showmore: To show more points here, scroll up and click "I want this"
-tell: Tell the world
-icalled: I called my MEP to save copyright reform<br />– will you, too?
-sharetext:  Urgently needed copyright reform plans are in danger. I called my MEP and you should, too!
-credits: Created by the office of <a href="https://juliareda.eu" target="_blank">MEP Julia Reda</a>, the team of <a href="http://copy-me.org/" target="_blank">Copy-Me</a> and additional volunteers. <a href="https://github.com/Copywrongs-Gang/Copywrongs2">Fork me on Github</a><br />Graphics based in part on icons by EliRatus, useiconic.com, Cornelius Danger, Pedro Vidal, John Caserta, Carolina Andrea, Magicon, Luis Prado – all licensed Creative Commons – Attribution (CC BY 3.0)
+    h: "Apellez maintenant pour corriger le droit d'auteur"
+    text: "Le travail des membres du Parlement Européen est de <strong>vous représenter</strong>. Nous détestons appeler les gens à froid autant que vous – mais si vous ne prenet pas <strong>2 minutes</strong> pour leur dire ce qui vous tient à cœur, seulement les lobbyistes seront entendus. Vous pouvez le faire, et <u>chaque appel a un véritable impact !</u>"
+    showother: "Montrer un autre député"
+    what: "Comment se passera l'appel ? (EN)" # FIXME: Le lien pointe sur la page en anglais, il ne semble pas possible de le modifier ici (une version en français est disponible)
+    agenda: "Votre agenda personnel :"
+    agendatext: "En ce qui concerne le <strong>rapport sur le droit d'auteur</strong> sur lequel vous allez voter en Commission des Affaires Juridiques le 16 juin..."
+showmore: Pour afficher plus de points ici, faites défiler la page vers le haut et cliquer sur "c'est ce que je veux"
+tell: Partagez
+icalled: J'ai appelé mon député pour sauver la réforme du droit d'auteur<br />– et toi?
+sharetext:  La réforme urgente du droit d'auteur est en danger. J'ai appelé mon député, et tu devrais aussi!
+credits: Créé par le bureau de la <a href="https://juliareda.eu" target="_blank">députée Julia Reda</a>, l'équipe de <a href="http://copy-me.org/" target="_blank">Copy-Me</a> et d'autes volontaires. <a href="https://github.com/Copywrongs-Gang/Copywrongs2">Fork me on Github</a><br />Charte graphique basée en partie sur des icônes créées par EliRatus, useiconic.com, Cornelius Danger, Pedro Vidal, John Caserta, Carolina Andrea, Magicon, Luis Prado – all licensed Creative Commons – Attribution (CC BY 3.0)
