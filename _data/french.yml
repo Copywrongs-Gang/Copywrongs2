@@ -58,12 +58,12 @@ libraries:
     please: "Je vous demande de prendre position en faveur de l'autorisation du <strong>prêt de livres électroniques</strong> pour les librairies."
     do: Votez pour les amendements <abbr class="am" title="Calls for expanding mandatory exceptions to cover libraries">#348</abbr>, <abbr class="am" title="Calls for strengthening exceptions in the public interest">#350</abbr> et pour les points <span class="am">#16</span> et <span class="am">#22</span> de l'avis de l'<abbr title="Commission intustrie, recherche et énergie">ITRE</abbr>.
 publicspace: 
-    h: "<span>Ensure</span> public space is for everyone"
-    cw: "In Germany you can freely post photos of public buildings online – but across the border in France the architect could sue you!"
-    eu: "Ensure <strong>freedom of panorama</strong> across Europe: Publishing pictures of what's permanently in the public must be legal."
+    h: "<span>S'assurer</span> que l'espace public soit public"
+    cw: "En Allemagne, vous pouvez publier librement sur Internet des photographies de bâtiments – mais de l'autre côté de la frontière, en France, les architectes peuvent vous poursuivre en justice !"
+    eu: "Assurez-vous que la <strong>liberté de panorama</strong> soit appliquée à travers toute l'Europe : publier des images d'œuvres situées de manière permanente dans l'espace public doit être légal."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#panorama"
-    please: "Please ensure <strong>freedom of panorama</strong> in Europe, so that sharing photos of public buildings is legal – no matter whether for commercial or non-commercial purposes."
-    do: Reject any amendements that water down <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> of MEP Reda's report, vote for the original text or the compromise amendment if there is one.
+    please: "Je vous demande de soutenir une <strong>liberté de panorama</strong> dans toute l'Europe, afin que partager des photographies de bâtiments publics soit légal – que ce soit pour un usage commercial ou non."
+    do: Rejetez tout amendement qui diluerait le point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> du rapport de la députée Julia Reda, votez en faveur du texte original ou d'un éventuel amendement de compromis.
 education: 
     h: "<span>Protect</span> educational uses"
     cw: "Schools may often freely use physical books to teach from – but putting the same content on the school intranet as a PDF can be illegal."
