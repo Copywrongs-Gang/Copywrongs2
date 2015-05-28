@@ -44,12 +44,12 @@ righttolink:
     please: "Je vous demande de prendre position contre un <strong>droit voisin supplémentaire pour les éditeurs de presse</strong> qui limiterait la possibilité de créer des liens vers les articles de presse."
     do: Rejetez l'amendement <abbr class="am" title="Calls for the introduction of an ancillary copyright for press publishers">#204</abbr>. Prenez position en faveur du compromis de l'amendement au point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> du rapport de la députée Julia Reda.
 publicdomain: 
-    h: "<span>Safeguard</span> the public domain"
-    cw: "Old artwork whose copyright has expired belongs to everyone. Yet some people claim digitising it grants new copyright."
-    eu: "Digitisation of works that are commonly owned shouldn't grant new protection."
+    h: "<span>Protéger</span> le domaine public"
+    cw: "Les œuvres anciennes dont le droit d'auteur a expiré appartiennent à tout le monde. Cependant, certains prétendent que le fait de les digitaliser leur accorde un nouveau droit d'auteur."
+    eu: "La digitalisation d'œuvres appartenant à tout le monde ne doit pas accorder de nouvelles protections."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain"
-    please: "Please <strong>safeguard the public domain</strong> by clarifying that making a digital copy of something that's free of copyright doesn't grant new copyright."
-    do: Reject amendments that would water down point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> in MEP Reda's report – support amendment <span class="am">#264</span> which clarifies it.
+    please: "Je vous demande de <strong>protéger le domaine public</strong> en clarifiant le fait que la digitalisation d'une œuvre libre de droits ne permet pas d'en obtenir de nouveaux."
+    do: Rejetez les amendements qui diluent le point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> du rapport de la députée Julia Reda – prenez position en faveur de l'amendement <span class="am">#264</span> qui le clarifie.
 libraries: 
     h: "<span>Enable</span> libraries to do their job online"
     cw: "Libraries pay authors in return for the right to lend physical copies of books. But this right doesn't exist on the internet."
