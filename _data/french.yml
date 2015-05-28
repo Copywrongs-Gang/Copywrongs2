@@ -94,7 +94,7 @@ filesharing:
     do: Votez pour les amendements <abbr class="am" title="Calls for exploring the legalization of non commercial private sharing">#507</abbr> et <abbr class="am" title="Urges increased legal certainty for P2P sharing">#355</abbr>.
     tip: "Donnez un exemple de situation où le partage a été bénéfique à un artiste, par exemple vous avez découvert un artiste êtes devenu fan, ce qui vous a amené à assister à un concert ou acheter des produits dérivés."
 currentcopywrong: "Copywrong actuel :"  # TODO: Comment traduire 'copywrong' ? Est-ce qu'il faut traduire ?
-euproposal: "Proposition de l'EU:"      # TODO: Est-ce que c'est 'de' ou 'pour' ?
+euproposal: "Proposition de l'UE:"      # TODO: Est-ce que c'est 'de' ou 'pour' ?
 iwant: "C'est ce que je veux !"         # Maybe a bit too long... if modified, change also 'showmore'
 readmore: "Plus d'informations"
 joinfight: Si <span>tu</span> ne rejoins la lutte maintenant, ces "copywrongs" <u>ne seront pas corrigés</u>.
