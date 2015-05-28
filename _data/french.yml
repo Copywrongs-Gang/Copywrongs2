@@ -87,12 +87,12 @@ digitallocks:
     do: Votez pour le point <span class="am">#26</span> de l'avis de l'<abbr title="Commission marché intérieur et protection des consommateurs">IMCO</abbr> et le point <span class="am">#29</span> de l'avis de l'<abbr title="Commission industrie, recherche et énergie">ITRE</abbr>. Je vous demande de soutenir le compromis au point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> du rapport de la députée Julia Reda et de rejeter tous les amendements au point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a> de ce même rapport.
     tip: "Donnez un exemple d'une situation où un DRM vous a empêché d'effectuer une action que la loi vous autorise à faire (par exemple effectuer une copie pour un usage privé)."
 filesharing: 
-    h: "<span>Legalise</span> personal file sharing"
-    cw: "Teenagers exchanging music online are made criminals by current laws. But frequently, a shared file is not a lost sale, but free advertising."
-    eu: "Recognise a right to share non-commercially."
-    please: "Please stop the criminalisation of personal, not-for-profit <strong>file sharing</strong>."
-    do: Vote for amendments <abbr class="am" title="Calls for exploring the legalization of non commercial private sharing">#507</abbr> and <abbr class="am" title="Urges increased legal certainty for P2P sharing">#355</abbr>.
-    tip: "Give an example of when file sharing was benefitial to an artist, e.g. you discovered an artist you became a fan of, attending concerts or buying their products later."
+    h: "<span>Légaliser</span> le partage non-marchand."
+    cw: "Les jeunes qui partagent de la musique sur Internet sont criminalisés par les lois existantes. Mais souvent, un morceau de musique partagé correspond à de la publicité gratuite, pas à une vente perdue."
+    eu: "Reconnaître un droit au partage non-marchand."
+    please: "Je vous demande d'arrêter la criminalisation du <strong>partage</strong> privé, à but non lucratif."
+    do: Votez pour les amendements <abbr class="am" title="Calls for exploring the legalization of non commercial private sharing">#507</abbr> et <abbr class="am" title="Urges increased legal certainty for P2P sharing">#355</abbr>.
+    tip: "Donner un exemple de situation où le partage a été bénéfique à un artiste, par exemple vous avez découvert un artiste êtes devenu fan, ce qui vous a amené à assister à un concert ou acheter des produits dérivés."
 currentcopywrong: "Current copywrong:"
 euproposal: "EU proposal:"
 iwant: "I want this!"
