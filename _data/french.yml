@@ -29,13 +29,13 @@ protectauthors:
     please: "Je vous demande de prendre position pour <strong>protéger les artistes contre leur exploitation</strong> et contre l'utilisation de contrats abusifs."
     do: Votez pour l'amendement de compromis sur le point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> du rapport de la députée Julia Reda et soutenez les ajouts des amendements <abbr class="am" title="Cites a UN report that emphasizes the importance of protecting authors">#107</abbr>, <abbr class="am" title="Calls for an author's right to bring their works to the market themselves in case a rightholder does not do so for a period of time">#200</abbr> et <abbr class="am" title="Calls for income tied to exceptions and limitations (e.g. private copying levies) to go directly to the authors, not other rightholders">#527</abbr>.
 righttoquote: 
-    h: "<span>Grant</span> vloggers the right to quote"
-    cw: "Quoting some words is usually legal, but this hasn't been extended to videos or sound recordings – making YouTubers & podcasters outlaws."
-    eu: "Exceptions like the one for quotation must apply to all forms of cultural expression in a <strong>technology-neutral</strong> manner."
+    h: "<span>Donner</span> aux vloggers le droit de citation"
+    cw: "Citer quelques mots est généralement légal, mais ce droit n'a pas été étendu aux enregistrements vidéos ou sonores ­– les YouTubers et podcasters sont de ce fait des criminels."
+    eu: "Les exceptions au droit d'auteur telles que celle permettant la citation doivent s'appliquer à toutes formes d'expression culturelle et de manière <strong>technologiquement neutre</strong>."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual"
-    please: "Please support <strong>extending quotation rights to audiovisual media</strong>."
-    do: Reject the amendments to point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual" target="_blank" class="am">#14</a> of MEP Reda's report.
-    tip: "Give an example of when you've quoted something in video or audio or if you're a fan of creators who do."
+    please: "Je vous demande de prendre position en faveur de <strong>l'extension du droit de citation aux médias audiovisuels</strong>."
+    do: Rejetez les amendements au point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual" target="_blank" class="am">#14</a> du rapport de la députée Julia Reda.
+    tip: "Donnez un exemple de quand vous avez cité quelque chose dans une vidéo ou un fichier audio, ou si vous êtes fan de créateurs qui le font."
 righttolink: 
     h: "<span>Defend</span> your right to link"
     cw: "The web is made of links. Can posting one be a crime? News publishers are calling for laws that limit how others can link to their websites."
