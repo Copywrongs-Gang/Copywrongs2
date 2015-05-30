@@ -78,7 +78,8 @@ function showMEP() {
 	var randomMep = Math.floor(Math.random() * meplist.length);
 	if (window.countryCode && validCountryCodes.indexOf(window.countryCode) > -1) {
 		while ( meplist[randomMep].country !== window.countryCode || // wrong country?
-				meplist[randomMep].id == window.lastShownMEP) {		 // same as last?
+				meplist[randomMep].id == window.lastShownMEP &&		 // same as last?
+				mepsFromCertainCountry(window.countryCode) !== 1) {	 // AND more than one MEP from the selected country
 			randomMep = Math.floor(Math.random() * meplist.length);  // => find another
 		}
 	}
@@ -92,6 +93,16 @@ function showMEP() {
 	document.getElementById('mep_photo').setAttribute("src", "http://www.europarl.europa.eu/mepphoto/"+ mep.photoid +".jpg")
 	document.getElementById('callform').setAttribute("action", "https://piphone.lqdn.fr/campaign/call2/rapport_reda/"+mep.id);
 
+	return false;
+}
+
+function ccChange() {
+	var cc = document.getElementById('countrycode').value;
+	if (cc === "") {
+		document.getElementById('localnumber').setAttribute("placeholder", "+12 345 67 89");
+	} else {
+		document.getElementById('localnumber').setAttribute("placeholder", "0123 456 789");
+	}
 	return false;
 }
 
@@ -128,9 +139,14 @@ function validateNumber(c,n) {
 	}
 	// removes everything that is not a number
 	n = n.replace(/[^0-9]/g, '');
+	if (n.length < 5) {
+		console.error("number too short");
+		return false;
+	}
 	// adds the countrycode or +
 	n = countrycode + n;
-	console.log(n);
+	// print final number to console
+	//console.log(n);
 	return n;
 }
 
@@ -203,15 +219,21 @@ function want(o) {
 	return false;
 }
 
+function mepsFromCertainCountry(cc) {
+	var mepsFromCertainCountry = 0;
+	for (var m in meplist) {
+		if (meplist[m].country == cc) mepsFromCertainCountry++;
+	}
+	return mepsFromCertainCountry;
+}
+
 function geo(d, fromDropdown) {
 	window.countryCode = d.countryCode;
 	
 	//hide "show other" button if there is no other
-	var mepsFromThisCountry = 0;
-	for (var m in meplist) {
-		if (meplist[m].country == d.countryCode) mepsFromThisCountry++;
-	}
+	var mepsFromThisCountry = mepsFromCertainCountry(window.countryCode);
 	document.getElementById('showmep').style.display = (mepsFromThisCountry == 1) ? 'none' : 'inline';
+	document.getElementById('showmepnoclick').style.display = (mepsFromThisCountry == 1) ? 'inline' : 'none';
 
 	//preselect in phone number country code dropdown
 	if (!fromDropdown) {

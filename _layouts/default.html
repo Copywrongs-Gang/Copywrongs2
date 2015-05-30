@@ -228,12 +228,12 @@
 					<img alt="Photo of the MEP" id="mep_photo" width="100" height="126" style="float:left; margin-right: 1em" />
 					<h3 id="mep_name"></h3>
 					<div id="mep_party"></div>
-					<div>Member of the Legal Affairs Committee</div>
+					<div>{{ t.call.jurimember }}</div>
 					<div style="display:none">European political family: <span id="mep_group"></span></div>
 					<div id="showmepcontainer">
-						<a href="#" id="showmep" onclick="return showMEP()">{{ t.call.showother }}</a> from 
+						<a href="#" id="showmep" onclick="return showMEP()">{{ t.call.showother }}</a><span id="showmepnoclick" style="display:none;">{{ t.call.showother }}</span> {{ t.call.from }} 
 						<select id="country" onchange="geo({ countryCode: this.options[this.selectedIndex].value}, 'fromDropdown')">
-							<option value="">an EU member state</option>
+							<option value="">{{ t.call.memberstate }}</option>
 							<option value="BG">България</option>
 							<option value="CZ">Česká republika</option>
 							<option value="DE">Deutschland</option>
@@ -252,13 +252,13 @@
 							<option value="SE">Sverige</option>
 							<option value="UK">United Kingdom</option>
 						</select>
-						<abbr class="help" title="EU member states missing from this list have no MEPs on the Legal Affairs Committe. Sorry!">?</abbr> 
+						<abbr class="help" title="{{ t.call.missingstate }}">?</abbr> 
 					</div>
 				</div>
 				<div id="callinput">
-					My phone number: 
+					{{ t.call.mynumber }} 
 					<div id="phonenumber">
-						<select id="countrycode">
+						<select id="countrycode" onchange="ccChange()">
 							<option id="cc-AT" value="+43">AT +43</option>
 							<option id="cc-BE" value="+32">BE +32</option>
 							<option id="cc-BG" value="+359">BG +359</option>
@@ -287,16 +287,16 @@
 							<option id="cc-SE" value="+46">SE +46</option>
 							<option id="cc-SK" value="+421">SK +421</option>
 							<option id="cc-UK" value="+44">UK +44</option>
-							<option value="">Other</option> <!-- Add translation -->
+							<option value="">{{ t.call.other }}</option>
 						</select>				
 						<input type="tel" id="localnumber" placeholder="0123 456 789"></input>
-					</div>
+					</div><br>
 					<input type="hidden" id="phone" name="phone" />
-					<input type="submit" class="btn" id="callbutton" value="Connect me free of charge!" />
+					<input type="submit" class="btn" id="callbutton" value="{{ t.call.connectme }}" />
 				</div>
 				<div id="thankyou">
-					<h3>Thank you! You should receive a call any second now.</h3>
-					<a href="#" onclick="return showMEP()">Call another MEP</a>
+					<h3>{{ t.call.thankyou }}</h3><br>
+					<a href="#" onclick="return showMEP()">{{ t.call.showother }}</a>
 				</div>
 
 			</form>

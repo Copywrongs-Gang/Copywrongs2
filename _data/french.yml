@@ -101,7 +101,15 @@ joinfight: Si <span>tu</span> ne rejoins pas la lutte maintenant, ces "copywrong
 call:
     h: "Apellez maintenant pour réparer le droit d'auteur"
     text: "Le travail des membres du Parlement Européen est de <strong>vous représenter</strong>. Nous détestons appeler les gens à froid autant que vous – mais si vous ne prenez pas <strong>2 minutes</strong> pour leur dire ce qui vous tient à cœur, les lobbyistes seront les seuls entendus. Vous pouvez le faire, et <u>chaque appel a un véritable impact&nbsp;!</u>"
+    jurimember: "Member of the Legal Affairs Committee"
     showother: "Montrer un autre député"
+    from: "from"
+    memberstate: "an EU member state"
+    missingstate: "EU member states missing from this list have no MEPs on the Legal Affairs Committe. Sorry!"
+    mynumber: "My phone number:"
+    other: "Other"
+    connectme: "Connect me free of charge!"
+    thankyou: "Thank you! You should receive a call any second now."
     what: "Comment se passera l'appel&nbsp;? (EN)" # FIXME: Le lien pointe sur la page en anglais, il ne semble pas possible de le modifier ici (une version en français est disponible)
     agenda: "Votre agenda personnel&nbsp;:"
     agendatext: "En ce qui concerne le <strong>rapport sur le droit d'auteur</strong> sur lequel vous allez voter en Commission des Affaires Juridiques le 16 juin..."
