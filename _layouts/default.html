@@ -223,8 +223,84 @@
 
 			<p>{{ t.call.text }}</p>
 
-			<center><iframe id="qdn" src="https://piphone.lqdn.fr/campaign/widget2/rapport_reda/horiz" width="620" height="180" style="overflow:hidden" scrolling="no"></iframe><a href="#" style="display:block; font-size:.9em; opacity:.7" onclick="this.previousSibling.src = this.previousSibling.getAttribute('src'); return false">{{ t.call.showother }}</a></center>
+			<form id="callform" action="https://piphone.lqdn.fr/campaign/call2/rapport_reda/" method="POST" onsubmit="return callSubmit();" target="submittarget">
+				<div id="mepprofile">
+					<img alt="Photo of the MEP" id="mep_photo" width="100" height="126" style="float:left; margin-right: 1em" />
+					<h3 id="mep_name"></h3>
+					<div id="mep_party"></div>
+					<div>Member of the Legal Affairs Committee</div>
+					<div style="display:none">European political family: <span id="mep_group"></span></div>
+					<div id="showmepcontainer">
+						<a href="#" id="showmep" onclick="return showMEP()">{{ t.call.showother }}</a> from 
+						<select id="country" onchange="geo({ countryCode: this.options[this.selectedIndex].value}, 'fromDropdown')">
+							<option value="">an EU member state</option>
+							<option value="BG">България</option>
+							<option value="CZ">Česká republika</option>
+							<option value="DE">Deutschland</option>
+							<option value="ES">España</option>
+							<option value="FR">France</option>
+							<option value="IE">Ireland/Éire</option>
+							<option value="IT">Italia</option>
+							<option value="LT">Lietuva</option>
+							<option value="LU">Lëtzebuerg</option>
+							<option value="HU">Magyarország</option>
+							<option value="MT">Malta</option>
+							<option value="AT">Österreich</option>
+							<option value="PL">Polska</option>
+							<option value="PT">Portugal</option>
+							<option value="FI">Suomi</option>
+							<option value="SE">Sverige</option>
+							<option value="UK">United Kingdom</option>
+						</select>
+						<abbr class="help" title="EU member states missing from this list have no MEPs on the Legal Affairs Committe. Sorry!">?</abbr> 
+					</div>
+				</div>
+				<div id="callinput">
+					My phone number: 
+					<div id="phonenumber">
+						<select id="countrycode">
+							<option id="cc-AT" value="+43">AT +43</option>
+							<option id="cc-BE" value="+32">BE +32</option>
+							<option id="cc-BG" value="+359">BG +359</option>
+							<option id="cc-CY" value="+357">CY +357</option>
+							<option id="cc-CZ" value="+420">CZ +420</option>
+							<option id="cc-DK" value="+45">DK +45</option>
+							<option id="cc-DE" value="+49">DE +49</option>
+							<option id="cc-EE" value="+372">EE +372</option>
+							<option id="cc-ES" value="+34">ES +34</option>
+							<option id="cc-FI" value="+358">FI +358</option>
+							<option id="cc-FR" value="+33">FR +33</option>
+							<option id="cc-GR" value="+30">GR +30</option>
+							<option id="cc-HR" value="+385">HR +385</option>
+							<option id="cc-HU" value="+36">HU +36</option>
+							<option id="cc-IE" value="+353">IE +353</option>
+							<option id="cc-IT" value="+39">IT +39</option>
+							<option id="cc-LT" value="+370">LT +370</option>
+							<option id="cc-LU" value="+352">LU +352</option>
+							<option id="cc-LV" value="+371">LV +371</option>
+							<option id="cc-MT" value="+356">MT +356</option>
+							<option id="cc-NL" value="+31">NL +31</option>
+							<option id="cc-PL" value="+48">PL +48</option>
+							<option id="cc-PT" value="+351">PT +351</option>
+							<option id="cc-RO" value="+40">RO +40</option>
+							<option id="cc-SI" value="+386">SI +386</option>
+							<option id="cc-SE" value="+46">SE +46</option>
+							<option id="cc-SK" value="+421">SK +421</option>
+							<option id="cc-UK" value="+44">UK +44</option>
+							<option value="">Other</option> <!-- Add translation -->
+						</select>				
+						<input type="tel" id="localnumber" placeholder="0123 456 789"></input>
+					</div>
+					<input type="hidden" id="phone" name="phone" />
+					<input type="submit" class="btn" id="callbutton" value="Connect me free of charge!" />
+				</div>
+				<div id="thankyou">
+					<h3>Thank you! You should receive a call any second now.</h3>
+					<a href="#" onclick="return showMEP()">Call another MEP</a>
+				</div>
 
+			</form>
+ 
 			<a id="what" href="https://wiki.laquadrature.net/How_to_contact_a_MEP#Phone_Call" target="_blank">{{ t.call.what }}</a>
 
 			<h3>{{ t.call.agenda }}</h3>
@@ -302,5 +378,6 @@
 
 		{% include js.html %}
 
+		<iframe id="submittarget" name="submittarget" width="0" height="0"></iframe>
 	</body>
 </html>
