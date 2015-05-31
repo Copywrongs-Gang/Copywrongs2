@@ -96,14 +96,9 @@ function showMEP() {
 	return false;
 }
 
-function ccChange() {
-	var cc = document.getElementById('countrycode').value;
-	if (cc === "") {
-		document.getElementById('localnumber').setAttribute("placeholder", "+12 345 67 89");
-	} else {
-		document.getElementById('localnumber').setAttribute("placeholder", "0123 456 789");
-	}
-	return false;
+function ccChange(v) {
+	var plh = (v === '') ? "+12 345 67 89" : "0123 456 789";
+	document.getElementById('localnumber').setAttribute("placeholder", plh);
 }
 
 function callSubmit() {
