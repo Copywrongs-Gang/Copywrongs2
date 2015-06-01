@@ -1,0 +1,120 @@
+title: Rädda upphovsrättsreformen
+description: "Just nu debatterar EU planer för att lösa problem med upphovsrätten som påverkar dig varje dag, men en kraftfull allians sabotrerar dessa nödvändiga uppdateringar. Kommer du att ansluta dig till oss och slåss för dem?"
+callnow: "<span>Ring nu</span> för att rädda dessa planer &ndash; det tar bra två minuter!"
+savecreform: "Rädda<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;upphovsrätts-</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reformen"
+daysuntil: "dagar till omröstningen"
+rightnow: "Just nu"
+debatingplans: "debatterar EU planer för att lösa problem med upphovsrätten som påverkar dig varje dag,"
+but: "men en kraftfull allians saboterar dessa nödvändiga uppdateringar."
+whichthree: "Vilka tre av dessa förslag är viktigast för dig?"
+geoblocking: 
+    h: "<span>Få bukt med</span> geoblocking"
+    cw: "Detta innehåll är inte tillgängligt i ditt land."
+    eu: "<strong>Förbjud</strong> kontrakt som kräver att videotjänster använder geoblocking, eftersom det är diskriminering av användare."
+    please: "Snälla stå upp mot <strong>alla sorters geoblocking</strong>, oavsett om det blockerade innehållet är finansierat av reklam, offentliga medel eller till salu."
+    do: Rösta för tillägg <abbr class="am" title="Kräver ett slut för geoblocking">#412</abbr> och <abbr class="am" title="Säger att geoblocking inte får förhindra kulturella minoriteter från att tillgodogöra sig innehåll">#322</abbr> och punkt <span class="am">#16</span> från <abbr title="Internal Market Committee">IMCOs</abbr> yttrande.
+    tip: "Ge ett exempel på när geoblocking drabbat dig."
+extendborders: 
+    h: "<span>Utvidga</span> dina rättigheter över gränser"
+    cw: "Vad som är tillåtet skiljer sig åt mellan EU länder. Om du inte läser på om lagen innan du reser riskerar du att bli en brottsling!"
+    eu: "Gör <strong>undantag och begränsningar</strong> av upphovsrätten <strong>obligatoriska</strong> i alla EUs medlemsstater."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#mandatory"
+    please: "Snälla stöd <strong>harmoniserng av undantag och begränsningar</strong> och gör dem <strong>obligatoriska</strong> över hela EU så att mina rättigheter inte ändras eller upphör vid gränsen."
+    do: Avslå ändringar till punkterna <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank">#11</a> av MEP Redas rapport. Stöd tilläggen <abbr class="am" title="Kräver nya obligatoriska undantag, t.ex. för använderskapat innehåll">#353</abbr>, <abbr class="am" title="Kräver att undantag görs obligatoriska">#366</abbr> och punkt <span class="am">#15</span> från <abbr title="Internal Market Committee">IMCOs</abbr> yttrande.
+protectauthors: 
+    h: "<span>Skydda</span> upphovspersoner från orimliga kontrakt"
+    cw: "Artister har inte advokater. Publicister och <labels> har arméer av dem. Gissa vem som har överhanden i kontraktförhandlingar."
+    eu: "Skydda artister från exploaterande, <strong>orimliga kontrakt</strong> över hela Europa och tillåt dem att <strong>ta tillbaks sina rättigheter</strong>."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#authors"
+    please: "Snälla stöd att <strong>skydda artister från exploatering</strong> och orimliga kontrakt."
+    do: Rösta för kompromisstillägget på punkt <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> av MEP Redas rapport och stöd tilläggen <abbr class="am" title="Citerar en FN-rapport som framhäver vikten av att skydda artister">#107</abbr>, <abbr class="am" title="Kräver rättigheten för artister att ta verk till marknaden själv ifall upphovsrättsinnehavaren inte gör så inom en viss tidsfrist">#200</abbr> och <abbr class="am" title="Kräver att inkomster kopplade till undantag och begränsningar (t.ex. privata kopieringsavgifter) ska gå direkt till artisten, istället för till andra upphovsrättsinnehavare">#527</abbr>.
+righttoquote: 
+    h: "<span>Ge</span> vloggers rätt att citera"
+    cw: "Att citera är vanligtvis tillåtet, men detta har inte utökats till att gälla video- eller ljudupptagningar – vilket gör YouTubers & podcasters till brottslingar."
+    eu: "Undantag som rätten att citera måste gälla alla sorters kulturella yttringar på ett <strong>teknikneutralt</strong> sätt."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual"
+    please: "Snälla stöd en <strong>utvidning av citeringsrättigheter till audiovisuella verk</strong>."
+    do: Avslå tilläggen till punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual" target="_blank" class="am">#14</a> av MEP Redas rapport.
+    tip: "Ge ett exempel på när du har citerat någonting i ljud eller video eller om du är ett fan av någon som gjort."
+righttolink: 
+    h: "<span>Försvara</span> din rätt att länka"
+    cw: "Internet är gjort av länkar. Kan länkning vara ett brott? Nyhetspublikationer önskar sig lagstiftning som begränsar hur andra får länka till deras hemsidor."
+    eu: "Avslå sådana lagar och bevara rätten att länka."
+    link: "https://savethelink.org"
+    please: "Snälla stå upp mot en <strong>upphovsrätt underordnad nyhetspublikationer</strong> vilken skulle begränsa rätten att länka till nyhetsartiklar."
+    do: Avslå tillägg <abbr class="am" title="Kräver införandet av en upphovsrätt underordnad nyhetspublikationer">#204</abbr>. Stöd kompromisstillägget till punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> av MEP Redas rapport.
+publicdomain: 
+    h: "<span>Skydda</span> den kulturella allmänningen"
+    cw: "Gamla konstverk vars upphovsrätt har gått ut tillhör alla. Ändå påstår vissa att digitalisering av desamma skapar ny upphovsrätt."
+    eu: "Digitalisering av verk som är ägda av allmänheten ska inte leda till ny upphovsrätt."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain"
+    please: "Snälla <strong>skydda den kulturella allmänningen</strong> genom att förtydliga att det att göra en digital kopia av någonting som är fritt från upphovsrätt inte innebär ny upphovsrätt."
+    do: Avslå tillägg som skulle försvaga punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> i MEP Redas rapport – stöd tillägg <span class="am">#264</span> vilket förtydligar punkten.
+libraries: 
+    h: "<span>Tillåt</span> bibliotek att göra sina jobb online"
+    cw: "Bibliotek betalar upphovspersoner i gengäld för rätten att låna ut digitala kopior av deras böcker, men denna rätt existerar inte på internet."
+    eu: "Tillåt <strong>e-utlåning</strong> så att bibliotek kan fortsätta att fullfölja sin viktiga sociala funktion."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#elending"
+    please: "Snälla tillåt bibliotek att <strong>e-låna böcker</strong>."
+    do: Rösta för tillägg <abbr class="am" title="Kräver en utvidning av obligatoriska undantag så att de gäller bibliotek">#348</abbr>, <abbr class="am" title="Kräver starkare undantag för att tillgodose allmänhetens intressen">#350</abbr> och för punkterna <span class="am">#16</span> och <span class="am">#22</span> från <abbr title="Industry Committee">ITREs</abbr> yttrande.
+publicspace: 
+    h: "<span>Slå fast att</span> offentliga utrymmen tillhör allmänheten"
+    cw: "I Tyskland är en fri att posta bilder av offentliga utrymmen online – men över gränsen till Frankrike kan arkitekten stämma dig!"
+    eu: "Slå fast <strong>panoramafrihet</strong> över hela Europa: Att publicera bilder av vad som permanent är i det offentliga måste vara lagligt!"
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#panorama"
+    please: "Snälla säkerställ <strong>panoramafrihet</strong> i Europe, så att dela fotografier av offentliga byggnader är lagligt – oavsett ifall det är för kommersiella eller icke-kommersiella mål."
+    do: Avslå alla tillägg som försvagar punkt <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> av MEP Redas rapport, rösta för den ursprungliga texten eller kompromisstillägget om det finns något.
+education: 
+    h: "<span>Skydda</span> användning i utbildningssyfte"
+    cw: "Skolor är ofta fria att använda fysiska böcker att lära ut ifrån – men att lägga samma innehåll på skolans intranät som en PDF kan vara olagligt."
+    eu: "Ett omfattande, EU-wide, upphovsrätts-<strong>undantag för användning i utbildningssyfte</strong>"
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#education"
+    please: "Snälla stöd ett upphovsrättsundantag som tillåter användning i <strong>utbildningssyfte</strong> av verk med upphovsrätt, också digitalt."
+    do: Avslå tillägg som försvagar punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#education" target="_blank" class="am">#19</a> i MEP Redas rapport – d.v.s., alla utom tillägg <span class="am">#466-468</span>.
+availability: 
+    h: "<span>Stärk</span> verks tillgänglighet"
+    cw: "Upphovsrätt gäller 70 år efter upphovspersonens död. En överväldigande majoritet av verken är inte vinstgivande så länge – de blir helt enkelt otillgängliga."
+    eu: "Sänkt upphovsrättens längd till den internationella standarden av livstid + <strong>50 år</strong>."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#term"
+    please: "Snälla stöd en harmonisering av <strong>upphovsrättens längd</strong> till Bernekonventionens standard av livstid + <strong>50</strong> år."
+    do: Avslå tilläggen till punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> av MEP Redas rapport och stöd punkt <span class="am">#18</span> från <abbr title="Industry Committee">ITREs</abbr> yttrande.
+digitallocks: 
+    h: "<span>Förkasta</span> digitala lås"
+    cw: "Lagen säger att du kan kopiera media du har köpt för privat bruk – men i praktiken hindras du ofta av digitala lås."
+    eu: "Säkerställ att tekniska åtgärder inte kan begränsa dina lagliga rättigheter."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#drm"
+    please: "Snälla se till att teknologiska skydd (<strong>DRM</strong>) inte förhindrar laglig användning av köpta verk."
+    do: Rösta för punkt <span class="am">#26</span> från <abbr title="Internal Market Committee">IMCOs</abbr> yttrande och punkt <span class="am">#29</span> från <abbr title="Industry Committee">ITREs</abbr> yttrande. Stöd kompromissen på punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> av MEP Redas rapport och avslå alla tillägg till punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a>.
+    tip: "Ge ett exempel på när DRM stod i vägen för dina lagliga förehavanden (t.ex. att göra kopior för privat bruk)."
+filesharing: 
+    h: "<span>Legalisera</span> privat fildelning"
+    cw: "Tonåringar som delar musik online görs till brottslingar med dagens lagstiftning. Men för det mesta är en delad fil inte en förlorad försäljning utan gratis reklam."
+    eu: "Erkänn rätten till icke-kommersiell fildelning."
+    please: "Snälla stoppa kriminaliseringen av privat, icke-kommersiell <strong>fildelning</strong>."
+    do: Rösta för tillägg <abbr class="am" title="Kräver utredning av möjligheten att legalisera icke-kommersiell privat fildelning">#507</abbr> och <abbr class="am" title="Kräver säkerställandet av lagligheten i P2P-fildelning">#355</abbr>.
+    tip: "Ge ett exempel på när fildelning gynnat en artist, t.ex. en artist du upptäkt och blivit anhängare av, vars konsertbiljetter eller andra produkter du köpt vid ett senare tillfälle."
+currentcopywrong: "Nuvarande upphovsfel"
+euproposal: "EU förslag:"
+iwant: "Detta vill jag!"
+readmore: "Läs mer"
+joinfight: Om inte <span>du</span> ansluter dig till kampen nu kommer dessa "upphovsfel" <u>inte att lösas</u>.
+call:
+    h: "Ring nu för att laga upphovsrätten"
+    text: "Europaparlamentarikers jobb är att <strong>representera dig</strong>. Vi avskyr att ringa främlingar lika mycket som du &ndash; men om du inte tar <strong>två minuter</strong> att säga till dem vad du tycker, <strong>kommer bara lobbyister att höras</strong>. Du klarar av det, och <u>varje samtal gör skillnad!</u>"
+    jurimember: "Parlamentariker i Legal Affairs Committee"
+    showother: "Visa en annan MEP"
+    from: "från"
+    memberstate: "en medlemsstat i EU"
+    missingstate: "Medlemsstater som saknas från denna lista har inga parlamentariker i Legal Affairs Committe. Tyvärr!"
+    mynumber: "Mitt telefonnummer:"
+    other: "Annat"
+    connectme: "Koppla upp mig, gratis!"
+    thankyou: "Tack! Du borde få ett samtal när som helst nu."
+    what: "Hur kommer samtalet att vara?"
+    agenda: "Din personliga agenda:"
+    agendatext: "Angående <strong>upphovsrättsrapporten</strong> som du kommer att rösta om i Legal Affairs Committee den 16de Juni..."
+showmore: För att visa fler punkter här, skrolla upp och klicka på "Detta vill jag"
+tell: Berätta för världen
+icalled: Jag ringde min MEP för att rädda upphovsrättsreformen<br />– kommer du också att göra det?
+sharetext:  Kritiska planer för upphovsrättsreform är i fara. Jag ringde min MEP och det borde du också!
+credits: Skapad av <a href="https://juliareda.eu" target="_blank">MEP Julia Redas</a> kontor, teamet bakom <a href="http://copy-me.org/" target="_blank">Copy-Me</a> och andra voluntärer. <a href="https://github.com/Copywrongs-Gang/Copywrongs2">Forka mig på Github</a><br />Grafik delvis baserad på ikoner av EliRatus, useiconic.com, Cornelius Danger, Pedro Vidal, John Caserta, Carolina Andrea, Magicon, Luis Prado – alla licensierade under Creative Commons – Attribution (CC BY 3.0)
