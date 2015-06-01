@@ -1,9 +1,9 @@
 
 window.onload = function() {
 	var d = new Date();
-	var targetDate = Date.parse("Jun 16, "+d.getFullYear());
+	var targetDate = Date.parse("Jun 16, "+d.getFullYear()+" 12:00 GMT+0100");
 	var daysLeft = (targetDate-Date.parse(d))/(1000*60*60*24);
-	document.getElementById('days').innerHTML = Math.floor(daysLeft);
+	document.getElementById('days').innerHTML = Math.round(daysLeft);
 	document.getElementById('countdown').style.opacity = 1;
 
 	window.onscroll = function() {
