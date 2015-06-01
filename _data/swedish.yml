@@ -8,7 +8,7 @@ debatingplans: "debatterar EU planer för att lösa problem med upphovsrätten s
 but: "men en kraftfull allians saboterar dessa nödvändiga uppdateringar."
 whichthree: "Vilka tre av dessa förslag är viktigast för dig?"
 geoblocking: 
-    h: "<span>Få bukt med</span> geoblocking"
+    h: "<span>Förgör</span> geoblocking"
     cw: "Detta innehåll är inte tillgängligt i ditt land."
     eu: "<strong>Förbjud</strong> kontrakt som kräver att videotjänster använder geoblocking, eftersom det är diskriminering av användare."
     please: "Snälla stå upp mot <strong>alla sorters geoblocking</strong>, oavsett om det blockerade innehållet är finansierat av reklam, offentliga medel eller till salu."
@@ -23,7 +23,7 @@ extendborders:
     do: Avslå ändringar till punkterna <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank">#11</a> av MEP Redas rapport. Stöd tilläggen <abbr class="am" title="Kräver nya obligatoriska undantag, t.ex. för använderskapat innehåll">#353</abbr>, <abbr class="am" title="Kräver att undantag görs obligatoriska">#366</abbr> och punkt <span class="am">#15</span> från <abbr title="Internal Market Committee">IMCOs</abbr> yttrande.
 protectauthors: 
     h: "<span>Skydda</span> upphovspersoner från orimliga kontrakt"
-    cw: "Artister har inte advokater. Publicister och <labels> har arméer av dem. Gissa vem som har överhanden i kontraktförhandlingar."
+    cw: "Artister har inte advokater. Publicister och skivbolag har arméer av dem. Gissa vem som har överhanden i kontraktförhandlingar."
     eu: "Skydda artister från exploaterande, <strong>orimliga kontrakt</strong> över hela Europa och tillåt dem att <strong>ta tillbaks sina rättigheter</strong>."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#authors"
     please: "Snälla stöd att <strong>skydda artister från exploatering</strong> och orimliga kontrakt."
@@ -60,21 +60,21 @@ libraries:
 publicspace: 
     h: "<span>Slå fast att</span> offentliga utrymmen tillhör allmänheten"
     cw: "I Tyskland är en fri att posta bilder av offentliga utrymmen online – men över gränsen till Frankrike kan arkitekten stämma dig!"
-    eu: "Slå fast <strong>panoramafrihet</strong> över hela Europa: Att publicera bilder av vad som permanent är i det offentliga måste vara lagligt!"
+    eu: "Säkerställ <strong>panoramafrihet</strong> över hela Europa: Att publicera bilder av vad som permanent är i det offentliga måste vara lagligt!"
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#panorama"
     please: "Snälla säkerställ <strong>panoramafrihet</strong> i Europe, så att dela fotografier av offentliga byggnader är lagligt – oavsett ifall det är för kommersiella eller icke-kommersiella mål."
     do: Avslå alla tillägg som försvagar punkt <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> av MEP Redas rapport, rösta för den ursprungliga texten eller kompromisstillägget om det finns något.
 education: 
     h: "<span>Skydda</span> användning i utbildningssyfte"
     cw: "Skolor är ofta fria att använda fysiska böcker att lära ut ifrån – men att lägga samma innehåll på skolans intranät som en PDF kan vara olagligt."
-    eu: "Ett omfattande, EU-wide, upphovsrätts-<strong>undantag för användning i utbildningssyfte</strong>"
+    eu: "Ett omfattande, EU-överskridande, upphovsrätts-<strong>undantag för användning i utbildningssyfte</strong>"
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#education"
     please: "Snälla stöd ett upphovsrättsundantag som tillåter användning i <strong>utbildningssyfte</strong> av verk med upphovsrätt, också digitalt."
     do: Avslå tillägg som försvagar punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#education" target="_blank" class="am">#19</a> i MEP Redas rapport – d.v.s., alla utom tillägg <span class="am">#466-468</span>.
 availability: 
     h: "<span>Stärk</span> verks tillgänglighet"
     cw: "Upphovsrätt gäller 70 år efter upphovspersonens död. En överväldigande majoritet av verken är inte vinstgivande så länge – de blir helt enkelt otillgängliga."
-    eu: "Sänkt upphovsrättens längd till den internationella standarden av livstid + <strong>50 år</strong>."
+    eu: "Sänk upphovsrättens längd till den internationella standarden av livstid + <strong>50 år</strong>."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#term"
     please: "Snälla stöd en harmonisering av <strong>upphovsrättens längd</strong> till Bernekonventionens standard av livstid + <strong>50</strong> år."
     do: Avslå tilläggen till punkt <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> av MEP Redas rapport och stöd punkt <span class="am">#18</span> från <abbr title="Industry Committee">ITREs</abbr> yttrande.
