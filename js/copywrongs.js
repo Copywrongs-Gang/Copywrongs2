@@ -84,8 +84,8 @@ function showMEP() {
 		}
 	}
 	var mep = meplist[randomMep];
-	window.lastShownMEP = mep.id;
 	if(document.location.hash == '#debug') mep = {name: "Julia Reda",country: "DE",group: "Greens/EFA",party: "Piratenpartei Deutschland",id: "16776", photoid: "124816"};
+	window.lastShownMEP = mep.id;
 
 	document.getElementById('mep_name').innerHTML = mep.name;
 	document.getElementById('mep_party').innerHTML = mep.party;
@@ -101,6 +101,14 @@ function ccChange(v) {
 	document.getElementById('localnumber').setAttribute("placeholder", plh);
 }
 
+function stats(mepid) {
+	var i = document.createElement('img');
+	var timestamp = Date.now();
+	i.style.visibility = 'hidden';
+	i.setAttribute('src', 'http://88.198.91.228/copywrongs.php?timestamp='+timestamp+'&mepid='+mepid);
+	document.body.appendChild(i);
+}
+
 function callSubmit() {
 	var cc = document.getElementById('countrycode').value;
 	var pn = document.getElementById('localnumber').value;
@@ -108,6 +116,7 @@ function callSubmit() {
 	var validatedNumber = validateNumber(cc, pn);
 	if (validatedNumber) {
 	    document.getElementById('phone').value = validatedNumber;
+	    stats(window.lastShownMEP);
 
 	    document.getElementById('thankyou').style.display = 'block';
     	document.getElementById('showmepcontainer').style.display = 'none';
