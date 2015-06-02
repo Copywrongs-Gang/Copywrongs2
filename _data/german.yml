@@ -113,7 +113,8 @@ call:
     other: "Andere"
     connectme: "Kostenlos anrufen!"
     thankyou: "Dankeschön! Dein Telefon sollte in wenigen Sekunden klingeln."
-    what: "Wie wird der Anruf ablaufen?"
+    what: "Wie wird der Anruf ablaufen (EN)?"
+    whatlink: "https://wiki.laquadrature.net/How_to_contact_a_MEP#Phone_Call"
     agenda: "Deine persönlichen Gesprächspunkte:"
     agendatext: "Bezüglich des <strong>Urheberrechtsberichts</strong>, der am 16. Juni im Rechtsausschuss abgestimmt wird..."
 showmore: 'Um mehr Punkte anzuzeigen, scrolle nach oben und klicke auf "Ich will das!"'
