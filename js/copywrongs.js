@@ -1,6 +1,13 @@
 
 window.onload = function() {
 	var d = new Date();
+	if (d.getUTCDay() === 0 || // if Sunday
+		d.getUTCDay() === 6 || // or Monday
+		d.getUTCHours() < 7 || // or before 9AM Brussels Summer Time
+		d.getUTCHours() > 16 // or after 6PM Brussels Summer Time
+		) {
+		showTimeOverlay(); // then => show overlay!
+	}
 	var targetDate = Date.parse("Jun 16, "+d.getFullYear()+" 12:00 GMT+0100");
 	var daysLeft = (targetDate-Date.parse(d))/(1000*60*60*24);
 	document.getElementById('days').innerHTML = Math.round(daysLeft);
@@ -105,6 +112,17 @@ if (!Date.now) {
   Date.now = function now() {
     return new Date().getTime();
   };
+}
+
+function showTimeOverlay() {
+	var callwidth = document.getElementById('call').offsetWidth;
+
+	//display so offsetWidth can be determined
+	document.getElementById('timeoverlay').setAttribute("style", "display:inline;");
+	var overlayMargin = (callwidth - document.getElementById('timeoverlay').offsetWidth) / 2;
+
+	document.getElementById('timeoverlay').setAttribute("style", "display:inline;margin-left:" + overlayMargin + "px;");
+	document.getElementById('callform').setAttribute("style", "opacity:0.7;pointer-events: none;");
 }
 
 function stats(mepid) {
