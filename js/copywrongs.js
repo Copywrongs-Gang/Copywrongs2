@@ -267,8 +267,11 @@ function geo(d, fromDropdown) {
 
 	//preselect in phone number country code dropdown
 	if (!fromDropdown) {
-		var ccId = 'cc-'+d.countryCode;
+		console.log(window.countryCode);
+		var ccId = 'cc-'+window.countryCode;
+		var mepccId = 'mep-cc-'+window.countryCode;
 		if (document.getElementById(ccId)) document.getElementById(ccId).selected = true;
+		if (document.getElementById(mepccId)) document.getElementById(mepccId).selected = true;
 	}
 	
 	showMEP();

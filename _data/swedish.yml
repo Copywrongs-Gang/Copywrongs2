@@ -99,8 +99,8 @@ iwant: "Detta vill jag!"
 readmore: "Läs mer"
 joinfight: Om inte <span>du</span> ansluter dig till kampen nu kommer dessa "upphovsfel" <u>inte att lösas</u>.
 overlay:
-    h: "After hours!"
-    text: "At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on weekdays between 09:00h and 18:00h Brussels time."
+    h: "Efter arbetstid!"
+    text: "Såhär dags kommer du inte hitta någon i parlamentet, så snälla kom tillbaka senare och ring din MEP på veckodagar mellan 09:00 och 18:00 Brysseltid."
 call:
     h: "Ring nu för att laga upphovsrätten"
     text: "Europaparlamentarikers jobb är att <strong>representera dig</strong>. Vi avskyr att ringa främlingar lika mycket som du &ndash; men om du inte tar <strong>två minuter</strong> att säga till dem vad du tycker, <strong>kommer bara lobbyister att höras</strong>. Du klarar av det, och <u>varje samtal gör skillnad!</u>"
