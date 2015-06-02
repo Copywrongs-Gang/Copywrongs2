@@ -98,6 +98,9 @@ euproposal: "Proposition de l'UE&nbsp;:"
 iwant: "Je suis pour&nbsp;!"
 readmore: "Plus d'informations"
 joinfight: Si <span>tu</span> ne rejoins pas la lutte maintenant, ces "copywrongs" <u>ne seront pas redressés</u>.
+overlay:
+    h: "After hours!"
+    text: "At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on weekdays between 09:00h and 18:00h Brussels time."
 call:
     h: "Apellez maintenant pour réparer le droit d'auteur"
     text: "Le travail des membres du Parlement Européen est de <strong>vous représenter</strong>. Nous détestons appeler les gens à froid autant que vous – mais si vous ne prenez pas <strong>2 minutes</strong> pour leur dire ce qui vous tient à cœur, les lobbyistes seront les seuls entendus. Vous pouvez le faire, et <u>chaque appel a un véritable impact&nbsp;!</u>"

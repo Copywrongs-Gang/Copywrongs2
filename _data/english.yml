@@ -98,6 +98,9 @@ euproposal: "EU proposal:"
 iwant: "I want this!"
 readmore: "Read more"
 joinfight: If <span>you</span> don't join the fight now, these "copywrongs" <u>won't be fixed</u>.
+overlay:
+    h: "After hours!"
+    text: "At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on weekdays between 09:00h and 18:00h Brussels time."
 call:
     h: "Call now to fix copyright"
     text: "The job of Members of the European Parliament is to <strong>represent you</strong>. We hate cold-calling people as much as you do &ndash; but if you don't take <strong>2 minutes</strong> to tell them what you care about, <strong>only lobbyists will be heard</strong>. You can do it, and <u>every call really makes a difference!</u>"

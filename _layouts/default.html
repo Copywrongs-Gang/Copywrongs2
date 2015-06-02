@@ -225,8 +225,8 @@
 			<p>{{ t.call.text }}</p>
 
 			<div id="timeoverlay"> <!-- nice styling & i18n missing -->
-				<h3>After hours!</h3>
-				At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on Monday to Friday between 9 and 18h Brussels time.
+				<h3>{{ t.overlay.h }}</h3>
+				{{ t.overlay.text }}
 			</div>
 
 			<form id="callform" action="https://piphone.lqdn.fr/campaign/call2/rapport_reda/" method="POST" onsubmit="return callSubmit();" target="submittarget">
