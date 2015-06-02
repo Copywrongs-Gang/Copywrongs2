@@ -101,11 +101,19 @@ function ccChange(v) {
 	document.getElementById('localnumber').setAttribute("placeholder", plh);
 }
 
+if (!Date.now) {
+  Date.now = function now() {
+    return new Date().getTime();
+  };
+}
+
 function stats(mepid) {
 	var i = document.createElement('img');
+	var d = new Date();
 	var timestamp = Date.now();
+	var timeOffset = d.getTimezoneOffset();
 	i.style.visibility = 'hidden';
-	i.setAttribute('src', 'http://88.198.91.228/copywrongs.php?timestamp='+timestamp+'&mepid='+mepid);
+	i.setAttribute('src', 'http://88.198.91.228/copywrongs.php?timestamp='+timestamp+'&mepid='+mepid+'&timeoffset='+timeOffset);
 	document.body.appendChild(i);
 }
 
