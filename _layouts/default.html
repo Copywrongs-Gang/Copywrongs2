@@ -384,6 +384,22 @@
 
 		{% include js.html %}
 
+		<!-- Piwik -->
+		<script type="text/javascript">
+		  var _paq = _paq || [];
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="//stats.juliareda.eu/";
+		    _paq.push(['setTrackerUrl', u+'piwik.php']);
+		    _paq.push(['setSiteId', 5]);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+		<noscript><p><img src="//stats.juliareda.eu/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
+		<!-- End Piwik Code -->
+
 		<iframe id="submittarget" name="submittarget" width="0" height="0"></iframe>
 	</body>
 </html>
