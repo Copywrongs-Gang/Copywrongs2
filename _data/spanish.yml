@@ -106,7 +106,7 @@ call:
     showother: "Mostrar otro MEP"
     from: "desde"
     memberstate: "un estado miembro de la UE"
-    missingstate: "EU member states missing from this list have no MEPs on the Legal Affairs Committe. Sorry!"
+    missingstate: "EU member states missing from this list have no MEPs on the Legal Affairs Committe. Sorry!" 
     mynumber: "Mi número de teléfono:"
     other: "Otro"
     connectme: "¡Conéctame gratis!"
