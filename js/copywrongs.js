@@ -76,7 +76,7 @@ var meplist = [
 ];
 
 function showMEP() {
-	var validCountryCodes = ['AT', 'BG', 'CZ', 'FI', 'FR', 'DE', 'HU', 'IE', 'IT', 'LT', 'LU', 'MT', 'PL', 'PT', 'ES', 'SE', 'UK'];
+	var validCountryCodes = ['AT', 'BG', 'CZ', 'FI', 'FR', 'DE', 'HU', 'IE', 'IT', 'LT', 'LU', 'MT', 'PL', 'PT', 'RO', 'ES', 'SE', 'UK'];
 
     document.getElementById('thankyou').style.display = 'none';
     document.getElementById('showmepcontainer').style.display = 'block';
