@@ -39,7 +39,7 @@ var meplist = [
 	{name: "Andrzej Duda",country: "PL",group: "ECR",party: "Prawo i Sprawiedliwość",id: "17276", photoid: "124899"},
 	{name: "Rosa Estaràs Ferragut",country: "ES",group: "EPP",party: "Partido Popular",id: "16862", photoid: "96811"},
 	{name: "Laura Ferrara",country: "IT",group: "EFDD",party: "Movimento 5 Stelle",id: "16935", photoid: "124833"},
-//	{name: "Enrico Gasbarra",country: "IT",group: "S&D",party: "Partito Democratico",id: "", photoid: "124817"},
+	{name: "Enrico Gasbarra",country: "IT",group: "S&D",party: "Partito Democratico",id: "18983", photoid: "124817"},
 	{name: "Mary Honeyball",country: "UK",group: "S&D",party: "Labour Party",id: "17002", photoid: "5846"},
 	{name: "Sajjad Karim",country: "UK",group: "ECR",party: "Conservative Party",id: "16853", photoid: "28481"},
 	{name: "Dietmar Köster",country: "DE",group: "S&D",party: "Sozialdemokratische Partei Deutschlands",id: "17277", photoid: "124822"},
