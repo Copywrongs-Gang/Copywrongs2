@@ -35,7 +35,7 @@
 			<select id="lang" onchange="document.location.replace('/'+this.options[this.selectedIndex].value)">
 		        <!-- <option value="cz"{% if page.language == "cz" %} selected{% endif %}>CZ - Čeština</option> -->
 		        <option value="de"{% if page.language == "german" %} selected{% endif %}>DE - Deutsch</option>
-		        <!-- <option value="el"{% if page.language == "el" %} selected{% endif %}>EL - Ελληνικά</option> -->
+		        <option value="el"{% if page.language == "greek" %} selected{% endif %}>EL - Ελληνικά</option>
 		        <option value="" {% if page.language == "english" %} selected{% endif %}>EN - English</option>
 		        <!-- <option value="es"{% if page.language == "es" %} selected{% endif %}>ES - Español</option> -->
 		        <option value="fr"{% if page.language == "french" %} selected{% endif %}>FR - Français</option>
@@ -254,6 +254,7 @@
 							<option id="mep-cc-AT" value="AT">Österreich</option>
 							<option id="mep-cc-PL" value="PL">Polska</option>
 							<option id="mep-cc-PT" value="PT">Portugal</option>
+							<option id="mep-cc-RO" value="RO">Română</option>
 							<option id="mep-cc-FI" value="FI">Suomi</option>
 							<option id="mep-cc-SE" value="SE">Sverige</option>
 							<option id="mep-cc-UK" value="UK">United Kingdom</option>
