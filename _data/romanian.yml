@@ -1,0 +1,120 @@
+﻿title: Salvează reforma drepturilor de autor
+description: "Chiar acum, UE dezbate planuri care să rezolve probleme ale drepturilor de autor ce te afectează în fiecare zi. Dar o coaliție puternică încearcă să saboteze aceste actualizări esențiale. Vrei să ni te alături ca să lupți pentru ele?"
+callnow: "<span>Sună acum</span> ca să salvezi planurile &ndash; îți ia doar două minute!"
+savecreform: "Salvează<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;reforma</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; drepturilor de autor"
+daysuntil: "zile până la vot"
+rightnow: "Chiar acum,"
+debatingplans: "UE dezbate planuri care să rezolve probleme ale drepturilor de autor ce te afectează în fiecare zi."
+but: "Dar o alianță puternică încearcă să saboteze aceste actualizări esențiale."
+whichthree: "Care sunt cele mai importante 3 propuneri pentru tine?"
+geoblocking: 
+    h: "<span>Eliminarea</span> geoblocking-ului"
+    cw: "Acest conținut nu este disponibil în țara dvs."
+    eu: "<strong>Interzicerea</strong> contractelor care cer serviciilor video să folosească geoblocking, întrucât e o formă de discriminare împotriva utilizatorului."
+    please: "Vă rog să vă opuneți <strong>tuturor formelor de geoblocking</strong>, indiferent de tipul de conținut vizat&colon; oferit în mod direct spre cumpărare, sau finanțat prin reclame/fonduri publice."
+    do: Votați pentru amendamentele <abbr class="am" title="Cere eliminarea geoblocking-ului">#412</abbr> și <abbr class="am" title="Susține că geoblocking-ul nu ar trebui să împiedice accesul minorităților culturale la conținut">#322</abbr> și punctul <span class="am">#16</span> al opiniei <abbr title="Comisiei pentru Piața Internă">IMCO</abbr>.
+    tip: "Dă un exemplu despre cum te-a afectat personal geoblocking-ul."
+extendborders: 
+    h: "<span>Extinderea</span> drepturilor dincolo de granițe"
+    cw: "Ceea ce e permis variază considerabil între țările UE. Dacă nu te pui la curent cu legislația atunci când călătorești, riști s-o încalci fără să-ți dai seama!"
+    eu: "Crearea de <strong>excepții și limitări</strong> <strong>obligatorii</strong> în cadrul dreptului de autor în toate țările membre UE."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#mandatory"
+    please: "Vă rog să susțineți <strong>armonizarea excepțiilor și limitărilor</strong>, cât și implementarea lor ca <strong>obligatorii</strong> pe întreg teritoriul UE, astfel încât drepturile mele să nu oprească la fiecare graniță."
+    do: Respingeți amendamentele la punctul <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank">#11</a> din raportul parlamentarului Reda. Susțineți adăugirile <abbr class="am" title="Cere excepții obligatorii, de exemplu pentru conținut generat de utilizatori">#353</abbr>, <abbr class="am" title="Cere implementarea de excepții obligatorii">#366</abbr> și punctul <span class="am">#15</span> al opiniei <abbr title="Comisiei pentru Piața Internă">IMCO</abbr>.
+protectauthors: 
+    h: "<span>Protejarea</span> autorilor împotriva contractelor abuzive"
+    cw: "Artiștii nu au avocați. Editurile și casele de discuri au întregi armate. Ghici cine negociază contractele de pe poziția de forță?"
+    eu: "Protejarea artiștilor împotriva <strong>contractelor abuzive</strong> pe tot cuprinsul Europei și permisiunea de a-și <strong>lua drepturile înapoi</strong>, dacă nu sunt întrebuințate."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#authors"
+    please: "Vă rog susțineți <strong>protejarea artiștilor împotriva exploatării</strong> și a contractelor abuzive."
+    do: Votați pentru amendamentul de compromis la punctul <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> din raportul parlamentarului Reda și susțineți adăugirile din amendamentele <abbr class="am" title="Citează un raport ONU, care evidențiază importanța protejării autorilor">#107</abbr>, <abbr class="am" title="Cere dreptul ca autorul să-și poată oferi singur pe piață opera, în cazul în care deținătorul de drepturi nu o face pentru o perioadă de timp">#200</abbr> și <abbr class="am" title="Cere ca veniturile ce provin din excepții și limitări (ex.&colon; din copii private) să revină direct autorilor, nu deținătorilor de drepturi">#527</abbr>.
+righttoquote: 
+    h: "<span>Acordarea</span> dreptului de a cita pentru vloggeri"
+    cw: "Citatele în cuvinte sunt în general legale, însă asta nu s-a extins asupra materialor video sau audio – tranformând YouTuberii & podcasterii în violatori de drepturi"
+    eu: "Excepțiile ca dreptul de citare ar trebui să se aplice tuturor formelor de expresie culturală, într-un mod <strong>tehnologic neutru</strong>."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual"
+    please: "Vă rog susțineți <strong>extinderea drepturilor de citare către conținutul audio-vizual</strong>."
+    do: Respingeți amendamentele la punctul <a href="https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual" target="_blank" class="am">#14</a> din raportul parlamentarului Reda.
+    tip: "Dă un exemplu de moment când ai citat un pasaj audio ori video, sau numește un creator (al cărui fan ești), care face asta."
+righttolink: 
+    h: "<span>Apărarea</span> dreptului tău la link"
+    cw: "Web-ul e făcut din link-uri. Poate postarea unui link să fie considerată ilegală? Unele organizații de știri vor legi care să limiteze libertatea altora de a crea link-uri către site-urile lor."
+    eu: "Respingerea unor astfel de legi și apărarea libertății de a crea link-uri."
+    link: "https://savethelink.org"
+    please: "Vă rog opuneți-vă introducerii de <strong>drepturi auxiliare pentru organizațiile de știri</strong>, care ar restricționa link-urile către articolele de știri."
+    do: Respingeți amendamentul <abbr class="am" title="Cere introducerea drepturilor de autor auxiliare pentru organizațiile de știri">#204</abbr>. Susțineți amendamentul de compromis la punctul <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> din raportul parlamentarului Reda.
+publicdomain: 
+    h: "<span>Ocrotirea</span> domeniului public"
+    cw: "Operele vechi, ale căror drepturi de autor au expirat, aparțin tuturor. Cu toate acestea, unii pretind că digitizarea lor le-ar acorda noi drepturi de autor."
+    eu: "Digitizarea operelor deținute în comun nu ar trebui să acorde noi protecții."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain"
+    please: "Vă rog <strong>ocrotiți domeniul public</strong> prin clarificarea faptului că realizarea unei copii digitale a unei opere libere de drepturi de autor nu conferă noi drepturi."
+    do: Respingeți amendamentele care ar dilua punctul <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> din raportul parlamentarului Reda – susțineți amendamentul <span class="am">#264</span>, care îl clarifică.
+libraries: 
+    h: "<span>Autorizarea</span> bibliotecilor să-și facă treaba online"
+    cw: "Bibliotecile plătesc autorii pentru dreptul de a împrumuta publicului exemplare fizice ale cărților. Dar acest drept nu există pe internet."
+    eu: "Autorizarea <strong>e-lending-ului</strong>, pentru ca bibliotecile să-și poată îndeplini în continuare rolul important în societate."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#elending"
+    please: "Vă rog permiteți bibliotecilor să <strong>împrumute cărți digitale</strong>."
+    do: Votați pentru amendamentele <abbr class="am" title="Cere extinderea excepțiilor obligatorii pentru a include și bibliotecile">#348</abbr>, <abbr class="am" title="Cere consolidarea excepțiilor în interes public">#350</abbr> și pentru punctele <span class="am">#16</span> și <span class="am">#22</span> din opinia <abbr title="Comisiei pentru Industrie">ITRE</abbr>.
+publicspace: 
+    h: "<span>Garanția</span> că spațiul public este public"
+    cw: "În Germania poți să postezi liber online fotografii ale clădirilor publice – dar în România arhitectul te poate da în judecată!"
+    eu: "Asigurarea <strong>libertății de panoramă</strong> în toată Europa: publicarea de fotografii cu ceea ce se află permanent în public trebuie să fie legală."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#panorama"
+    please: "Vă rog garantați <strong>libertatea de panoramă</strong> în Europa, astfel încât sharing-ul de fotografii ale clădirilor publice să fie legal, atât în scopuri comerciale, cât și non-comerciale."
+    do: Respingeți orice amendament care diluează punctul <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> din raportul parlamentarului Reda. Votați pentru textul original sau un amendament de compromis, dacă există.
+education: 
+    h: "<span>Protejarea</span> utilizării în scop educațional"
+    cw: "Școlile au adeseori voie să folosească liber cărți în format fizic, pentru predare – dar distribuirea aceluiași conținut, în format PDF, prin rețeaua de Intranet a școlii poate fi ilegală."
+    eu: "<strong>O excepție atotcuprinzătoare la drepturile de autor, pentru educație </strong>, pe tot cuprinsul Europei"
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#education"
+    please: "Vă rog să susțineți excepția la drepturile de autor care permite <strong>utilizarea în scop educațional</strong>, în mediul digital, a materialelor aflate sub drept de autor."
+    do: Respingeți amendamentele care ar dilua punctul <a href="https://juliareda.eu/copyright-evaluation-report-explained/#education" target="_blank" class="am">#19</a> din raportul parlamentarului Reda – adică toate amendamentele cu excepția numerelor <span class="am">#466-468</span>.
+availability: 
+    h: "<span>Sporirea</span> disponibilității operelor"
+    cw: "Dreptul de autor durează 70 de ani după moartea autorului. Marea majoritate a operelor nu sunt profitabile atât de mult timp – și, astfel, devin doar indisponibile."
+    eu: "Reducerea duratei dreptului de autor la standardul internațional de viață + <strong>50 de ani</strong>."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#term"
+    please: "Vă rog să susțineți armonizarea <strong>duratei dreptului de autor</strong> la standardul Convenției de la Berna: pe viață + <strong>50</strong> de ani."
+    do: Respingeți amendamentele la punctul <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> din raportul parlamentarului Reda și susțineți punctul <span class="am">#18</span> din opinia <abbr title="Comisiei pentru Industrie">ITRE</abbr>.
+digitallocks: 
+    h: "<span>Respingeți</span> lacătele digitale"
+    cw: "Legea spune că ai voie să faci copii după orice tip de media cumpărat pentru uz privat – dar adeseori, în practică, te opresc lacătele digitale."
+    eu: "Garantarea faptului că măsurile tehnice nu îți îngrădesc drepturile."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#drm"
+    please: "Vă rog să vă asigurați că protecțiile tehnologice (<strong>DRM</strong>) nu pot obstrucționa folosirea legală a conținutului cumpărat."
+    do: Votați pentru punctul <span class="am">#26</span> din opinia <abbr title="Comisiei pentru Piața Internă">IMCO</abbr> și punctul <span class="am">#29</span> din opinia <abbr title="Comisiei pentru Industrie">ITRE</abbr>. Susțineți compromisul la punctul <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> din raportul parlamentarului Reda și respingeți toate amendamentele la punctul <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a>.
+    tip: "Dă un exemplu de situație în care DRM-ul nu ți-a permis să faci ceva legal (ex.: copii pentru uz personal)."
+filesharing: 
+    h: "<span>Legalizarea</span> file-sharing-ului personal"
+    cw: "Conform legilor actuale, adolescenții care fac schimb de muzică online sunt niște delicvenți. Dar, de cele mai multe ori, un fișier share-uit nu e o vânzare în minus, ci e reclamă gratuită."
+    eu: "Recunoaștere dreptului la share non-commercial."
+    please: "Vă rog opriți incriminarea <strong>file sharing-ului</strong> personal și non-comercial."
+    do: Votați pentru amendamentele <abbr class="am" title="Cere discutarea legalizării sharing-ului privat și non-comercial">#507</abbr> și <abbr class="am" title="Vizează mai multă securitate juridică pentru sharing-ul P2P (Peer-to-Peer)">#355</abbr>.
+    tip: "Oferă exemple în care artiștii au avut de câștigat de pe urma file sharing-ului, de ex. cum ai descoperit un artist și ai devenit fan, mergând apoi la concertele lui/ei sau cumpărând produsele oferite de el/ea."
+currentcopywrong: "Copywrong actual:"
+euproposal: "Propunere UE:"
+iwant: "Vreau asta!"
+readmore: "Mai multe informații"
+joinfight: Dacă <span>tu</span> nu te alături luptei acum, aceste "copywrongs" <u>nu vor fi rezolvate</u>.
+call:
+    h: "Sună acum, ca să se repare drepturile de autor"
+    text: "Treaba membrilor Parlamentului European este să <strong>te reprezinte</strong>. Și pe noi ne enervează telefoanele date pe nepusă masă la fel de mult ca și pe tine &ndash; dar dacă nu îți iei <strong>2 minute</strong> să le spui despre ce-ți pasă, <strong>doar cei care fac lobby vor fi ascultați</strong>. Poți s-o faci și, ține minte, <u>fiecare apel contează!</u>"
+    jurimember: "Membru al Comisiei pentru Afaceri Juridice"
+    showother: "Arată-mi alt parlamentar"
+    from: "din"
+    memberstate: "țară membră UE"
+    missingstate: "Țările membre UE care nu apar în această listă nu au parlamentari în Comisia pentru Afaceri Juridice. Ne pare rău!"
+    mynumber: "Numărul meu de telefon:"
+    other: "Other"
+    connectme: "Conectează-mă gratuit!"
+    thankyou: "Mulțumim! Vei fi sunat în scurt timp."
+    what: "Cum va decurge apelul?"
+    agenda: "Agenda ta personală:"
+    agendatext: "În privința <strong>raportului pe drepturile de autor</strong> pe care îl veți vota în Comisia pentru Afaceri Juridice pe 16 Iunie..."
+showmore: Ca să vezi mai multe puncte aici, dă scroll în sus și apoi click pe "Vreau asta!"
+tell: Spune lumii
+icalled: Mi-am sunat parlamentarul pentru a salva raportul drepturilor de autor <br />– tu o s-o faci?
+sharetext:  Planurile urgent necesare de reformă a drepturilor de autor sunt în pericol. Mi-am sunat parlamentarul și ar trebui s-o faci și tu!
+credits: Creat de biroul <a href="https://juliareda.eu" target="_blank">parlamentarului Julia Reda</a>, echipa <a href="http://copy-me.org/" target="_blank">Copy-Me</a> și alți voluntari. <a href="https://github.com/Copywrongs-Gang/Copywrongs2">Fork me on Github</a><br />O parte din grafică se bazează pe ilustrații de EliRatus, useiconic.com, Cornelius Danger, Pedro Vidal, John Caserta, Carolina Andrea, Magicon, Luis Prado – toate licențiate Creative Commons – Attribution (CC BY 3.0)
