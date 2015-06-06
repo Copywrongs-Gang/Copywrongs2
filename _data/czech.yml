@@ -15,11 +15,11 @@ geoblocking:
     do:   Hlasujte pro pozměňovací návrhy <abbr class="am" title="Požaduje zákaz geoblokingu">#412</abbr> a <abbr class="am" title="Uvádí, že geobloking by neměl bránit kulturním menšinám v přístupu k obsahu">#322</abbr> a bod <span   class="am">#16</span> ze stanoviska <abbr title="Výbor pro vnitřní trh">IMCO</abbr>.
     tip: "Uveďte příklad, jak se geobloking dotýká přímo vás."
 extendborders: 
-    h: "<span>Rozšířit</span> svá práva přes hranice."
+    h: "<span>Rozšířit</span> svá práva přes hranice"
     cw:   "Mezi zeměmi EU jsou obrovské rozdíly v tom, co je povoleno. Pokud si před cestováním nenastudujete zákony, můžete se stát zločincem!"
     eu:   "Zavést <strong>výjimky a omezení</strong> autorských práv jako <strong>povinné</strong> napříč všemi členskými státy EU."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#mandatory"
-    please:   "Prosím podpořte <strong>sjednocení vyjímek a omezení</strong> a jejich <strong>povinné</strong> zavedení po celé EU, aby moje práva nekončila nebo se neměnila na každé hranici."
+    please:   "Prosím podpořte <strong>sjednocení vyjímek a omezení</strong> a jejich <strong>povinné</strong> zavedení po celé EU, aby naše práva nekončila nebo se neměnila na každé hranici."
     do: Zamítněte pozměňovací návrhy k bodu <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms"   target="_blank">#11</a> zprávy europoslankyně Redové. Podpořte dodatky <abbr class="am" title="Požaduje nové povinné výjimky, např. pro uživatelský obsah">#353</abbr>, <abbr class="am" title="Požaduje, aby výjimky byly povinné">#366</abbr> a bod <span class="am">#15</span> ze stanoviska <abbr title="Výbor pro vnitřní trh">IMCO</abbr>.
 protectauthors: 
     h: "<span>Ochránit</span> autory před vykořisťováním"
@@ -51,14 +51,14 @@ publicdomain:
     please:   "Prosím <strong>ochraňte volná díla</strong> jasným vymezením, že když někdo vyrobí digitální kopii něčeho, co nepodléhá autorským právům, nevznikají tím nová autorská práva."
     do: Odmítněte pozměnovací návrhy, které by oslabily bod <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain"   target="_blank" class="am">#6</a> ve zprávě europoslankyně Redové – podpořte pozměňovací návrh <span class="am">#264</span>, který jej upřesňuje.
 libraries: 
-    h: "<span>Umožnit</span> knihovnám dělat svoji práci online."
+    h: "<span>Umožnit</span> knihovnám dělat svoji práci online"
     cw: "Knihovny platí autorům za právo půjčovat fyzické výtisky knih. Toto právo ovšem neplatí na internetu."
     eu: "Povolit <strong>elektronické půjčování</strong>, aby knihovny mohly nadále plnit svou důležitou společenskou funkci."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#elending"
     please: "Prosím umožněte knihovnám <strong>půjčovat knihy elektronicky</strong>."
     do:   Hlasujte pro pozměňovací návrh <abbr class="am" title="Požaduje rozšíření povinných výjimek i na knihovny">#348</abbr>, <abbr   class="am" title="Požaduje posílení výjimek ve veřejném zájmu">#350</abbr> a pro body <span   class="am">#16</span> a <span   class="am">#22</span> ze stanoviska <abbr title="Výbor pro průmysl">ITRE</abbr>.
 publicspace: 
-    h: "<span>Zaručit</span> veřejný prostor pro všechny."
+    h: "<span>Zaručit</span> veřejný prostor pro všechny"
     cw:   "V Německu můžete fotky veřejných budov volně nahrávat na internet – jenže za hranicemi, ve Francii, vás za to může architekt žalovat!"
     eu:   "Zaručit <strong>svobodu panoramatu</strong> po celé Evropě:  Zveřejnování fotek stálých součástí veřejného prostoru musí být legální."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#panorama"
@@ -87,7 +87,7 @@ digitallocks:
     do:  Hlasujte pro bod <span class="am">#26</span> ze stanoviska <abbr title="Výbor pro vnitřní trh">IMCO</abbr> a pro bod <span class="am">#29</span> ze stanoviska <abbr   title="Výbor pro průmysl">ITRE</abbr>. Podpořte kompromis k bodu <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> zprávy europoslankyně Redové a odmítněte všechny pozměňovací návrhy k bodu <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a>.
     tip: "Uvedte příklady, kdy vám DRM překáželo v legální činnosti, (např. vytváření kopií pro osobní potřebu)."
 filesharing: 
-    h: "<span>Legalizovat</span> nekomerční sdílení souborů pro jednotlivce"
+    h: "<span>Legalizovat</span> nekomerční sdílení souborů"
     cw:  "Současné zákony dělají z mládeže zločince, protože si na Internetu vyměňuje hudbu. Jenže nasdílený soubor často místo ušlého zisku představuje reklamu zadarmo."
     eu: "Uznat právo na nekomerční sdílení."
     please: "Prosím zastavte kriminalizaci osobního neziskového <strong>sdílení souborů</strong>."
@@ -102,7 +102,7 @@ overlay:
     h: "Teď nejsou úřední hodiny!"
     text: "V tuto dobu v parlamentu nikdo není, takže se prosím vraťte později a zavolejte svému europoslanci ve všední dny mezi 9:00 a 18:00 bruselského času."
 call:
-    h: "Zavolejte hned ted a napravte autorské právo"
+    h: "Zavolejte hned teď a napravte autorské právo"
     text:  "Úkolem europoslanců je <strong>zastupovat vás</strong>. My také nesnášíme otravné telefonáty, stejně jako vy &ndash; jenže když neobětujete <strong>2   minuty</strong>, abyste europoslancům řekli, na čem vám záleží, <strong>dostanou se ke slovu jen lobbisté</strong>. Zvládnete to, <u>na každém hovoru vážně záleží!</u>"
     jurimember: "Člen(ka) Výboru pro právní záležitosti"
     showother: "Zobrazit jiného europoslance"
