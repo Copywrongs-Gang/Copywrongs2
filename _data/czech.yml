@@ -22,7 +22,7 @@ extendborders:
     please:   "Prosím podpořte <strong>sjednocení vyjímek a omezení</strong> a jejich <strong>povinné</strong> zavedení po celé EU, aby moje práva nekončila nebo se neměnila na každé hranici."
     do: Zamítněte pozměňovací návrhy k bodu <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms"   target="_blank">#11</a> zprávy europoslankyně Redové. Podpořte dodatky <abbr class="am" title="Požaduje nové povinné výjimky, např. pro uživatelský obsah">#353</abbr>, <abbr class="am" title="Požaduje, aby výjimky byly povinné">#366</abbr> a bod <span class="am">#15</span> ze stanoviska <abbr title="Výbor pro vnitřní trh">IMCO</abbr>.
 protectauthors: 
-    h: "<span>Ochránit</span> autory před nevýhodnými smlouvami"
+    h: "<span>Ochránit</span> autory před vykořisťováním"
     cw: "Umělci nemají právníky. Vydavatelé jich mají celé armády. Hádejte, kdo je při vyjednávání smluv ve výhodě?"
     eu:   "Ochránit umělce před vykořisťovatelskými <strong>smlouvami o úplném výkupu práv</strong> v celé Evropě a umožnit jim <strong>získat práva zpět</strong>, když nebudou využívána."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#authors"
@@ -58,7 +58,7 @@ libraries:
     please: "Prosím umožněte knihovnám <strong>půjčovat knihy elektronicky</strong>."
     do:   Hlasujte pro pozměňovací návrh <abbr class="am" title="Požaduje rozšíření povinných výjimek i na knihovny">#348</abbr>, <abbr   class="am" title="Požaduje posílení výjimek ve veřejném zájmu">#350</abbr> a pro body <span   class="am">#16</span> a <span   class="am">#22</span> ze stanoviska <abbr title="Výbor pro průmysl">ITRE</abbr>.
 publicspace: 
-    h: "<span>Zaručit</span>, že veřejný prostor bude pro všechny."
+    h: "<span>Zaručit</span> veřejný prostor pro všechny."
     cw:   "V Německu můžete fotky veřejných budov volně nahrávat na internet – jenže za hranicemi, ve Francii, vás za to může architekt žalovat!"
     eu:   "Zaručit <strong>svobodu panoramatu</strong> po celé Evropě:  Zveřejnování fotek stálých součástí veřejného prostoru musí být legální."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#panorama"
