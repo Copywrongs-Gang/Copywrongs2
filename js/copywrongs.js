@@ -22,11 +22,15 @@ window.onload = function() {
 		) {
 		showTimeOverlay(); // then => show overlay!
 	}
+
+	// countdown
 	var targetDate = Date.parse("Jun 16, "+d.getFullYear()+" 12:00 GMT+0100");
 	var daysLeft = (targetDate-Date.parse(d))/(1000*60*60*24);
-	document.getElementById('days').innerHTML = Math.round(daysLeft);
+	var daysLeftDisplay = (daysLeft < 0) ? 0 : Math.round(daysLeft);
+	document.getElementById('days').innerHTML = daysLeftDisplay;
 	document.getElementById('countdown').style.opacity = 1;
 
+	// call to action
 	window.onscroll = function() {
 		//console.log(document.body.scrollTop, window.innerHeight);
 		if (document.body.scrollTop >
@@ -36,6 +40,8 @@ window.onload = function() {
 			removeClass('state-atcall')
 		}
 	}
+
+	// share links
 	updateShareLinks();	
 };
 
@@ -281,7 +287,7 @@ function geo(d, fromDropdown) {
 
 	//preselect in phone number country code dropdown
 	if (!fromDropdown) {
-		console.log(window.countryCode);
+		//console.log(window.countryCode);
 		var ccId = 'cc-'+window.countryCode;
 		var mepccId = 'mep-cc-'+window.countryCode;
 		if (document.getElementById(ccId)) document.getElementById(ccId).selected = true;
