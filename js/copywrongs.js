@@ -1,5 +1,19 @@
 
 window.onload = function() {
+
+	// if going to main domain: try to auto detect language
+	if (document.location.pathname == '/') {
+		var browserLang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+		browserLang = browserLang.substr(0,2);
+		var oo = document.getElementById('langselect').options;
+		for (var i=0; i<oo.length; i++) {
+			if (oo[i].value == browserLang) { // if it exists in the language dropdown
+				document.location.replace('/'+browserLang);
+			}
+		}
+	}
+	
+	// "don't call now" overlay
 	var d = new Date();
 	if (d.getUTCDay() === 0 || // if Sunday
 		d.getUTCDay() === 6 || // or Monday
