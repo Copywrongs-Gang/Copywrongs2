@@ -486,6 +486,10 @@ a.btn:active::before {
 		margin-right: 0;
 		margin: 0 auto;
 	}
+	#mepprofile #showmepcontainer {
+		position: static;
+		margin-bottom: .5em;
+	}
 	#mepprofile {
 		width: 100%;
 	}
