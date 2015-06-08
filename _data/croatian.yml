@@ -7,7 +7,7 @@ rightnow: "Sada,"
 debatingplans: "EU upravo razmatra prijedloge za uređivanje područja autorskih prava, onih koji se svaki dan tiču i - tebe! ."
 but: "Uređenju toga područja i promjenama protivi se moćna alijansa i sabotira ga"
 whichthree: "Koje za tebe najnajvažniji od ova tri prijedloga?"
-geoblocking: s
+geoblocking:
     h: "<span>Ukinuti</span> geoblokiranje"
     cw: "Ovaj sadržaj nije dostupan u vašoj zemlji."
     eu:   "<strong>Zabraniti</strong> ugovorno geoblokiranje videa, jer su takvi ugovori diskriminarajući."
