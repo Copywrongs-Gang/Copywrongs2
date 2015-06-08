@@ -95,30 +95,30 @@ filesharing:
     tip: "Give an example of when file sharing was benefitial to an artist, e.g. you discovered an artist you became a fan of, attending concerts or buying their products later."
 currentcopywrong: "Current copywrong:"
 euproposal: "EU proposal:"
-iwant: "I want this!"
+iwant: "Dit wil ik ook!"
 readmore: "Read more"
 joinfight: If <span>you</span> don't join the fight now, these "copywrongs" <u>won't be fixed</u>.
 overlay:
-    h: "After hours!"
-    text: "At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on weekdays between 09:00h and 18:00h Brussels time."
+    h: "Na de uren!"
+    text: "Nu ga je niemand meer vinden in het parlement, dus kom eens terug en bel je MEP op weekdagen tussen 9:00 en 18:00."
 call:
-    h: "Call now to fix copyright"
-    text: "The job of Members of the European Parliament is to <strong>represent you</strong>. We hate cold-calling people as much as you do &ndash; but if you don't take <strong>2 minutes</strong> to tell them what you care about, <strong>only lobbyists will be heard</strong>. You can do it, and <u>every call really makes a difference!</u>"
-    jurimember: "Member of the Legal Affairs Committee"
-    showother: "Show me another MEP"
-    from: "from"
-    memberstate: "an EU member state"
-    missingstate: "EU member states missing from this list have no MEPs on the Legal Affairs Committe. Sorry!"
-    mynumber: "My phone number:"
-    other: "Other"
-    connectme: "Connect me free of charge!"
-    thankyou: "Thank you! You should receive a call any second now."
-    what: "What will the call be like?"
+    h: "Bel nu om copyright te herstellen."
+    text: "De job van de leden van het Europese parlement is om <strong>jou te vertegenwoordigen</strong>. We hebben net zo'n hekel als jij om zomaar mensen op te bellen &ndash; maar als je de <strong>2 minuten</strong> niet hebt om ze te zeggen wat jij belangrijk vindt, <strong>dan zullen enkel lobbyisten gebeld hebben</strong>. Jij kan het doen, <u>ieder telefoontje maakt een verschil!</u>"
+    jurimember: "Lid van de Legal Affairs Committee"
+    showother: "Toon me een andere MEP"
+    from: "van"
+    memberstate: "een EU lidstaat"
+    missingstate: "EU lidstaat die niet op deze lijst voorkomt hebben geen parlementsleden in de Legal Affairs Committe. Sorry!"
+    mynumber: "Mijn telefoonnummer:"
+    other: "Andere"
+    connectme: "Verbind me gratis door!"
+    thankyou: "Dank je! Je kunt nu ieder moment een telefoontje verwachten."
+    what: "Hoe zal het gesprek ongeveer gaan?"
     whatlink: "https://wiki.laquadrature.net/How_to_contact_a_MEP#Phone_Call"
-    agenda: "Your personal agenda:"
-    agendatext: "Regarding the <strong>copyright report</strong> that you will vote on in the Legal Affairs Committee on June 16th..."
-showmore: To show more points here, scroll up and click "I want this"
-tell: Tell the world
-icalled: I called my MEP to save copyright reform<br />– will you, too?
-sharetext:  Urgently needed copyright reform plans are in danger. I called my MEP and you should, too!
-credits: Created by the office of <a href="https://juliareda.eu" target="_blank">MEP Julia Reda</a>, the team of <a href="http://copy-me.org/" target="_blank">Copy-Me</a> and additional volunteers. <a href="https://github.com/Copywrongs-Gang/Copywrongs2">Fork me on Github</a><br />Graphics based in part on icons by EliRatus, useiconic.com, Cornelius Danger, Pedro Vidal, John Caserta, Carolina Andrea, Magicon, Luis Prado – all licensed Creative Commons – Attribution (CC BY 3.0)
+    agenda: "Je persoonlijke agenda:"
+    agendatext: "Over het <strong>copyright rapport</strong> dat je zal stemmen in de Legal Affairs Committee op 16 juni..."
+showmore: Om meer punten te tonen, scroll naar beneden en klik op "Dit wil ik ook!"
+tell: Deel het met de wereld
+icalled: Ik heb met mijn parlementslid gebeld over de copyrighthervormingen<br />– ga jij dat ook doen?
+sharetext:  De dringende copyrighthervormingen zijn in gevaar. Ik heb mijn parlementslid gebeld, dat kun je beter ook doen!
+credits: Created by the office of <a href="https://juliareda.eu" target="_blank">MEP Julia Reda</a>, the team of <a href="http://copy-me.org/" target="_blank">Copy-Me</a> and additional volunteers. Vertaling door Jonas Degrave. <a href="https://github.com/Copywrongs-Gang/Copywrongs2">Fork me on Github</a><br />Graphics based in part on icons by EliRatus, useiconic.com, Cornelius Danger, Pedro Vidal, John Caserta, Carolina Andrea, Magicon, Luis Prado – all licensed Creative Commons – Attribution (CC BY 3.0)
