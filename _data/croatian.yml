@@ -11,7 +11,7 @@ geoblocking:
     h: "<span>Ukinuti</span> geoblokiranje"
     cw: "Ovaj sadržaj nije dostupan u vašoj zemlji."
     eu:   "<strong>Zabraniti</strong> ugovorno geoblokiranje videa, jer su takvi ugovori diskriminarajući."
-    please:   "Budite protiv<strong>svih oblika geoblokiranja</strong>, bez obzira blokira li se sadržaj u direktnoj prodaji, ili se financira iz reklama i javnih resursa."
+    please:   "Budite protiv<strong> svih oblika geoblokiranja</strong>, bez obzira blokira li se sadržaj u direktnoj prodaji, ili se financira iz reklama i javnih resursa."
     do:   Glasajte za prijedloge <abbr class="am" title="Zahtijeva se zabrana geoblokiranja">#412</abbr> i <abbr class="am" title="Tvrdi se da geoblokiranje kulturnim manjinama onemogućije pristup sadržaju">#322</abbr> i točka <span   class="am">#16</span> gledišta <abbr title="Odbor za unutrašnje tržište">IMCO</abbr>.
     tip: "Navedite primjer kako vas geoblokranje ograničava!"
 extendborders: 
@@ -20,7 +20,7 @@ extendborders:
     eu:   "Omogućite <strong>da iznimke i ograničenja</strong> autorskog prava <strong>budu jednake</strong> za sve države članice EU."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#mandatory"
     please:   "Molimo, poduprite <strong>da se ujednače iznimke i ograničenja</strong> i to <strong>postane obvezno </strong> u svim zemljama EU na način da su moja prava jednaka u cijeloj Europi."
-    do: Odbacite točke amandmana <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms"   target="_blank">#11</a> u izvještaju eurozastupnice Rede. Poduprite amandmane <abbr class="am" title="Zahtjeve za nove obvezne iznimke, poput sadržaja koje stvaraju samo korisnici">#353</abbr>, <abbr class="am" title="Zahtjeve za obvezni status iznimaka">#366</abbr>i tačku <span class="am">#15</span>u <abbr title="Odboru za unutrašnju trgovinu">IMCO</abbr> opinion.
+    do: Odbacite točke amandmana <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms"   target="_blank">#11</a> u izvještaju eurozastupnice Rede. Poduprite amandmane <abbr class="am" title="Zahtjeve za nove obvezne iznimke, poput sadržaja koje stvaraju samo korisnici">#353</abbr>, <abbr class="am" title="Zahtjeve za obvezni status iznimaka">#366</abbr> i tačku <span class="am">#15</span> u <abbr title="Odboru za unutrašnju trgovinu">IMCO</abbr> prijedloga.
 protectauthors: 
     h: "<span>Zaštititi</span> autore od nezgodnih ugovora"
     cw: "Umjetnici nemaju odvjetnike. Nakladnici plaćaju vojske odvjetnika. Razmislite, tko ima prednost u pregovarima?"
@@ -34,7 +34,7 @@ righttoquote:
     eu:   "Izuzeci kao što su npr. citati moraju se <strong>na tehnološki neutralan način</strong> omogućiti za sve načine izražavanja."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual"
     please: "Molimo vas, poduprite<strong> da se prošire prava na citiranje i na audiovizualne radove i medije</strong>."
-    do: Odbacite prijedloge za dopunu točke<a href="https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual" target="_blank" class="am">#14</a> izviješča eurozastupnice Rede.
+    do: Odbacite prijedloge za dopunu točke<a href="https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual" target="_blank" class="am"> #14</a> izviješča eurozastupnice Rede.
     tip: "Navedite primjer kada ste u videu htjeli nešto citirati, ili da volite autore koji tako rade."
 righttolink: 
     h: "<span>Obraniti</span> pravo na linki"
@@ -42,7 +42,7 @@ righttolink:
     eu: "Odbaciti postojeće pripise i zaštititi slobodu linkanja."
     link: "https://savethelink.org"
     please:   "Molimo vas da se usprotivite<strong> takvom striktnom autorskom prava za novine</strong> koje bi ograničilo pravo da objavite link na novinske članke."
-    do:   Odbacite prijedlog za dopunu <abbr class="am" title="Zahtjeva uvođenje dopunskog autorskog prava za novinske nakladnike">#204</abbr>. Poduprite kompromisni prijedlog za dopunu točke<a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> izviješća eurozastupnice Rede.
+    do:   Odbacite prijedlog za dopunu <abbr class="am" title="Zahtjeva uvođenje dopunskog autorskog prava za novinske nakladnike">#204</abbr>. Poduprite kompromisni prijedlog za dopunu točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> izviješća eurozastupnice Rede.
 publicdomain: 
     h: "<span>Zaštititi</span> pravo o javnom vlasništvu"
     cw: "Stare radove, u kojima su vec istrajala autorska prava, pripadaju svima. Ipak neki kažu da digitalizacijom tih radova stvaraju se nova prava."
@@ -56,7 +56,7 @@ libraries:
     eu: "Dozvolite <strong>pozajmljivanje online</strong>, da knjižnice mogu ostvarivati svoju ulogu na društvenoj razini."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#elending"
     please: "Knjižnicama dopustite da knjige pozajmljuju online.</strong>."
-    do:   Glasajte za amandman <abbr class="am" title="Zahtjev za proširenje mandatornih izuzetaka na biblioteke ">#348</abbr>, <abbr   class="am" title="Zahtjev za pojačanje izuzetaka u interesu javnosti">#350</abbr> i za točke <span   class="am">#16</span> i <span   class="am">#22</span> iz <abbr title="odbora za industriju">ITRE</abbr> názoru.
+    do:   Glasajte za amandman <abbr class="am" title="Zahtjev za proširenje mandatornih izuzetaka na biblioteke ">#348</abbr>, <abbr   class="am" title="Zahtjev za pojačanje izuzetaka u interesu javnosti">#350</abbr> i za točke <span   class="am"> #16</span> i <span   class="am">#22</span> iz <abbr title="odbora za industriju">ITRE</abbr> prijedloga.
 publicspace: 
     h: "<span>Omogućite</span> javni prostor za sve."
     cw:   "U Njemačkoj je npr. slobodno objavljivati vlastite fotografije javnih zgrada na internetu bez ograničenja. U Francuskoj vas arhitekt baš za to može tužiti!"
@@ -84,7 +84,7 @@ digitallocks:
     eu: "Omogućite da se tehničkim rješenjima neće ograničavati ta vaša prava."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#drm"
     please:  "Pomozite da se tehnički rješenjima (<strong>DRM</strong>) ne ograničava korištenje već plaćenih nosača podataka."
-    do:  Glasajte za točku <span class="am">#26</span> gledišta odbora  <abbr title="Odbor za unutrašnje tržitšte">IMCO</abbr> i za točku <span class="am">#29</span> odbora<abbr   title="Industrijski odbor">ITRE</abbr>. Poduprite kompromisnu formulaciju u točki <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> izviješća Julie Rede i  odbacite sve amandmane točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a>.
+    do:  Glasajte za točku <span class="am">#26</span> gledišta odbora  <abbr title="Odbor za unutrašnje tržitšte">IMCO</abbr> i za točku <span class="am">#29</span> odbora <abbr   title="Industrijski odbor">ITRE</abbr>. Poduprite kompromisnu formulaciju u točki <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> izviješća Julie Rede i  odbacite sve amandmane točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a>.
     tip: "Navedite primjere kada je DRM ograničavao vaše aktivnosti (npr. pravljene kopija za osobnu upotrebu)."
 filesharing: 
     h: "Neka dijeljenje datoteka za osobnu upotrebu <span>postane legalno</span>"
@@ -96,10 +96,10 @@ filesharing:
 euproposal: "Prijedlog EU:"
 iwant: "Hoću to!"
 readmore: "Više informacija"
-joinfight: Ako ovo <span>vi</span>ne poduprete, ove se greške u autorskom pravu <u>neće ukloniti</u>.
+joinfight: Ako ovo <span>vi</span> ne poduprete, ove se greške u autorskom pravu <u>neće ukloniti</u>.
 call:
     h: "Vrijeme je za promjenu koncepta autorskog prava"
-    text:  "Posao je eurozastupnka <strong>zastupati vas, građane</strong>. Nismo sretni kada smetamo drugima, baš kao što niste i vi &ndash; ipak, ako sada svoje <strong>dvije  minute</strong> ne posvetite akciji eurozastupnika, <strong>proći će jedino glasovi lobista</strong>. Možete to, i <u>svaki će vaš govor pridonijeti promjeni</u>"
+    text:  "Posao je eurozastupnka <strong>zastupati vas, građane</strong>. Nismo sretni kada smetamo drugima, baš kao što niste i vi &ndash; ipak, ako sada svoje <strong>dvije  minute</strong> ne posvetite akciji eurozastupnika, <strong>proći će jedino glasovi lobista</strong>. Možete to, i <u>svaki će vaš govor pridonijeti promjeni.</u>"
     showother: "Drugi eurozastupnik"
     what: "Kako bi taj govor trebao bit sročen?"
     agenda: "Šta vas konkretno zanima:"
