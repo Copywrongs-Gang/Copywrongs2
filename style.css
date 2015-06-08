@@ -88,7 +88,11 @@ h3.join:before {
 
 abbr { border-bottom: 1px dashed #999;}
 
-.cont { margin: 0 auto; max-width:760px; xbox-shadow: rgba(0,0,0,.5) 0 0 1em; box-sizing: border-box; }
+.cont {
+	margin: 0 auto;
+	max-width:760px;
+	box-sizing: border-box;
+}
 #call.cont { background: #0098a2; color: #fff; margin-top: 3em; padding: .1em 0;}
 #call.cont p, #call.cont form {
 	margin: 1em 2em; 
@@ -158,6 +162,7 @@ abbr { border-bottom: 1px dashed #999;}
 	font-size:.8em;
 	margin-top: .5em;
 	padding-right: .5em;
+	padding-left: 110px;
 	box-sizing: border-box;
 	text-align: right;
 	opacity: .6;
@@ -300,7 +305,10 @@ a.nav:hover { background-color: #ffe8b9 }
 	width: 280px;
 	margin: 3em auto 5em;
 }
-.share a img { border-radius: .5em; }
+.share a img {
+	width: 130px;
+	border-radius: .5em;
+}
 .share a+a {
 	margin-left: 15px;
 }
@@ -392,3 +400,98 @@ body.state-filesharing #filesharing a.btn:before
 a.btn:active::before {
 	color: #e53414;
 }
+
+
+@media screen and (max-width: 880px) { 
+	h2#countdown { right: 5%; width: 6em;}
+	.cont {
+		max-width:90%;
+	}
+	ul#prop li {
+		width: 33.3%;
+	}
+	#propcontainer {
+		width: 90%;
+		left: 5%;		
+	}
+	.share { width: 220px;}
+	.share a img {
+		width: 100px;
+		height: 100px;
+	}
+	#mepprofile {
+		width: 80%;
+	}
+	iframe.yt { width: 100%;}
+}
+
+@media screen and (max-width: 660px) { 
+	h1 { font-size: 3.2em;}
+	h2#countdown { right: .5em; }
+	h2#countdown div { font-size: 3em;}
+	.cont {
+		max-width:95%;
+	}
+	ul#prop li {
+		width: 50%;
+	}
+	#propcontainer {
+		width: 80%;
+		left: 10%;		
+	}
+	.popover img {
+		width: 120px;
+		height: 120px;
+	}
+	#mepprofile {
+		width: 90%;
+	}
+	h2#tell, #icalled {
+		float: none;
+		width: 100%;
+	}
+	#icalled {
+		width: 70%;
+		margin: 1em auto 0;
+	}
+	.share {
+		margin-top: 1em;
+	}
+}
+
+@media screen and (max-width: 440px) { 
+	h1 { font-size: 2.5em;}
+	h2#countdown {
+		position: static;
+	}
+	h3.now { margin-top: 1em;}
+	ul#prop li {
+		width: 100%;
+	}
+	#propcontainer {
+		width: 70%;
+		left: 15%;		
+	}
+	.popover {
+		padding-top: 0;
+	}
+	.popover img {
+		float: none !important;
+		display: block;
+		width: 170px;
+		height: 170px;
+		margin-right: 0;
+		margin: 0 auto;
+	}
+	#mepprofile {
+		width: 100%;
+	}
+	#call.cont p, #call.cont form {
+		margin: .5em 1em;
+	}
+	#call ol {
+		margin: .5em .75em .5em;
+	}
+}
+
+
