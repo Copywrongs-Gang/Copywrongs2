@@ -27,6 +27,7 @@ protectauthors:
     eu: "Protect artists from expoitative <strong>total buy-out contracts</strong> Europe-wide and allow them to <strong>take back their rights</strong> if unused."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#authors"
     please: "Por favor apoya <strong>proteger a los artistas de la explotación</strong> y de contratos injustos."
+    do: Vote for the compromise amendment on point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> of MEP Reda's report and support the additions by amendments <abbr class="am" title="Cites a UN report that emphasizes the importance of protecting authors">#107</abbr>, <abbr class="am" title="Calls for an author's right to bring their works to the market themselves in case a rightholder does not do so for a period of time">#200</abbr> and <abbr class="am" title="Calls for income tied to exceptions and limitations (e.g. private copying levies) to go directly to the authors, not other rightholders">#527</abbr>.
 righttoquote:
     h: "<span>Garantizar</span> a vloggers el derecho de cita"
     cw: "Citar algunas palabras suele ser legal, pero no está extendido a vídeos o grabaciones de audio, haciendo a los YouTubers y Podcasters delincuentes."
@@ -97,6 +98,9 @@ euproposal: "Propuesta de la UE:"
 iwant: "¡Quiero esto!"
 readmore: "Leer más"
 joinfight: Si <span>tu</span> no te unes ahora a la lucha, estos "copywrongs" <u>no serán arreglados</u>.
+overlay:
+    h: "After hours!"
+    text: "At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on weekdays between 09:00h and 18:00h Brussels time."
 call:
     h: "Llama ahora para arreglar el copyright"
     text: "The job of Members of the European Parliament is to <strong>represent you</strong>. We hate cold-calling people as much as you do &ndash; but if you don't take <strong>2 minutes</strong> to tell them what you care about, <strong>only lobbyists will be heard</strong>. You can do it, and <u>every call really makes a difference!</u>"
@@ -110,6 +114,7 @@ call:
     connectme: "¡Conéctame gratis!"
     thankyou: "¡Gracias! Deberías recibir una llamada en cualquier momento."
     what: "¿Cómo será la llamada?"
+    whatlink: "https://wiki.laquadrature.net/How_to_contact_a_MEP#Phone_Call"
     agenda: "Tu agenda personal:"
     agendatext: "Regarding the <strong>copyright report</strong> that you will vote on in the Legal Affairs Committee on June 16th..."
 showmore: Para ver más puntos aquí, sube y haz click en "Quiero esto"

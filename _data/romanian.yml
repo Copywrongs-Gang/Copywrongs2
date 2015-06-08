@@ -98,6 +98,9 @@ euproposal: "Propunere UE:"
 iwant: "Vreau asta!"
 readmore: "Mai multe informații"
 joinfight: Dacă <span>tu</span> nu te alături luptei acum, aceste "copywrongs" <u>nu vor fi rezolvate</u>.
+overlay:
+    h: "After hours!"
+    text: "At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on weekdays between 09:00h and 18:00h Brussels time."
 call:
     h: "Sună acum, ca să se repare drepturile de autor"
     text: "Treaba membrilor Parlamentului European este să <strong>te reprezinte</strong>. Și pe noi ne enervează telefoanele date pe nepusă masă la fel de mult ca și pe tine &ndash; dar dacă nu îți iei <strong>2 minute</strong> să le spui despre ce-ți pasă, <strong>doar cei care fac lobby vor fi ascultați</strong>. Poți s-o faci și, ține minte, <u>fiecare apel contează!</u>"
@@ -111,6 +114,7 @@ call:
     connectme: "Conectează-mă gratuit!"
     thankyou: "Mulțumim! Vei fi sunat în scurt timp."
     what: "Cum va decurge apelul?"
+    whatlink: "https://wiki.laquadrature.net/How_to_contact_a_MEP#Phone_Call"
     agenda: "Agenda ta personală:"
     agendatext: "În privința <strong>raportului pe drepturile de autor</strong> pe care îl veți vota în Comisia pentru Afaceri Juridice pe 16 Iunie..."
 showmore: Ca să vezi mai multe puncte aici, dă scroll în sus și apoi click pe "Vreau asta!"

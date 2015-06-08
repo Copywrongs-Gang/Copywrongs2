@@ -98,6 +98,9 @@ euproposal: "Η πρόταση προς την ΕΕ:"
 iwant: "Το θέλω αυτό!"
 readmore: "Διαβάστε περισσότερα"
 joinfight: Αν <span>δεν έρθεις και εσύ</span> μαζί σε αυτόν τον αγώνα, αυτά τα προβλήματα ("copywrongs") <u>δεν θα διορθωθούν</u>.
+overlay:
+    h: "After hours!"
+    text: "At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on weekdays between 09:00h and 18:00h Brussels time."
 call:
     h: "Τηλεφώνησε τώρα για να διορθώσουμε τα πνευματικά δικαιώματα"
     text: "Το έργο των βουλευτών του Ευρωπαϊκού Κοινοβουλίου είναι <strong>να μας εκπροσωπούν</strong>.  Δεν μας αρέσει να παίρνουμε τηλέφωνο, τώρα όμως έχουμε πολλούς λόγους για τους πάρουμε τηλέφωνο και να τους <strong>ενημερώσουμε με αυτά που θέλουμε</strong>. Αν δεν το κάνουμε, η φωνή μας δεν θα ακουστεί, μόνο η φωνή από τους <strong>λομπίστες θα ακουστεί</strong> και δεν θα διορθωθεί τίποτα τελικά (και πολύ πιθανό να γίνουν τα πράγματα και χειρότερα). Πρέπει να ακουστούμε, πρέπει να φτάσει η φωνή μας στους εκπροσώπους μας για να μάθουν τι θέλουμε να κάνουν και <u>κάθε τηλέφωνο κάνει πραγματικά τη διαφορά</u>!"
@@ -111,10 +114,11 @@ call:
     connectme: "Συνδέσου χωρίς χρέωση!"
     thankyou: "Ευχαριστούμε! Θα λάβεις ένα τηλεφώνημα σε πολύ λίγο."
     what: "Πώς να είναι το τηλεφώνημα;"
+    whatlink: "https://wiki.laquadrature.net/How_to_contact_a_MEP#Phone_Call"
     agenda: "Η προσωπική σου ατζέντα:"
     agendatext: "Σχετικά με την <strong>έκθεση για τα πνευματικά δικαιώματα</strong> που θα κληθείτε να ψηφίσετε για αυτήν στην Επιτροπή Νομικών Θεμάτων στις 16 Ιουνίου..."
 showmore: Για να εμφανιστούν περισσότερες προτάσεις εδώ, πάτε παραπάνω και επιλέξτε και άλλες με κλικ στο "Το θέλω αυτό!"
 tell: Διαμοιράστε την είδηση
 icalled: Κάλεσα τον Ευρωβουλευτή μου για να υποστηρίξω την μεταρρύθμιση στα πνευματικά δικαιώματα<br />– θα κάνεις το ίδιο;
 sharetext: Επείγον, να σώσουμε την μεταρρύθμιση στα πνευματικά δικαιώματα. Κάλεσα τον Ευρωβουλευτή μου και θα πρέπει να κάνεις το ίδιο και εσύ!
-εύσχημα: Η σελίδα αυτή δημιουργήθηκε από το γραφείο της <a href="https://juliareda.eu" target="_blank">Ευρωβουλευτού Julia Reda</a>, την ομάδα του <a href="http://copy-me.org/" target="_blank">Copy-Me</a> και από επιπλέον εθελοντές. <a href="https://github.com/Copywrongs-Gang/Copywrongs2">Fork it από το Github</a><br />Τα γραφικά βασίζονται εν μέρει σε εικόνες από EliRatus, useiconic.com, Cornelius Danger, Pedro Vidal, John Caserta, Carolina Andrea, Magicon, Luis Prado – όλα με άδεια Creative Commons – Attribution (CC BY 3.0)
+credits: Η σελίδα αυτή δημιουργήθηκε από το γραφείο της <a href="https://juliareda.eu" target="_blank">Ευρωβουλευτού Julia Reda</a>, την ομάδα του <a href="http://copy-me.org/" target="_blank">Copy-Me</a> και από επιπλέον εθελοντές. <a href="https://github.com/Copywrongs-Gang/Copywrongs2">Fork it από το Github</a><br />Τα γραφικά βασίζονται εν μέρει σε εικόνες από EliRatus, useiconic.com, Cornelius Danger, Pedro Vidal, John Caserta, Carolina Andrea, Magicon, Luis Prado – όλα με άδεια Creative Commons – Attribution (CC BY 3.0)
