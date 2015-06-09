@@ -3,7 +3,7 @@ description: "Omstreeks deze tijd is de EU aan het debatteren om de problemen me
 callnow: "<span>Bel nu</span> om de hervorming te redden &ndash; het kost je maar een paar minuten!"
 savecreform: "Red<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;copyright</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; hervorming"
 daysuntil: "dagen tot de stemming"
-rightnow: "Nu,"
+rightnow: "Nu!"
 debatingplans: "Omstreeks deze tijd is de EU aan het debatteren om de problemen met het auteursrecht te hervormen, problemen waar je dagelijks mee in contact komt."
 but: "Maar een machtige alliantie is die noodzakelijke updates aan het saboteren."
 whichthree: "Welke van deze drie voorstellen zijn het belangrijkst volgens jou?"
@@ -12,7 +12,7 @@ geoblocking:
     cw: "This content is not available in your country."
     eu: "<strong>Ban</strong> contracten die vereisen dat videodiensten geoblocking gebruiken, aangezien het een vorm van discriminatie van gebruikers is."
     please: "Neem alsjeblieft positie in <strong>tegen alle soorten geoblocking</strong>, onafhankelijk of de inhoud te koop is of betaald wordt met advertenties of publieke middelen."
-    do: Stem voor amandementen <abbr class="am" title="Calls for an end to geoblocking">#412</abbr> en <abbr class="am" title="States that geoblocking should not prevent cultural minorities from accessing content">#322</abbr> en <span class="am">#16</span> van <abbr title="Internal Market Committee">IMCO's</abbr> opinie.
+    do: Stem voor amendementen <abbr class="am" title="Calls for an end to geoblocking">#412</abbr> en <abbr class="am" title="States that geoblocking should not prevent cultural minorities from accessing content">#322</abbr> en <span class="am">#16</span> van <abbr title="Internal Market Committee">IMCO's</abbr> opinie.
     tip: "Geef een voorbeeld van wanneer je last had van geoblocking."
 extendborders: 
     h: "<span>Verruim</span> je rechten voorbij grenzen"
@@ -20,7 +20,7 @@ extendborders:
     eu: "Maak <strong>uitzonderingen en beperkingen</strong> op copyright <strong>verplicht</strong> in alle EU-lidstaten."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#mandatory"
     please: "Steun alsjeblieft de <strong>harmonisering van uitzonderingen en beperkingen</strong> en maak ze <strong>verplicht</strong> in heel de EU zodat mijn rechten niet stoppen aan de grenzen."
-    do: Verwerp het amandement op punt <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank">#11</a> van MEP Reda's rapport. Steun de toevoegingen <abbr class="am" title="Calls for new mandatory exceptions, for example for user-generated content">#353</abbr>, <abbr class="am" title="Calls for making exceptions mandatory">#366</abbr> en punt <span class="am">#15</span> van <abbr title="Internal Market Committee">IMCO's</abbr> opinie.
+    do: Verwerp het amendement op punt <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank">#11</a> van MEP Reda's rapport. Steun de toevoegingen <abbr class="am" title="Calls for new mandatory exceptions, for example for user-generated content">#353</abbr>, <abbr class="am" title="Calls for making exceptions mandatory">#366</abbr> en punt <span class="am">#15</span> van <abbr title="Internal Market Committee">IMCO's</abbr> opinie.
 protectauthors: 
     h: "<span>Bescherm</span> auteurs van wurgcontracten."
     cw: "Artiesten hebben niet altijd een advocaat. Uitgevers en labels hebben er massa's. Wie zou er dus de sterkste zijn bij het schrijven van een contract?"
