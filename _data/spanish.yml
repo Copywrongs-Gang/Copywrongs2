@@ -11,7 +11,7 @@ geoblocking:
     h: "<span>Superar</span> el geo-bloqueo"
     cw: "Este contenido no está disponible en tu país."
     eu: "<strong>Eliminar</strong> que requieren a los servicios de vídeo utilizar bloqueo geográfico, el cuál es una forma de discriminación."
-    please: "Please take a stand against <strong>all kinds of geoblocking</strong>, regardless of whether the blocked content is for purchase directly or funded by ads or public funds."
+    please: "Por favor ayúdanos a luchar<strong>contra todo tipo de bloqueo geográfico</strong>, sin importar el tipo de contenido bloqueado sea por compra directa o bien financiado con publicidad o fondos públicos."
     do: Vota por las enmiendas <abbr class="am" title="Pide que se ponga fin al bloqueo">#412</abbr> y <abbr class="am" title="Establece que el bloqueo geográfico no debe impedir que las minorías culturales tengan acceso a contenido">#322</abbr> y el punto <span class="am">#16</span> de el <abbr title="Comisión de Mercado Interior">IMCO</abbr>.
     tip: "Da un ejemplo de cómo el bloqueo geográfico te ha afectado."
 extendborders:
@@ -24,10 +24,10 @@ extendborders:
 protectauthors:
     h: "<span>Proteger</span> a autores de contratos injustos"
     cw: "Los artistas no tienen abogados. Los editores y los sellos tienen ejercitos de ellos. ¿Adivinas quién tiene las de ganar en las negociaciones de contratos?"
-    eu: "Protect artists from expoitative <strong>total buy-out contracts</strong> Europe-wide and allow them to <strong>take back their rights</strong> if unused."
+    eu: "Protege a los artistas de ser explotados por <strong>contratos con cláusulas abusivas</strong> en toda Europa que permiten esto y <strong>devuélvele sus derechos</strong> if unused."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#authors"
     please: "Por favor apoya <strong>proteger a los artistas de la explotación</strong> y de contratos injustos."
-    do: Vote for the compromise amendment on point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> of MEP Reda's report and support the additions by amendments <abbr class="am" title="Cites a UN report that emphasizes the importance of protecting authors">#107</abbr>, <abbr class="am" title="Calls for an author's right to bring their works to the market themselves in case a rightholder does not do so for a period of time">#200</abbr> and <abbr class="am" title="Calls for income tied to exceptions and limitations (e.g. private copying levies) to go directly to the authors, not other rightholders">#527</abbr>.
+    do: Vota por la enmienda de transacción a este punto <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> del informe de la MEP Reda y apoya el texto añadido por las enmiendas <abbr class="am" title="Cita un informe de la ONU que enfatiza en la importancia de proteger a los autores">#107</abbr>, <abbr class="am" title="Llama a que los autores puedan poner sus obras en el mercado si el titular de los derechos no lo hace en un tiempo">#200</abbr> y <abbr class="am" title="Llama a que los ingresos que provienen de excepciones y limitaciones (ejemplo. Las tasas por copia privada) vayan directamente a los autores, no a otros titulares de derechos">#527</abbr>.
 righttoquote:
     h: "<span>Garantizar</span> a vloggers el derecho de cita"
     cw: "Citar algunas palabras suele ser legal, pero no está extendido a vídeos o grabaciones de audio, haciendo a los YouTubers y Podcasters delincuentes."
