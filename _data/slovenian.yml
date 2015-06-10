@@ -10,7 +10,7 @@ whichthree: "Kateri trije predlogi se ti zdijo najpomembnejši?"
 geoblocking: 
     h: "<span>Odpraviti</span> regijsko zaklepanje"
     cw: "Ta vsebina ni na voljo v vaši državi."
-    eu: "<strong>Prepovejte</strong>pogodbe, ki od video storitev zahtevajo uporabo regijskega zaklepanja (geoblocking), saj je takšna praksa diskriminatorna do uporabnikov."
+    eu: "<strong>Prepovejte</strong> pogodbe, ki od video storitev zahtevajo uporabo regijskega zaklepanja (geoblocking), saj je takšna praksa diskriminatorna do uporabnikov."
     please: "Prosim vas, da se zavzamete proti <strong>vsem vrstam regijskega zaklepanja</strong>, ne glede na to, ali je zaklenjena vsebina plačljiva ali financirana z reklamami oziroma javnimi sredstvi."
     do: Glasujte za predloga sprememb <abbr class="am" title="Poziva k odpravi regijskega zaklepanja">#412</abbr> in <abbr class="am" title="Navaja, da regijsko zaklepanje ne sme preprečevati dostopa do vsebin kulturnim manjšinam">#322</abbr> in točko <span class="am">#16</span> mnenja <abbr title="Odbor za notranji trg">IMCO</abbr>.
     tip: "Povej primer, ko je regijsko zaklepanje vplivalo nate."
@@ -22,69 +22,69 @@ extendborders:
     please: "Prosim vas, da podprete <strong>uskladitev izjem in omejitev</strong>, ki naj bodo <strong>obvezne</strong> v celotni EU, saj se tako moje pravice ne bodo končale oziroma spremenile ob vsaki meji."
     do: Zavrnite spremembe točke <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank">#11</a> v poročilu poslanke Julie Reda. Podprite dopolnili <abbr class="am" title="Poziva k novim obveznim izjemam, na primer za vsebine, ki jih ustvarijo uporabniki">#353</abbr>, <abbr class="am" title="Poziva k obveznosti izjem">#366</abbr> in točko <span class="am">#15</span> mnenja <abbr title="Odbor za notranji trg">IMCO</abbr>.
 protectauthors: 
-    h: "<span>Zaščititi</span> avtorje pred krivičnimi pogodbami"
+    h: "<span>Zaščititi</span> avtorje pred izkoriščanjem"
     cw: "Umetniki nimajo odvetnikov. Založniki in založbe jih imajo na tone. Ugani, kdo ima glavno besedo pri pogajanjih o pogodbah?"
     eu: "Zaščitite umetnike po vsej Evropi pred izkoriščevalskimi <strong>pogodbami popolnega odkupa</strong> in jim dovolite, da si neuporabljene pravice <strong>prisvojijo nazaj</strong>."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#authors"
     please: "Prosim vas za podporo pri <strong>zaščiti avtorjev pred izkoriščanjem</strong> in nepoštenimi pogodbami."
-    do: Glasujte za kompromis spremembe točke <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> v poročilu poslanke Julie Reda in podprite dopolnila s spremembami <abbr class="am" title="Citira poročilo ZN, ki poudarja pomen zaščite avtorjev">#107</abbr>, <abbr class="am" title="Poziva k avtorjevi pravici, da na trg prinese svoje izdelke, če imetnik avtorskih pravic tega ne stori v določenem časovnem obdobju">#200</abbr> in <abbr class="am" title="Poziva, naj dohodek od izjem in omejitev (npr. dajatev za zasebno kopiranje) dobijo avtorji direktno in ne ostali imetniki pravic">#527</abbr>.
+    do: Glasujte za sporazumno spremembo točke <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> v poročilu poslanke Julie Reda in podprite dopolnila s spremembami <abbr class="am" title="Citira poročilo ZN, ki poudarja pomen zaščite avtorjev">#107</abbr>, <abbr class="am" title="Poziva k avtorjevi pravici, da na trg prinese svoje izdelke, če imetnik avtorskih pravic tega ne stori v določenem časovnem obdobju">#200</abbr> in <abbr class="am" title="Poziva, naj dohodek od izjem in omejitev (npr. dajatev za zasebno kopiranje) dobijo avtorji direktno in ne ostali imetniki pravic">#527</abbr>.
 righttoquote: 
     h: "<span>Dati</span> vlogerjem pravico do citiranja"
     cw: "Citiranje nekaj besed je običajno zakonito, ta zakon pa ni razširjen na video in zvočne posnetke, s čimer YouTuberje in podcasterje spreminja v zločince."
     eu: "Izjeme, kot so citiranje, naj se nanašajo na vse oblike kulturnega izražanja <strong>ne glede na uporabljeno tehnologijo</strong>."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual"
     please: "Prosim vas, da podprete <strong>razširitev pravic do citiranja tudi na avdiovizualne medije</strong>."
-    do: Zavrnite spremembe točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual" target="_blank" class="am">#14</a> v poročilu poslanke Julie Reda.
+    do: Podprite predlog spremembe <abbr title="Poziva k vključitvi avdiovizualnih citatov med obstoječe izjeme za citiranje" class="am">#391</abbr>.
     tip: "Povej primer, ko si citiral video ali zvočni posnetek oziroma če si fan kakšnega ustvarjalca, ki to počne."
 righttolink: 
     h: "<span>Ohraniti</span> pravico do povezav"
     cw: "Internet je sestavljen iz povezav. Je objava ene izmed njih kriminal? Spletne strani z novicami pozivajo k sprejetju zakonov, ki bi omejili načine za objavo povezav do njihovih strani."
-    eu: "Zavrnite takšne zakone in ohranite svobodo do objavljanja povezav."
+    eu: "Zavrnite tovrstne zakone in ohranite svobodo do objave povezav."
     link: "https://savethelink.org"
     please: "Prosim vas, da zavzamete stališče proti <strong>pomožnemu avtorskemu pravu za časopisne založnike</strong>, ki bi omejil ustvarjanje povezav do novic in člankov."
-    do: Zavrnite predlog spremembe <abbr class="am" title="Uvaja pomožno avtorsko pravo za časopisne založnike">#204</abbr>. Podprite kompromis spremembe točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> v poročilu poslanke Julie Reda.
+    do: Zavrnite predlog spremembe <abbr class="am" title="Uvaja pomožno avtorsko pravo za časopisne založnike">#204</abbr>. Podprite sporazumno spremembo točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> v poročilu poslanke Julie Reda.
 publicdomain: 
     h: "<span>Zaščititi</span> javno domeno"
     cw: "Starejša dela, katerim je avtorsko pravo že poteklo, pripadajo vsem. Pa vendar nekateri trdijo, da se z njihovo digitalizacijo pravice obnovijo."
     eu: "Digitalizacija del, ki so v skupni lasti, ne bi smela biti razlog za odobritev ponovne zaščite."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain"
     please: "Prosim vas, da <strong>zaščitite javno domeno</strong> in razjasnite, da digitalna kopija nečesa, kar ni zaščiteno z avtorskim pravom, ne odobri novega avtorskega prava."
-    do: Zavrnite spremembe, ki bi omilile točko <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> v poročilu poslanke Julie Reda - podprite spremembo <span class="am">#264</span>, ki točko razjasnjuje.
+    do: Glasujte za sporazumno spremembo točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> v poročilu poslanke Julie Reda.
 libraries: 
     h: "<span>Omogočiti</span> knjižnicam spletno delovanje"
     cw: "Knjižnice v zameno za plačilo avtorjem dobijo pravico do posojanja fizičnih izvodov knjig.  Na internetu ta pravica ne obstaja."
     eu: "Dovolite <strong>e-izposojo</strong> in knjižnicam omogočite nadaljevanje pomembne družbene funkcije."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#elending"
     please: "Prosim vas, da knjižnicam dovolite <strong>posojanje knjig prek spleta</strong>."
-    do: Glasujte za predloga sprememb <abbr class="am" title="Poziva, naj se obvezne izjeme nanašajo tudi na knjižnice">#348</abbr>, <abbr class="am" title="Poziva k okrepitvi izjem v javnem interesu">#350</abbr> in točki <span class="am">#16</span> in <span class="am">#22</span> mnenja <abbr title="Odbor za industrijo">ITRE</abbr>.
+    do: Glasujte za predloga sprememb <abbr class="am" title="Poziva, naj se obvezne izjeme nanašajo tudi na knjižnice">#348</abbr>, <abbr class="am" title="Poziva k okrepitvi izjem v javnem interesu">#350</abbr> in sporazumno spremembo točke <span class="am">#20</span> v poročilu poslanke Julie Reda.
 publicspace: 
     h: "<span>Narediti</span> javni prostor dostopen vsem"
     cw: "V Nemčiji lahko na spletu prosto objavljaš slike javnih stavb – čez mejo v Franciji pa te arhitekt lahko toži!"
     eu: "Zagotovite <strong>pravico do panorame</strong> po Evropi: Slike stvari, ki so permanentno na očeh javnosti, morajo biti zakonite za objavo."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#panorama"
     please: "Prosim vas, da zagotovite <strong>svobodo do panorame</strong>v Evropi in uzakonite deljenje slik javnih stavb  – ne glede na to, ali gre za komercialne ali nekomercialne namene."
-    do: Zavrnite vse spremembe, ki omiljujejo točko <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> v poročilu poslanke Julie Reda, glasujte za originalno besedilo oziroma za kompromis spremembe, če ta obstaja.
+    do: Zavrnite vse spremembe, ki omiljujejo točko <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> v poročilu poslanke Julie Reda, glasujte za originalno besedilo.
 education: 
     h: "<span>Zaščititi</span> izobraževalno uporabo"
     cw: "Šole lahko pri poučevanju pogosto svobodno uporabljajo fizične izvode učbenikov – objava iste vsebine na šolskem intranetu v PDF obliki pa je lahko nezakonita."
     eu: "Celovita izjema avtorskega prava za <strong>izobraževalne namene</strong> po vsej Evropi."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#education"
     please: "Prosim vas, da podprete izjemo avtorskega prava, ki tudi v digitalnem svetu dopušča uporabo avtorsko zaščitenega gradiva v <strong>izobraževalne namene</strong>."
-    do: Zavrnite spremembe, ki bi omilile točko <a href="https://juliareda.eu/copyright-evaluation-report-explained/#education" target="_blank" class="am">#19</a> v poročilu poslanke Julie Reda –  torej vse razen sprememb <span class="am">#466-468</span>.
+    do: Podprite kompromis glede točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#education" target="_blank" class="am">#19</a> v poročilu poslanke Julie Reda in za predlog spremembe <abbr class="am" title="Poziva k splošnim izjemam tudi na področju neformalne izobrazbe">#364</abbr>.
 availability: 
     h: "<span>Povečati</span> dostopnost del"
     cw: "Avtorska pravica traja še 70 let po avtorjevi smrti. Tako dolga doba v veliki večini primerov ne prinaša dobička, pač pa dela naredi nedostopna."
     eu: "Zmanjšajte trajanje monopola nad avtorskimi deli na mednarodni življenjski standard + <strong>50 let</strong>."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#term"
-    please: "Prosim vas, da podprete uskladitev <strong>trajanja varstva avtorskega prava</strong> na življenjski standard po Bernski konvenciji + <strong>50</strong> let."
-    do: Zavrnite spremembe točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> v poročilu poslanke Julie Reda in podprite točko <span class="am">#18</span> mnenja <abbr title="Odbor za industrijo">ITRE</abbr> opinion.
+    please: "Prosim vas, da podprete skrajšanje <strong>monopola nad avtorskimi deli</strong>."
+    do: Podprite kompromis glede točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> v poročilu poslanke Julie Reda in podprite točko <abbr class="am" title="Poziva k znatnemu skrajšanju monopolov">#18</abbr> mnenja <abbr title="Odbor za industrijo">ITRE</abbr>.
 digitallocks: 
     h: "<span>Zavrniti</span> elektronske ključavnice"
     cw: "Po zakonu lahko delaš kopije medijev, ki si jih kupil za osebno uporabo – kar ti v praksi velikokrat preprečujejo elektronske ključavnice."
     eu: "Zagotovite, da tehnični ukrepi ne omejujejo uporabnikovih pravnih pravic."
     link: "https://juliareda.eu/copyright-evaluation-report-explained/#drm"
     please: "Prosim vas, da zagotovite, da tehnološka zaščita (<strong>DRM</strong>) ne ovira zakonite uporabe kupljenih vsebin."
-    do: Glasujte za točko <span class="am">#26</span> mnenja <abbr title="Odbor za notranji trg">IMCO</abbr> in točko <span class="am">#29</span> mnenja <abbr title="Odbor za industrijo">ITRE</abbr>. Podprite kompromis točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> poročila poslanke Julie Reda in zavrnite vse predloge sprememb točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a>.
+    do: Glasujte za točko <span class="am">#26</span> mnenja <abbr title="Odbor za notranji trg">IMCO</abbr> in točko <span class="am">#29</span> mnenja <abbr title="Odbor za industrijo">ITRE</abbr>. Podprite kompromis glede točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> poročila poslanke Julie Reda in zavrnite vse predloge sprememb točke <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a>.
     tip: "Povej primer, ko je DRM stal na poti tvojim zakonitim dejavnostim (npr. kopiranju za osebno uporabo)."
 filesharing: 
     h: "<span>Uzakoniti</span> osebno izmenjavo datotek"
@@ -96,7 +96,7 @@ filesharing:
 currentcopywrong: "Trenutna avtorska krivica:"
 euproposal: "Predlog EU:"
 iwant: "Se strinjam!"
-readmore: "Preberi več (EN)"
+readmore: "Preberi več"
 joinfight: Če se nam v boju ne pridružiš tudi <span>ti</span>, se »avtorske krivice« <u>ne bodo popravile</u>.
 overlay:
     h: "Izven uradnih ur!"
