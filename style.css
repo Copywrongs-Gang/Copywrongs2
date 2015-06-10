@@ -382,7 +382,8 @@ body.state-filesharing ol#agenda li.filesharing
 
 body.state-noselection ol#agenda li.geoblocking,
 body.state-noselection ol#agenda li.borders,
-body.state-noselection ol#agenda li.contracts {
+body.state-noselection ol#agenda li.quotes,
+body.state-noselection ol#agenda li.panorama {
 	display: block;
 }
 
