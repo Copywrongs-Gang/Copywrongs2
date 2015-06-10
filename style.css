@@ -501,4 +501,20 @@ a.btn:active::before {
 	}
 }
 
+abbr {
+    position: relative;
+}
 
+abbr:hover::after {
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    display: block;
+    padding: 1em;
+    background: #fff;
+    color: #000;
+    font-size: .9em;
+    content: attr(title);
+    width: 250px;
+    box-shadow: 0 0 1em rgba(0,0,0,.5);
+}
