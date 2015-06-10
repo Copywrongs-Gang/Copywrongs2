@@ -227,6 +227,7 @@ a.btn {
   margin-top: .5em;
   text-align: center;
   width: 7em;
+  max-width: 70%;
   margin: .7em auto 0 auto;
 }
 
@@ -463,7 +464,7 @@ a.btn:active::before {
 }
 
 @media screen and (max-width: 440px) { 
-	h1 { font-size: 2.5em;}
+	h1 { font-size: 2.2em;}
 	h2#countdown {
 		position: static;
 	}
@@ -498,6 +499,9 @@ a.btn:active::before {
 	}
 	#call ol {
 		margin: .5em .75em .5em;
+	}
+	#call #what {
+		display: none;
 	}
 }
 
