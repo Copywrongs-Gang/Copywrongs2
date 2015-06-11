@@ -311,7 +311,7 @@ function geo(d, fromDropdown) {
 		if (document.getElementById(mepccId)) document.getElementById(mepccId).selected = true;
 	}
 	
-	showMEP();
+	showMEP(fromDropdown);
 }
 
 function updateShareLinks() {
