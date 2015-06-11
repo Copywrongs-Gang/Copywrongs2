@@ -21,7 +21,7 @@ window.onload = function() {
 	if (d.getUTCDay() === 0 || // if Sunday
 		d.getUTCDay() === 6 || // or Saturday
 		d.getUTCHours() < 7 || // or before 9AM Brussels Summer Time
-		d.getUTCHours() > 16 // or after 6PM Brussels Summer Time
+		d.getUTCHours() > 15 // or after 6PM Brussels Summer Time
 		) {
 		showEmail(); // then => show email!
 	}
