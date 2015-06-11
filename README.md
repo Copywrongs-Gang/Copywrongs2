@@ -1,6 +1,8 @@
 Copywrongs2
 ===========
 
+[![Build Status](https://travis-ci.org/Copywrongs-Gang/Copywrongs2.svg?branch=gh-pages)](https://travis-ci.org/Copywrongs-Gang/Copywrongs2)
+
 # Local setup (ubuntu)
 
 ```
