@@ -523,3 +523,19 @@ abbr:hover::after {
     width: 250px;
     box-shadow: 0 0 1em rgba(0,0,0,.5);
 }
+
+#mailbutton {
+	padding: 0.4em 0.6em;
+	background: #F5AB00 none repeat scroll 0% 0%;
+	color: #FFF;
+	border-radius: 1em;
+	text-decoration: none;
+	border: 0px none;
+	cursor: pointer;
+	width: auto;
+}
+
+#email {
+	width: 73%;
+	text-align: center;
+}

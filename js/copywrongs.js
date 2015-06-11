@@ -15,14 +15,15 @@ window.onload = function() {
 		}
 	}
 
-	// "don't call now" overlay
+	// "don't call now, email instead" button
 	var d = new Date();
+	window.showEmailState = false;
 	if (d.getUTCDay() === 0 || // if Sunday
-		d.getUTCDay() === 6 || // or Monday
+		d.getUTCDay() === 6 || // or Saturday
 		d.getUTCHours() < 7 || // or before 9AM Brussels Summer Time
 		d.getUTCHours() > 16 // or after 6PM Brussels Summer Time
 		) {
-		showTimeOverlay(); // then => show overlay!
+		showEmail(); // then => show email!
 	}
 
 	// countdown
@@ -102,7 +103,11 @@ function showMEP(fromButton) {
 
     document.getElementById('thankyou').style.display = 'none';
     document.getElementById('showmepcontainer').style.display = 'block';
-    document.getElementById('callinput').style.display = 'block';
+    if (window.showEmailState === true) {
+	    document.getElementById('callinput').style.display = 'none';
+	} else {
+		document.getElementById('callinput').style.display = 'block';
+	}
 
     var randomOrNot = Math.floor(Math.random() * 2);
     if (!fromButton && randomOrNot == 0) { // on page load, 50% of the case show special prioritised MEPs
@@ -136,6 +141,7 @@ function showMEP(fromButton) {
 	document.getElementById('mep_group').innerHTML = mep.group;
 	document.getElementById('mep_photo').setAttribute("src", "http://www.europarl.europa.eu/mepphoto/"+ mep.photoid +".jpg")
 	document.getElementById('callform').setAttribute("action", "https://piphone.lqdn.fr/campaign/call2/rapport_reda/"+mep.id);
+	document.getElementById('mailbutton').setAttribute("href", "mailto:"+mep.email);
 
 	return false;
 }
@@ -151,15 +157,10 @@ if (!Date.now) {
   };
 }
 
-function showTimeOverlay() {
-	var callwidth = document.getElementById('call').offsetWidth;
-
-	//display so offsetWidth can be determined
-	document.getElementById('timeoverlay').setAttribute("style", "display:inline;");
-	var overlayMargin = (callwidth - document.getElementById('timeoverlay').offsetWidth) / 2;
-
-	document.getElementById('timeoverlay').setAttribute("style", "display:inline;margin-left:" + overlayMargin + "px;");
-	document.getElementById('callform').setAttribute("style", "opacity:0.7;pointer-events: none;");
+function showEmail() {
+	document.getElementById('email').setAttribute("style", "display:inline;");
+	document.getElementById('callinput').setAttribute("style", "display:none;");
+	window.showEmailState = true;
 }
 
 function stats(mepid) {
