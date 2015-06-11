@@ -50,24 +50,24 @@ window.onload = function() {
 var meplist = [
 	{name: "Pavel Svoboda",country: "CZ",group: "EPP",party: "Křesťanská a demokratická unie - Československá strana lidová",id: "16829",photoid: "96272"},
 	{name: "Lidia Joanna Geringer de Oedenberg",country: "PL",group: "S&D",party: "Bezpartyjna",id: "16889", photoid: "28377"},
-	{name: "Jean-Marie Cavada",country: "FR",group: "ALDE",party: "Nous Citoyens",id: "17057", photoid: "28206"},
+	{name: "Jean-Marie Cavada",country: "FR",group: "ALDE",party: "Nous Citoyens",id: "17057", photoid: "28206", weight: 2},
 	{name: "Axel Voss",country: "DE",group: "EPP",party: "Christlich Demokratische Union Deutschlands",id: "16943", photoid: "96761"},
 	{name: "Mady Delvaux",country: "LU",group: "S&D",party: "Parti ouvrier socialiste luxembourgeois",id: "17056", photoid: "124776"},
 	{name: "Max Andersson",country: "SE",group: "Greens/EFA",party: "Miljöpartiet de gröna",id: "17280", photoid: "124994"},
 	{name: "Joëlle Bergeron",country: "FR",group: "EFDD",party: "Sans étiquette",id: "16807", photoid: "124740"},
 	{name: "Marie-Christine Boutonnet",country: "FR",group: "NI",party: "Front national",id: "17279", photoid: "124753"},
 	{name: "Kostas Chrysogonos",country: "GR",group: "GUE/NGL",party: "SYRIZA",id: "16896", photoid: "125061"},
-	{name: "Therese Comodini Cachia",country: "MT",group: "EPP",party: "Partit Nazzjonalista",id: "17125", photoid: "124968"},
+	{name: "Therese Comodini Cachia",country: "MT",group: "EPP",party: "Partit Nazzjonalista",id: "17125", photoid: "124968", weight: 10},
 	{name: "Andrzej Duda",country: "PL",group: "ECR",party: "Prawo i Sprawiedliwość",id: "17276", photoid: "124899"},
 	{name: "Rosa Estaràs Ferragut",country: "ES",group: "EPP",party: "Partido Popular",id: "16862", photoid: "96811"},
 	{name: "Laura Ferrara",country: "IT",group: "EFDD",party: "Movimento 5 Stelle",id: "16935", photoid: "124833"},
 	{name: "Enrico Gasbarra",country: "IT",group: "S&D",party: "Partito Democratico",id: "18983", photoid: "124817"},
-	{name: "Mary Honeyball",country: "UK",group: "S&D",party: "Labour Party",id: "17002", photoid: "5846"},
+	{name: "Mary Honeyball",country: "UK",group: "S&D",party: "Labour Party",id: "17002", photoid: "5846", weight: 2},
 	{name: "Sajjad Karim",country: "UK",group: "ECR",party: "Conservative Party",id: "16853", photoid: "28481"},
 	{name: "Dietmar Köster",country: "DE",group: "S&D",party: "Sozialdemokratische Partei Deutschlands",id: "17277", photoid: "124822"},
 	{name: "Gilles Lebreton",country: "FR",group: "NI",party: "Front national/Rassemblement Bleu Marine",id: "17282", photoid: "124738"},
 	{name: "António Marinho e Pinto",country: "PT",group: "ALDE",party: "Independente",id: "16934", photoid: "124742"},
-	{name: "Jiří Maštálka",country: "CZ",group: "GUE/NGL",party: "Komunistická strana Čech a Moravy",id: "17085", photoid: "23704"},
+	{name: "Jiří Maštálka",country: "CZ",group: "GUE/NGL",party: "Komunistická strana Čech a Moravy",id: "17085", photoid: "23704", weight: 2},
 	{name: "Ignazio Corrao",country: "IT",group: "EFDD",party: "Movimento 5 Stelle",id: "16742", photoid: "124856"},
 	{name: "Sergio Gaetano Cofferati",country: "IT",group: "S&D",party: "Partito Democratico",id: "17047", photoid: "96915"},
 	{name: "Fabio Massimo Castaldo",country: "IT",group: "EFDD",party: "Movimento 5 Stelle",id: "16872", photoid: "124812"},
@@ -85,7 +85,7 @@ var meplist = [
 	{name: "Jytte Guteland",country: "SE",group: "S&D",party: "Arbetarepartiet – Socialdemokraterna",id: "17216", photoid: "124991"},
 	{name: "Luis de Grandes Pascual",country: "ES",group: "EPP",party: "Partido Popular",id: "16842", photoid: "28393"},
 	{name: "Evelyne Gebhardt",country: "DE",group: "S&D",party: "Sozialdemokratische Partei Deutschlands",id: "17193", photoid: "1913"},
-	{name: "Angel Dzhambazki",country: "BG",group: "ECR",party: "VMRO",id: "17040", photoid: "124873"},
+	{name: "Angel Dzhambazki",country: "BG",group: "ECR",party: "VMRO",id: "17040", photoid: "124873", weight: 2},
 	{name: "Pascal Durand",country: "FR",group: "Greens/EFA",party: "Europe Écologie",id: "16990", photoid: "124693"},
 	{name: "Brian Crowley",country: "IE",group: "ECR",party: "Fianna Fáil Party",id: "16909", photoid: "2109"},
 	{name: "Stanisław Żółtek",country: "PL",group: "NI",party: "Kongres Nowej Prawicy",id: "17422", photoid: "124902"},
@@ -97,22 +97,37 @@ var meplist = [
 	{name: "Angelika Niebler",country: "DE",group: "EPP",party: "Christlich-Soziale Union in Bayern e.V.",id: "17004", photoid: "4289"}
 ];
 
-function showMEP() {
+function showMEP(fromButton) {
 	var validCountryCodes = ['AT', 'BG', 'CZ', 'FI', 'FR', 'DE', 'HU', 'IE', 'IT', 'LT', 'LU', 'MT', 'PL', 'PT', 'RO', 'ES', 'SE', 'UK'];
 
     document.getElementById('thankyou').style.display = 'none';
     document.getElementById('showmepcontainer').style.display = 'block';
     document.getElementById('callinput').style.display = 'block';
 
-	var randomMep = Math.floor(Math.random() * meplist.length);
-	if (window.countryCode && validCountryCodes.indexOf(window.countryCode) > -1) {
-		while ( meplist[randomMep].country !== window.countryCode || // wrong country?
-				meplist[randomMep].id == window.lastShownMEP &&		 // same as last?
-				mepsFromCertainCountry(window.countryCode) !== 1) {	 // AND more than one MEP from the selected country
-			randomMep = Math.floor(Math.random() * meplist.length);  // => find another
+    var randomOrNot = Math.floor(Math.random() * 2);
+    if (!fromButton && randomOrNot == 0) { // on page load, 50% of the case show special prioritised MEPs
+    	var currWeight = -1;
+    	for (var i=0;i<meplist.length;i++) {
+    		if ((validCountryCodes.indexOf(window.countryCode) == -1 || // this MEP fits country selection
+    				meplist[i].country == window.countryCode)) {
+    			var weight = meplist[i].weight || 0;
+    			if (weight > currWeight) { // select the one with the highest weight value (if any)
+    				var mep = meplist[i];
+    				currWeight = weight;
+    			}
+    		}
+    	}
+    } else {
+		var randomMep = Math.floor(Math.random() * meplist.length);
+		if (window.countryCode && validCountryCodes.indexOf(window.countryCode) > -1) {
+			while ( meplist[randomMep].country !== window.countryCode || // wrong country?
+					meplist[randomMep].id == window.lastShownMEP &&		 // same as last?
+					mepsFromCertainCountry(window.countryCode) !== 1) {	 // AND more than one MEP from the selected country
+				randomMep = Math.floor(Math.random() * meplist.length);  // => find another
+			}
 		}
+		var mep = meplist[randomMep];
 	}
-	var mep = meplist[randomMep];
 	if(document.location.hash == '#debug') mep = {name: "Julia Reda",country: "DE",group: "Greens/EFA",party: "Piratenpartei Deutschland",id: "16776", photoid: "124816"};
 	window.lastShownMEP = mep.id;
 

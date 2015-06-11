@@ -240,7 +240,7 @@
 					<div>{{ t.call.jurimember }}</div>
 					<div style="display:none">European political family: <span id="mep_group"></span></div>
 					<div id="showmepcontainer">
-						<a href="#" id="showmep" onclick="return showMEP()">{{ t.call.showother }}</a><span id="showmepnoclick" style="display:none;">{{ t.call.showother }}</span> {{ t.call.from }} 
+						<a href="#" id="showmep" onclick="return showMEP('fromButton')">{{ t.call.showother }}</a><span id="showmepnoclick" style="display:none;">{{ t.call.showother }}</span> {{ t.call.from }} 
 						<select id="country" onchange="geo({ countryCode: this.options[this.selectedIndex].value}, 'fromDropdown')">
 							<option value="">{{ t.call.memberstate }}</option>
 							<option id="mep-cc-BG" value="BG">България</option>
@@ -306,7 +306,7 @@
 				</div>
 				<div id="thankyou">
 					<h3>{{ t.call.thankyou }}</h3><br>
-					<a href="#" onclick="return showMEP()">{{ t.call.showother }}</a>
+					<a href="#" onclick="return showMEP('fromButton')">{{ t.call.showother }}</a>
 				</div>
 
 			</form>
