@@ -5,7 +5,6 @@
             var url = 'http://ip-api.com/json';
             var ajaxRequest = new XMLHttpRequest();
             ajaxRequest.open( "GET", url, true );
-            ajaxRequest.setRequestHeader("Content-type", "application/json");
 
             ajaxRequest.onreadystatechange = function() {
                 if (ajaxRequest.readyState == 4) {
