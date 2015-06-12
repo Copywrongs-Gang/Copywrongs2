@@ -1,0 +1,124 @@
+title: Save copyright reform
+description: "Right now, the EU is debating plans to fix problems with copyright that affect you every day. But a powerful alliance is sabotaging these necessary updates. Will you join us and fight for them?"
+callnow: "<span>Call now</span> to save these plans &ndash; it only takes two minutes!"
+savecreform: "Save<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;copyright</div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; reform"
+daysuntil: "days until the vote"
+rightnow: "Right now,"
+debatingplans: "the EU is debating plans to fix problems with copyright that affect you every day."
+but: "But a powerful alliance is sabotaging these necessary updates."
+whichthree: "Which 3 of these proposals are most important to you?"
+geoblocking: 
+    h: "<span>Superamento</span> dei blocchi geografici"
+    cw: "questo contenuto non è disponibile nel tuo paese"
+    eu: "<strong>Vietare </strong> i contratti che richiedono ai servizi video di utilizzare blocchi geografici, in quanto discriminatori nei confronti dell’utente."
+    please: "Please take a stand against <strong>all kinds of geoblocking</strong>, regardless of whether the blocked content is for purchase directly or funded by ads or public funds."
+    do: Vote for amendments <abbr class="am" title="Calls for an end to geoblocking">#412</abbr> and <abbr class="am" title="States that geoblocking should not prevent cultural minorities from accessing content">#322</abbr> and point <span class="am">#16</span> from the <abbr title="Internal Market Committee">IMCO</abbr> opinion.
+    tip: "Give an example of when geoblocking affected you."
+extendborders: 
+    h: "<span>Estendere</span> i diritti oltre i confini"
+    cw: "Le leggi sul copyright variano anche profondamente da paese a paese. Non leggendole attentamente c’è il rischio di commettere reati!"
+    eu: "Tutti gli stati membri dell’Unione Europea adottino le stesse <strong>eccezioni e limiti</strong>sul copyright."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#mandatory"
+    please: "Please support <strong>harmonising exceptions and limitations</strong> and making them <strong>mandatory</strong> across the EU so that my rights don't end or change at each border."
+    do: Reject the amendments to point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank">#11</a> of MEP Reda's report. Support the additions <abbr class="am" title="Calls for new mandatory exceptions, for example for user-generated content">#353</abbr>, <abbr class="am" title="Calls for making exceptions mandatory">#366</abbr> and point <span class="am">#15</span> from the <abbr title="Internal Market Committee">IMCO</abbr> opinion.
+protectauthors: 
+    h: "<span>proteggere</span> gli autori da contratti iniqui"
+    cw: "Gli artisti non hanno avvocati. Gli editori e le etichette discografiche ne hanno un esercito. Indovina chi ha il coltello dalla parte del manico, durante la stipula dei contratti?"
+    eu: "Proteggere gli artisti dai <strong>contratti totalmente esclusivi</strong> in Europa, e permettere loro di <strong>riprendersi i propri diritti</strong> in caso di non-utilizzo."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#authors"
+    please: "Please support <strong>protecting artists from exploitation</strong> and unfair contracts."
+    do: Vote for the compromise amendment on point <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#authors" target="_blank">#3</a> of MEP Reda's report and support the additions by amendments <abbr class="am" title="Cites a UN report that emphasizes the importance of protecting authors">#107</abbr>, <abbr class="am" title="Calls for an author's right to bring their works to the market themselves in case a rightholder does not do so for a period of time">#200</abbr> and <abbr class="am" title="Calls for income tied to exceptions and limitations (e.g. private copying levies) to go directly to the authors, not other rightholders">#527</abbr>.
+righttoquote: 
+    h: "<span>Garantire</span> ai vloggers il diritto di citare"
+    cw: "Citare alcune parole è normalmente legale, ma il diritto non è stato esteso a video o suoni registrati, cosa che rende gli YouTuber e i podcaster fuorilegge."
+    eu: "Eccezioni come quelle delle citazioni devono essere applicate a tutte le forme di espressione culturale, in una maniera <strong>tecnicamente neutrale</strong>."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#audiovisual"
+    please: "Please support <strong>extending quotation rights to audiovisual media</strong>."
+    do: Support amendment <abbr title="Calls for including audio-visual quotations in the existing quotation exception" class="am">#391</abbr>
+    tip: "Give an example of when you've quoted something in video or audio or if you're a fan of creators who do."
+righttolink: 
+    h: "<span>difendere</span> il diritto al link"
+    cw: "Il web è fatto di links. È mai possibile che linkare possa essere un reato? Eppure i nuovi editori stanno richiedendo leggi che limitino la possibilità di linkare ai propri siti."
+    eu: "Respingere le suddette leggi restrittive e preservare il diritto al link."
+    link: "https://savethelink.org"
+    please: "Please take a stand against an <strong>ancillary copyright for press publishers</strong> which would restrict linking to news articles."
+    do: Reject amendment <abbr class="am" title="Calls for the introduction of an ancillary copyright for press publishers">#204</abbr>. Support the compromise amendment on point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#licenses" target="_blank" class="am">#21</a> of MEP Reda's report.
+publicdomain: 
+    h: "<span>salvaguardare</span> il dominio pubblico"
+    cw: "Le opere d’arte antiche il cui copyright sia estinto appartengono a tutti. Tuttavia alcuni ritengono che la digitalizzazione richieda nuove forme di copyright."
+    eu: "La digitalizzazione di opere pubbliche non deve richiedere nuove protezioni."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain"
+    please: "Please <strong>safeguard the public domain</strong> by clarifying that making a digital copy of something that's free of copyright doesn't grant new copyright."
+    do: Vote for the compromise amendment on point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#publicdomain" target="_blank" class="am">#6</a> in MEP Reda's report.
+libraries: 
+    h: "<span>permettere</span> alle biblioteche di fare il loro lavoro online"
+    cw: "Le biblioteche pagano gli autori in cambio del loro diritto a prestare copie dei libri. Ma tale diritto non esiste su Internet."
+    eu: "Permettere l’<strong>e-lending</strong>, per far sì che le biblioteche possano continuare a svolgere la loro importante funzione sociale."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#elending"
+    please: "Please allow libraries to <strong>e-lend books</strong>."
+    do: Vote for  amendments <abbr class="am" title="Calls for expanding mandatory exceptions to cover libraries">#348</abbr>, <abbr class="am" title="Calls for strengthening exceptions in the public interest">#350</abbr> and for the compromise amendment on point <span class="am">#20</span> of MEP Reda's report.
+publicspace: 
+    h: "<span>Ensure</span> public space is for everyone"
+    cw: "In Germany you can freely post photos of public buildings online – but across the border in France the architect could sue you!"
+    eu: "Ensure <strong>freedom of panorama</strong> across Europe: Publishing pictures of what's permanently in the public must be legal."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#panorama"
+    please: "Please ensure <strong>freedom of panorama</strong> in Europe, so that sharing photos of public buildings is legal – no matter whether for commercial or non-commercial purposes."
+    do: Reject any amendements that water down <a class="am" href="https://juliareda.eu/copyright-evaluation-report-explained/#panorama" target="_blank">#16</a> of MEP Reda's report, vote for the original text.
+education: 
+    h: "<span>proteggere</span> le finalità didattiche"
+    cw: "Le scuole possono spesso usare liberamente libri per insegnare, ma mettere lo stesso contenuto in PDF nella rete Intranet della scuola può essere illegale."
+    eu: "Introdurre un’eccezione valida su tutto il territorio europeo per salvaguardare i fini didattici."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#education"
+    please: "Please support a copyright exception that allows <strong>educational use</strong> of copyrighted materials, also in the digital world."
+    do: Support the compromise on point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#education" target="_blank" class="am">#19</a> of MEP Reda's report and for amendment <abbr class="am" title="Calls for broad exceptions also for informal educational purposes">#364</abbr>.
+availability: 
+    h: "<span>incrementare</span> la disponibilità delle opere"
+    cw: "Il copyright dura 70 anni dalla morte dell’autore. La maggioranza delle opere, per questo periodo, non è disponibile."
+    eu: "Ridurre il periodo a  +<strong>50 anni.</strong>."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#term"
+    please: "Please support a shortening of <strong>copyright terms</strong>."
+    do: Support the compromise on point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#terms" target="_blank" class="am">#7</a> of MEP Reda's report and support point <abbr class="am" title="Calls for a significant shortening of terms">#18</abbr> from the <abbr title="Industry Committee">ITRE</abbr> opinion.
+digitallocks: 
+    h: "<span>no</span> ai lucchetti digitali"
+    cw: "La legge permette di far copie dei media acquistati per uso privato, ma in pratica i “lucchetti digitali” spesso lo impediscono."
+    eu: "Assicurarsi che certe misure tecniche non limitino i diritti digitali."
+    link: "https://juliareda.eu/copyright-evaluation-report-explained/#drm"
+    please: "Please ensure that technological protection (<strong>DRM</strong>) does not obstruct legal use of purchased content."
+    do: Vote for point <span class="am">#26</span> from the <abbr title="Internal Market Committee">IMCO</abbr> opinion and point <span class="am">#29</span> from the <abbr title="Industry Committee">ITRE</abbr> opinion. Support the compromise on point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#23</a> of MEP Reda's report and reject all amendments to point <a href="https://juliareda.eu/copyright-evaluation-report-explained/#drm" target="_blank" class="am">#24</a>.
+    tip: "Give an example of when DRM stood in the way of your legal activity (eg. making copies for private use)."
+filesharing: 
+    h: "<span>legalizzare</span> il file sharing personale"
+    cw: "I teenagers che si scambiano musica online sono ritenuti criminali dalle attuali leggi. Spesso, tuttavia, un file scambiato non è una mancata vendita, ma una pubblicità gratuita."
+    eu: "Riconoscere il diritto al file-sharing non commerciale."
+    please: "Please stop the criminalisation of personal, not-for-profit <strong>file sharing</strong>."
+    do: Vote for amendments <abbr class="am" title="Calls for exploring the legalization of non commercial private sharing">#507</abbr> and <abbr class="am" title="Urges increased legal certainty for P2P sharing">#355</abbr>.
+    tip: "Give an example of when file sharing was benefitial to an artist, e.g. you discovered an artist you became a fan of, attending concerts or buying their products later."
+currentcopywrong: "Legge attuale:"
+euproposal: "Proposta di riforma:"
+iwant: "I want this!"
+readmore: "Read more"
+joinfight: If <span>you</span> don't join the fight now, these "copywrongs" <u>won't be fixed</u>.
+overlay:
+    h: "After hours!"
+    text: "At this time you won't be able to find anyone at the parliament, so please come back later and call your MEP on weekdays between 09:00h and 18:00h Brussels time."
+call:
+    h: "Call now to fix copyright"
+    text: "The job of Members of the European Parliament is to <strong>represent you</strong>. We hate cold-calling people as much as you do &ndash; but if you don't take <strong>2 minutes</strong> to tell them what you care about, <strong>only lobbyists will be heard</strong>. You can do it, and <u>every call really makes a difference!</u>"
+    jurimember: "Member of the Legal Affairs Committee"
+    showother: "Show me another MEP"
+    from: "from"
+    memberstate: "an EU member state"
+    missingstate: "EU member states missing from this list have no MEPs on the Legal Affairs Committe. Sorry!"
+    mynumber: "My phone number:"
+    other: "Other"
+    connectme: "Connect me free of charge!"
+    thankyou: "Thank you! You should receive a call any second now."
+    what: "What will the call be like?"
+    whatlink: "https://wiki.laquadrature.net/How_to_contact_a_MEP#Phone_Call"
+    agenda: "Your personal agenda:"
+    agendatext: "Regarding the <strong>copyright report</strong> that you will vote on in the Legal Affairs Committee on June 16th..."
+showmore: To show more points here, scroll up and click "I want this"
+tell: Tell the world
+icalled: I called my MEP to save copyright reform<br />– will you, too?
+sharetext:  Urgently needed copyright reform plans are in danger. I called my MEP and you should, too!
+credits: Created by the office of <a href="https://juliareda.eu" target="_blank">MEP Julia Reda</a>, the team of <a href="http://copy-me.org/" target="_blank">Copy-Me</a> and additional volunteers. <a href="https://github.com/Copywrongs-Gang/Copywrongs2">Fork me on Github</a><br />Graphics based in part on icons by EliRatus, useiconic.com, Cornelius Danger, Pedro Vidal, John Caserta, Carolina Andrea, Magicon, Luis Prado – all licensed Creative Commons – Attribution (CC BY 3.0)
