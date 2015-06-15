@@ -48,6 +48,7 @@ h1 { font-size:4em; text-align:center; color: #333; margin: .8em 1em .3em -2em; 
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
   	line-height:1.15em;
+  	-webkit-transform: rotate(-3deg);
   	transform: rotate(-3deg);
 }
 h1 div { line-height:.8em;}
@@ -64,6 +65,7 @@ h2#countdown {
 	font-weight: normal;
 	color: #e53414;
 	opacity: 0;
+	-webkit-transition: opacity .3s;
 	transition: opacity .3s;
 }
 h2#countdown div {
@@ -88,7 +90,11 @@ h3.join:before {
 
 abbr { border-bottom: 1px dashed #999;}
 
-.cont { margin: 0 auto; max-width:760px; xbox-shadow: rgba(0,0,0,.5) 0 0 1em; box-sizing: border-box; }
+.cont {
+	margin: 0 auto;
+	max-width:760px;
+	box-sizing: border-box;
+}
 #call.cont { background: #0098a2; color: #fff; margin-top: 3em; padding: .1em 0;}
 #call.cont p, #call.cont form {
 	margin: 1em 2em; 
@@ -158,10 +164,27 @@ abbr { border-bottom: 1px dashed #999;}
 	font-size:.8em;
 	margin-top: .5em;
 	padding-right: .5em;
+	padding-left: 110px;
 	box-sizing: border-box;
 	text-align: right;
 	opacity: .6;
 }
+#timeoverlay {
+	display: none;
+	width: 300px;
+	overflow: hidden;
+	background: #eee;
+	color: #000;
+	box-shadow: .2em .2em 1em rgba(0,0,0,.4);
+	position: absolute;
+	z-index: 98;
+	margin-top: 30px;
+	padding: 20px;
+}
+#timeoverlay h3 {
+	padding:0 !important;
+}
+
 abbr.help {
 	display: inline-block;
 	background: #fff;
@@ -178,7 +201,7 @@ abbr.help {
 #lang select option { color: #000; }
 
 ul#prop { height: 5.5em; clear:both; list-style: none; margin: 2em 0 0 0; padding:0; overflow: hidden; background: linear-gradient(90deg, #ccc, white 4%, white 96%, #ccc); xbox-shadow: inset 0 0 1em 0 rgba(0,0,0,.2);}
-ul#prop li { display: none; margin:0; padding:0; float:left; width:25%; transition: margin-left .1s, margin-right .1s, opacity .2s; opacity: 0; cursor: pointer; border-right: 2px dotted #ccc; box-sizing: border-box; }
+ul#prop li { display: none; margin:0; padding:0; float:left; width:25%; -webkit-transition: margin-left .1s, margin-right .1s, opacity .2s; transition: margin-left .1s, margin-right .1s, opacity .2s; opacity: 0; cursor: pointer; border-right: 2px dotted #ccc; box-sizing: border-box; }
 ul#prop li:nth-child(1),
 ul#prop li:nth-child(2),
 ul#prop li:nth-child(3),
@@ -204,6 +227,7 @@ a.btn {
   margin-top: .5em;
   text-align: center;
   width: 7em;
+  max-width: 70%;
   margin: .7em auto 0 auto;
 }
 
@@ -235,7 +259,7 @@ body.state-atcall #callnow { display: none; }
 #callnow h3 { margin: 0;}
 #callnow h3 span { color: #fff; }
 a.nav { position: absolute; box-sizing: border-box; display: block; top: 0; font-size: 3em; text-decoration: none; padding: .05em .1em; background: #f5ab00; color: #fff; height: 1.3em; width: 1.3em; margin-top:.3em; border-top-right-radius: 0.75em; border-bottom-right-radius: 0.75em;}
-a#prev { transform: rotate(-180deg); left: -1.3em; }
+a#prev { -webkit-transform: rotate(-180deg); transform: rotate(-180deg); left: -1.3em; }
 a#next { right: -1.3em; }
 a.nav:hover { background-color: #ffe8b9 }
 
@@ -284,7 +308,10 @@ a.nav:hover { background-color: #ffe8b9 }
 	width: 280px;
 	margin: 3em auto 5em;
 }
-.share a img { border-radius: .5em; }
+.share a img {
+	width: 130px;
+	border-radius: .5em;
+}
 .share a+a {
 	margin-left: 15px;
 }
@@ -292,6 +319,7 @@ a.nav:hover { background-color: #ffe8b9 }
 h2#tell {
 	float: left;
 	width: 30%;
+	-webkit-transform: rotate(-2deg);
 	transform: rotate(-2deg);
 	line-height: 1em;
 }
@@ -306,6 +334,7 @@ h2#tell {
 	text-align: center;
 }
 
+#propcontainer.state-lsr li.lsr a,
 #propcontainer.state-geoblocking li.geoblocking a,
 #propcontainer.state-borders li.borders a,
 #propcontainer.state-contracts li.contracts a,
@@ -321,6 +350,7 @@ h2#tell {
 {
 	background:#eee;
 }
+#propcontainer.state-lsr #lsr,
 #propcontainer.state-geoblocking #geoblocking,
 #propcontainer.state-borders #borders,
 #propcontainer.state-contracts #contracts,
@@ -336,6 +366,7 @@ h2#tell {
 {
 	display: block;
 }
+body.state-lsr ol#agenda li.lsr,
 body.state-geoblocking ol#agenda li.geoblocking,
 body.state-borders ol#agenda li.borders,
 body.state-contracts ol#agenda li.contracts,
@@ -352,12 +383,14 @@ body.state-filesharing ol#agenda li.filesharing
 	display: block;
 }
 
+body.state-noselection ol#agenda li.lsr,
 body.state-noselection ol#agenda li.geoblocking,
-body.state-noselection ol#agenda li.borders,
-body.state-noselection ol#agenda li.contracts {
+body.state-noselection ol#agenda li.quotes,
+body.state-noselection ol#agenda li.panorama {
 	display: block;
 }
 
+body.state-lsr #lsr a.btn:before,
 body.state-geoblocking #geoblocking a.btn:before,
 body.state-borders #borders a.btn:before,
 body.state-contracts #contracts a.btn:before,
@@ -375,4 +408,138 @@ body.state-filesharing #filesharing a.btn:before
 }
 a.btn:active::before {
 	color: #e53414;
+}
+
+
+@media screen and (max-width: 880px) { 
+	h2#countdown { right: 5%; width: 6em;}
+	.cont {
+		max-width:90%;
+	}
+	ul#prop li {
+		width: 33.3%;
+	}
+	#propcontainer {
+		width: 90%;
+		left: 5%;		
+	}
+	.share { width: 220px;}
+	.share a img {
+		width: 100px;
+		height: 100px;
+	}
+	#mepprofile {
+		width: 80%;
+	}
+	iframe.yt { width: 100%;}
+}
+
+@media screen and (max-width: 660px) { 
+	h1 { font-size: 3.2em;}
+	h2#countdown { right: .5em; }
+	h2#countdown div { font-size: 3em;}
+	.cont {
+		max-width:95%;
+	}
+	ul#prop li {
+		width: 50%;
+	}
+	#propcontainer {
+		width: 80%;
+		left: 10%;		
+	}
+	.popover img {
+		width: 120px;
+		height: 120px;
+	}
+	#mepprofile {
+		width: 90%;
+	}
+	h2#tell, #icalled {
+		float: none;
+		width: 100%;
+	}
+	#icalled {
+		width: 70%;
+		margin: 1em auto 0;
+	}
+	.share {
+		margin-top: 1em;
+	}
+}
+
+@media screen and (max-width: 440px) { 
+	h1 { font-size: 2.2em;}
+	h2#countdown {
+		position: static;
+	}
+	h3.now { margin-top: 1em;}
+	ul#prop li {
+		width: 100%;
+	}
+	#propcontainer {
+		width: 70%;
+		left: 15%;		
+	}
+	.popover {
+		padding-top: 0;
+	}
+	.popover img {
+		float: none !important;
+		display: block;
+		width: 170px;
+		height: 170px;
+		margin-right: 0;
+		margin: 0 auto;
+	}
+	#mepprofile #showmepcontainer {
+		position: static;
+		margin-bottom: .5em;
+	}
+	#mepprofile {
+		width: 100%;
+	}
+	#call.cont p, #call.cont form {
+		margin: .5em 1em;
+	}
+	#call ol {
+		margin: .5em .75em .5em;
+	}
+	#call #what {
+		display: none;
+	}
+}
+
+abbr {
+    position: relative;
+}
+
+abbr:hover::after {
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    display: block;
+    padding: 1em;
+    background: #fff;
+    color: #000;
+    font-size: .9em;
+    content: attr(title);
+    width: 250px;
+    box-shadow: 0 0 1em rgba(0,0,0,.5);
+}
+
+#mailbutton {
+	padding: 0.4em 0.6em;
+	background: #F5AB00 none repeat scroll 0% 0%;
+	color: #FFF;
+	border-radius: 1em;
+	text-decoration: none;
+	border: 0px none;
+	cursor: pointer;
+	width: auto;
+}
+
+#email {
+	width: 73%;
+	text-align: center;
 }

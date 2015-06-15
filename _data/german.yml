@@ -98,6 +98,9 @@ euproposal: "EU-Vorschlag:"
 iwant: "Ich will das!"
 readmore: "Mehr"
 joinfight: Wenn <span>du</span> nicht jetzt dafür kämpfst, werden diese "Copywrongs" <u>nicht beseitigt</u>.
+overlay:
+    h: "Feierabend!"
+    text: "Um diese Uhrzeit ist leider niemand erreichbar, also komm' bitte später zurück und ruf' deine(n) MdEP an Wochentagen zwischen 09:00 und 18:00 Uhr Brüsseler Zeit an."
 call:
     h: "Jetzt anrufen, um das Urheberrecht zu retten"
     text: "Die Aufgabe der EU-ParlamentarierInnen ist es, <strong>dich zu vertreten</strong>. Auch uns ist es unangenehm Fremde anzurufen &ndash; aber wenn du dir nicht diese <strong>2 Minuten</strong> nimmst, um ihnen zu erzählen, was dir wichtig ist, <strong>werden es nur die LobbyistInnen sein, die gehört werden</strong>. Du kannst das und <u>jeder Anruf macht einen Unterschied!</u>"
@@ -110,7 +113,8 @@ call:
     other: "Andere"
     connectme: "Kostenlos anrufen!"
     thankyou: "Dankeschön! Dein Telefon sollte in wenigen Sekunden klingeln."
-    what: "Wie wird der Anruf ablaufen?"
+    what: "Wie wird der Anruf ablaufen (EN)?"
+    whatlink: "https://wiki.laquadrature.net/How_to_contact_a_MEP#Phone_Call"
     agenda: "Deine persönlichen Gesprächspunkte:"
     agendatext: "Bezüglich des <strong>Urheberrechtsberichts</strong>, der am 16. Juni im Rechtsausschuss abgestimmt wird..."
 showmore: 'Um mehr Punkte anzuzeigen, scrolle nach oben und klicke auf "Ich will das!"'

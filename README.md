@@ -1,6 +1,8 @@
 Copywrongs2
 ===========
 
+[![Build Status](https://travis-ci.org/Copywrongs-Gang/Copywrongs2.svg?branch=gh-pages)](https://travis-ci.org/Copywrongs-Gang/Copywrongs2)
+
 # Local setup (ubuntu)
 
 ```
@@ -10,7 +12,7 @@ git clone git@github.com:Copywrongs-Gang/Copywrongs2.git copywrongs2
 cd copywrongs2
 jekyll serve --baseurl ''
 ```
-open http://localhost:4000
+open http://localhost:4000 in your browser
 
 # how to add translations
 - duplicate data/english.yml as data/*new_language_name*.yml 

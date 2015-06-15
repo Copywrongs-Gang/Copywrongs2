@@ -6,10 +6,12 @@
 
 	<body class="state-noselection">
 
-	    <script type="text/javascript"><!-- i18n for js strings -->
-	    var allHtml = /(<([^>]+)>)/ig;
+	    <script type="text/javascript">
+
+		// set up i18n for js strings
+	    var allHtml = /(<([^>]+)>)/ig; // for stripping the <span> tags from the titles
 	    window.t = {
-	        shareText: "{{ t.sharetext }}".replace(allHtml, ''),
+	        shareText: "{{ t.sharetext }}",
 	        want: {
 	            'geoblocking': "{{ t.geoblocking.h }}".replace(allHtml, ''),
 	            'borders': "{{ t.extendborders.h }}".replace(allHtml, ''),
@@ -27,22 +29,24 @@
 	    };
 	    </script>
 
-		<div id="callnow" onclick="window.scrollTo(0,99999)">
+		<div id="callnow" onclick="window.scrollTo(0, document.getElementById('call').offsetTop-10)">
 			<h3>{{ t.callnow }}</h3>
 		</div>
 
 		<div id="lang"><div class="cont">
-			<select id="lang" onchange="document.location.replace('/'+this.options[this.selectedIndex].value)">
-		        <!-- <option value="cz"{% if page.language == "cz" %} selected{% endif %}>CZ - Čeština</option> -->
+			<select id="langselect" onchange="document.location.replace('/'+this.options[this.selectedIndex].value)">
+		        <option value="cs"{% if page.language == "czech" %} selected{% endif %}>CS - Čeština</option>
 		        <option value="de"{% if page.language == "german" %} selected{% endif %}>DE - Deutsch</option>
-		        <!-- <option value="el"{% if page.language == "el" %} selected{% endif %}>EL - Ελληνικά</option> -->
-		        <option value="" {% if page.language == "english" %} selected{% endif %}>EN - English</option>
-		        <!-- <option value="es"{% if page.language == "es" %} selected{% endif %}>ES - Español</option> -->
+		        <option value="el"{% if page.language == "greek" %} selected{% endif %}>EL - Ελληνικά</option>
+		        <option value="en"{% if page.language == "english" %} selected{% endif %}>EN - English</option>
+		        <option value="es"{% if page.language == "spanish" %} selected{% endif %}>ES - Español</option>
 		        <option value="fr"{% if page.language == "french" %} selected{% endif %}>FR - Français</option>
-		        <!-- <option value="it"{% if page.language == "it" %} selected{% endif %}>IT - Italiano</option> -->
-		        <!-- <option value="pl"{% if page.language == "pl" %} selected{% endif %}>PL - Polski</option> -->
-		        <!-- <option value="ro"{% if page.language == "ro" %} selected{% endif %}>RO - Română</option> -->
+		        <option value="hr"{% if page.language == "croatian" %} selected{% endif %}>HR - Hrvatski</option>
+		        <option value="it"{% if page.language == "italian" %} selected{% endif %}>IT - Italiano</option>
+		        <option value="nl"{% if page.language == "dutch" %} selected{% endif %}>NL - Nederlands</option>
+		        <option value="ro"{% if page.language == "romanian" %} selected{% endif %}>RO - Română</option>
 			<option value="sv"{% if page.language == "swedish" %} selected{% endif %}>SV - Svenska</option>
+			<option value="sl"{% if page.language == "slovenian" %} selected{% endif %}>SL - Slovensko</option>
 	    	</select>
 	    </div></div>
 
@@ -61,26 +65,38 @@
 				<center><strong>{{ t.whichthree }}</strong></center>
 			</h3>
 
-			<div id="propcontainer" class="state-geoblocking">
+			<div id="propcontainer" class="state-lsr">
 				<a class="nav" id="prev" href="#" onclick="return nav(this, -1)">➜</a>
 				<ul id="prop">
-					<li class="geoblocking" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.geoblocking.h }}</a></li>
-					<li class="borders" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.extendborders.h }}</a></li>
-					<li class="contracts" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.protectauthors.h }}</a></li>
-					<li class="quotes" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.righttoquote.h }}</a></li>
-					<li class="link" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.righttolink.h }}</a></li>
-					<li class="publicdomain" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.publicdomain.h }}</a></li>			
-					<li class="libraries" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.libraries.h }}</a></li>
-					<li class="panorama" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.publicspace.h }}</a></li>
-					<li class="education" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.education.h }}</a></li>
-					<li class="term" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.availability.h }}</a></li>
-					<li class="drm" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.digitallocks.h }}</a></li>
-					<li class="filesharing" onmouseover="overprop(this)" xonmouseout="overprop(this, false)"><a href="#" onclick="return false">{{ t.filesharing.h }}</a></li>
+					<li class="lsr" onmouseover="overprop(this)"><a href="#" onclick="return false"><span>Prevent</span> ancilliary copyright for press-publishers</a></li>
+					<li class="geoblocking" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.geoblocking.h }}</a></li>
+					<li class="quotes" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.righttoquote.h }}</a></li>
+					<li class="panorama" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.publicspace.h }}</a></li>
+					<li class="borders" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.extendborders.h }}</a></li>
+					<li class="contracts" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.protectauthors.h }}</a></li>
+					<li class="link" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.righttolink.h }}</a></li>
+					<li class="publicdomain" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.publicdomain.h }}</a></li>			
+					<li class="libraries" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.libraries.h }}</a></li>
+					<li class="education" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.education.h }}</a></li>
+					<li class="term" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.availability.h }}</a></li>
+					<li class="drm" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.digitallocks.h }}</a></li>
+					<li class="filesharing" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.filesharing.h }}</a></li>
 				</ul>
 				<a class="nav" id="next" href="#" onclick="return nav(this, 1)">➜</a>
 
+				<div class="popover" id="lsr">
+					<img src="/img/icon-lsr.png" width="170" />
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> In Germany and Spain, efforts to introduce an ancilliary copyright for press publishers have failed spectacularly: Free linking was restricted and innovation on the web threatened with no actual gain for news publishers.
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> Reject the introduction of such a law.
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
+
 				<div class="popover" id="geoblocking">
-					<img src="/img/icon-geoblocking.png" width="170" style="float: left; margin-right: 1em" />
+					<img src="/img/icon-geoblocking.png" width="170" />
 					<div class="wrong">
 						<h3>{{ t.currentcopywrong }}</h3> "{{ t.geoblocking.cw }}"
 					</div>
@@ -232,26 +248,27 @@
 					<div>{{ t.call.jurimember }}</div>
 					<div style="display:none">European political family: <span id="mep_group"></span></div>
 					<div id="showmepcontainer">
-						<a href="#" id="showmep" onclick="return showMEP()">{{ t.call.showother }}</a><span id="showmepnoclick" style="display:none;">{{ t.call.showother }}</span> {{ t.call.from }} 
+						<a href="#" id="showmep" onclick="return showMEP('fromButton')">{{ t.call.showother }}</a><span id="showmepnoclick" style="display:none;">{{ t.call.showother }}</span> {{ t.call.from }} 
 						<select id="country" onchange="geo({ countryCode: this.options[this.selectedIndex].value}, 'fromDropdown')">
 							<option value="">{{ t.call.memberstate }}</option>
-							<option value="BG">България</option>
-							<option value="CZ">Česká republika</option>
-							<option value="DE">Deutschland</option>
-							<option value="ES">España</option>
-							<option value="FR">France</option>
-							<option value="IE">Ireland/Éire</option>
-							<option value="IT">Italia</option>
-							<option value="LT">Lietuva</option>
-							<option value="LU">Lëtzebuerg</option>
-							<option value="HU">Magyarország</option>
-							<option value="MT">Malta</option>
-							<option value="AT">Österreich</option>
-							<option value="PL">Polska</option>
-							<option value="PT">Portugal</option>
-							<option value="FI">Suomi</option>
-							<option value="SE">Sverige</option>
-							<option value="UK">United Kingdom</option>
+							<option id="mep-cc-BG" value="BG">България</option>
+							<option id="mep-cc-CZ" value="CZ">Česká republika</option>
+							<option id="mep-cc-DE" value="DE">Deutschland</option>
+							<option id="mep-cc-ES" value="ES">España</option>
+							<option id="mep-cc-FR" value="FR">France</option>
+							<option id="mep-cc-IE" value="IE">Ireland/Éire</option>
+							<option id="mep-cc-IT" value="IT">Italia</option>
+							<option id="mep-cc-LT" value="LT">Lietuva</option>
+							<option id="mep-cc-LU" value="LU">Lëtzebuerg</option>
+							<option id="mep-cc-HU" value="HU">Magyarország</option>
+							<option id="mep-cc-MT" value="MT">Malta</option>
+							<option id="mep-cc-AT" value="AT">Österreich</option>
+							<option id="mep-cc-PL" value="PL">Polska</option>
+							<option id="mep-cc-PT" value="PT">Portugal</option>
+							<option id="mep-cc-RO" value="RO">Română</option>
+							<option id="mep-cc-FI" value="FI">Suomi</option>
+							<option id="mep-cc-SE" value="SE">Sverige</option>
+							<option id="mep-cc-UK" value="UK">United Kingdom</option>
 						</select>
 						<abbr class="help" title="{{ t.call.missingstate }}">?</abbr> 
 					</div>
@@ -295,18 +312,27 @@
 					<input type="hidden" id="phone" name="phone" />
 					<input type="submit" class="btn" id="callbutton" value="{{ t.call.connectme }}" />
 				</div>
+				<div id="email" style="display:none;">
+					<h3>{{ t.overlay.h }}</h3>
+					{{ t.overlay.text }}
+					<a href="#" class="btn" id="mailbutton">Send an e-mail instead!</a>
+				</div>
 				<div id="thankyou">
 					<h3>{{ t.call.thankyou }}</h3><br>
-					<a href="#" onclick="return showMEP()">{{ t.call.showother }}</a>
+					<a href="#" onclick="return showMEP('fromButton')">{{ t.call.showother }}</a>
 				</div>
 
 			</form>
  
-			<a id="what" href="https://wiki.laquadrature.net/How_to_contact_a_MEP#Phone_Call" target="_blank">{{ t.call.what }}</a>
+			<a id="what" href="{{ t.call.whatlink }}" target="_blank">{{ t.call.what }}</a>
 
 			<h3>{{ t.call.agenda }}</h3>
 			<ol id="agenda">
 				{{ t.call.agendatext }}
+				<li class="lsr">
+					Please take a stand against <strong>an ancilliary copyright law</strong> on EU level.
+					<div class="do">Vote against amendment <abbr class="am" title="Calls for an introduction of an ancilliary copyright law">#204</abbr>.</div>
+				</li>
 				<li class="geoblocking">
 					{{ t.geoblocking.please }}
 					<div class="do">{{ t.geoblocking.do }}</div>
@@ -367,8 +393,8 @@
 			<h2 id="tell">{{ t.tell }}</h3>
 				<p id="icalled">"{{ t.icalled }}"</p>
 				<p class="share">
-		        	<a id="facebook" href="" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=300,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220)); return false"><img src="/img/shrf.png" width="130" height="130" title="Facebook" /></a>
-          			<a id="twitter" href="" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=270,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220));"><img src="/img/shrt.png" width="130" height="130" title="Twitter" /></a>
+		        	<a id="facebook" href="" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=300,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220)); return false"><img src="/img/shrf.png" title="Facebook" /></a>
+          			<a id="twitter" href="" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=270,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220));"><img src="/img/shrt.png" title="Twitter" /></a>
           		</p>
 				<p id="credits">
 					{{ t.credits }}
@@ -378,6 +404,22 @@
 		</div>
 
 		{% include js.html %}
+
+		<!-- Piwik -->
+		<script type="text/javascript">
+		  var _paq = _paq || [];
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="//stats.juliareda.eu/";
+		    _paq.push(['setTrackerUrl', u+'piwik.php']);
+		    _paq.push(['setSiteId', 5]);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+		<noscript><p><img src="//stats.juliareda.eu/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
+		<!-- End Piwik Code -->
 
 		<iframe id="submittarget" name="submittarget" width="0" height="0"></iframe>
 	</body>

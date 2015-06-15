@@ -4,3 +4,5 @@ baseurl:
 # Site settings
 title: "Save copyright reform"
 email: julia.reda-office@europarl.europa.eu
+
+exclude: [vendor]
