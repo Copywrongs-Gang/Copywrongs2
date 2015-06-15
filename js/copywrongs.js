@@ -324,7 +324,7 @@ function updateShareLinks() {
     var title = encodeURIComponent(document.title);
     var text = encodeURIComponent(t.shareText);
     var longText = '';
-	var wanted2 = (!wanted || wanted.length==1) ? ['', 'geoblocking', 'borders', 'quotes', 'panorama'] : wanted;
+	var wanted2 = (!wanted || wanted.length==1) ? ['', 'lsr', 'geoblocking', 'borders', 'quotes'] : wanted;
     for (var i=1;i<wanted2.length;i++) {
     	longText += t.want[wanted2[i]];
     	if (i > 0 && i < wanted2.length-1) longText += ' / ';

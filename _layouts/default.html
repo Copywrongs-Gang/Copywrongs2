@@ -64,9 +64,10 @@
 				<center><strong>{{ t.whichthree }}</strong></center>
 			</h3>
 
-			<div id="propcontainer" class="state-geoblocking">
+			<div id="propcontainer" class="state-lsr">
 				<a class="nav" id="prev" href="#" onclick="return nav(this, -1)">➜</a>
 				<ul id="prop">
+					<li class="lsr" onmouseover="overprop(this)"><a href="#" onclick="return false"><span>Prevent</span> ancilliary copyright for press-publishers</a></li>
 					<li class="geoblocking" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.geoblocking.h }}</a></li>
 					<li class="borders" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.extendborders.h }}</a></li>
 					<li class="quotes" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.righttoquote.h }}</a></li>
@@ -81,6 +82,17 @@
 					<li class="filesharing" onmouseover="overprop(this)"><a href="#" onclick="return false">{{ t.filesharing.h }}</a></li>
 				</ul>
 				<a class="nav" id="next" href="#" onclick="return nav(this, 1)">➜</a>
+
+				<div class="popover" id="lsr">
+					<img src="/img/icon-lsr.png" width="170" />
+					<div class="wrong">
+						<h3>{{ t.currentcopywrong }}</h3> In Germany and Spain, efforts to introduce an ancilliary copyright for press publishers have failed spectacularly: Free linking was restricted and innovation on the web threatened with no actual gain for news publishers.
+					</div>
+					<div class="right">
+						<h3>{{ t.euproposal }}</h3> Reject the introduction of such a law.
+					</div>
+					<a href="#" class="btn" onclick="return want(this)">{{ t.iwant }}</a>
+				</div>
 
 				<div class="popover" id="geoblocking">
 					<img src="/img/icon-geoblocking.png" width="170" />
@@ -316,6 +328,10 @@
 			<h3>{{ t.call.agenda }}</h3>
 			<ol id="agenda">
 				{{ t.call.agendatext }}
+				<li class="lsr">
+					Please take a stand against <strong>an ancilliary copyright law</strong> on EU level.
+					<div class="do">Vote against amendment <abbr class="am" title="Calls for an introduction of an ancilliary copyright law">#204</abbr>.</div>
+				</li>
 				<li class="geoblocking">
 					{{ t.geoblocking.please }}
 					<div class="do">{{ t.geoblocking.do }}</div>

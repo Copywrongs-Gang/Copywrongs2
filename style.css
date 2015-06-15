@@ -334,6 +334,7 @@ h2#tell {
 	text-align: center;
 }
 
+#propcontainer.state-lsr li.lsr a,
 #propcontainer.state-geoblocking li.geoblocking a,
 #propcontainer.state-borders li.borders a,
 #propcontainer.state-contracts li.contracts a,
@@ -349,6 +350,7 @@ h2#tell {
 {
 	background:#eee;
 }
+#propcontainer.state-lsr #lsr,
 #propcontainer.state-geoblocking #geoblocking,
 #propcontainer.state-borders #borders,
 #propcontainer.state-contracts #contracts,
@@ -364,6 +366,7 @@ h2#tell {
 {
 	display: block;
 }
+body.state-lsr ol#agenda li.lsr,
 body.state-geoblocking ol#agenda li.geoblocking,
 body.state-borders ol#agenda li.borders,
 body.state-contracts ol#agenda li.contracts,
@@ -380,13 +383,14 @@ body.state-filesharing ol#agenda li.filesharing
 	display: block;
 }
 
+body.state-noselection ol#agenda li.lsr,
 body.state-noselection ol#agenda li.geoblocking,
 body.state-noselection ol#agenda li.borders,
-body.state-noselection ol#agenda li.quotes,
-body.state-noselection ol#agenda li.panorama {
+body.state-noselection ol#agenda li.quotes {
 	display: block;
 }
 
+body.state-lsr #lsr a.btn:before,
 body.state-geoblocking #geoblocking a.btn:before,
 body.state-borders #borders a.btn:before,
 body.state-contracts #contracts a.btn:before,
