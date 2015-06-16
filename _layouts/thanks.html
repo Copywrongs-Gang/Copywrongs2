@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+    {% assign t = site.data.[page.language] %}
+
+    <body class="state-noselection">
+
+        <script type="text/javascript">
+
+        // set up i18n for js strings
+        var allHtml = /(<([^>]+)>)/ig; // for stripping the <span> tags from the titles
+        window.t = {
+            shareText: "{{ t.sharetext }}",
+            want: {
+                'geoblocking': "{{ t.geoblocking.h }}".replace(allHtml, ''),
+                'borders': "{{ t.extendborders.h }}".replace(allHtml, ''),
+                'contracts': "{{ t.protectauthors.h }}".replace(allHtml, ''),
+                'quotes': "{{ t.righttoquote.h }}".replace(allHtml, ''),
+                'link': "{{ t.righttolink.h }}".replace(allHtml, ''),
+                'publicdomain': "{{ t.publicdomain.h }}".replace(allHtml, ''),
+                'libraries': "{{ t.libraries.h }}".replace(allHtml, ''),
+                'panorama': "{{ t.publicspace.h }}".replace(allHtml, ''),
+                'education': "{{ t.education.h }}".replace(allHtml, ''),
+                'term': "{{ t.availability.h }}".replace(allHtml, ''),
+                'drm': "{{ t.digitallocks.h }}".replace(allHtml, ''),
+                'filesharing': "{{ t.filesharing.h }}".replace(allHtml, '')
+            }
+        };
+        </script>
+
+        <div id="lang"><div class="cont">
+            <select id="langselect" onchange="document.location.replace('/'+this.options[this.selectedIndex].value)">
+                <option value="cs"{% if page.language == "czech" %} selected{% endif %}>CS - Čeština</option>
+                <option value="de"{% if page.language == "german" %} selected{% endif %}>DE - Deutsch</option>
+                <option value="el"{% if page.language == "greek" %} selected{% endif %}>EL - Ελληνικά</option>
+                <option value="en"{% if page.language == "english" %} selected{% endif %}>EN - English</option>
+                <option value="es"{% if page.language == "spanish" %} selected{% endif %}>ES - Español</option>
+                <option value="fr"{% if page.language == "french" %} selected{% endif %}>FR - Français</option>
+                <option value="hr"{% if page.language == "croatian" %} selected{% endif %}>HR - Hrvatski</option>
+                <option value="it"{% if page.language == "italian" %} selected{% endif %}>IT - Italiano</option>
+                <option value="nl"{% if page.language == "dutch" %} selected{% endif %}>NL - Nederlands</option>
+                <option value="ro"{% if page.language == "romanian" %} selected{% endif %}>RO - Română</option>
+            <option value="sv"{% if page.language == "swedish" %} selected{% endif %}>SV - Svenska</option>
+            <option value="sl"{% if page.language == "slovenian" %} selected{% endif %}>SL - Slovensko</option>
+            </select>
+        </div></div>
+
+        <div class="cont" id="maincont">
+
+        <h1><div>{{ t.savecreform }}</h1>
+        <h2 id="countdown"><div id="days"></div> {{ t.daysuntil }}</h2>
+
+            <h3 class="now">
+                <span>{{ t.thanks1 }}</span> {{ t.thanks2 }}
+            </h3>
+            <iframe class="yt" width="760" height="428" src="https://www.youtube-nocookie.com/embed/o9FTp_htnnc" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+        
+        <div class="cont">
+            <p id="credits">
+                {{ t.credits }}
+            </p>
+        </div>
+
+        </div>
+
+        {% include js.html %}
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="//stats.juliareda.eu/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 5]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="//stats.juliareda.eu/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+
+        <iframe id="submittarget" name="submittarget" width="0" height="0"></iframe>
+    </body>
+</html>
